@@ -1,0 +1,138 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 6.632569109061231,
+                    "consequences": [
+                        "Read Data",
+                        "Gain Privileges",
+                        "Resource Consumption",
+                        "Modify Data",
+                        "Unreliable Execution"
+                    ],
+                    "num_components": 1,
+                    "max_in_degree": [
+                        "108.163.130.184",
+                        0.5
+                    ],
+                    "max_out_degree": [
+                        "10.1.1.76",
+                        1.0
+                    ],
+                    "num_events": 65
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.76",
+                    "value": "10.1.1.76",
+                    "name": "10.1.1.76",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "108.163.130.184",
+                    "value": "108.163.130.184",
+                    "name": "108.163.130.184",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "CA",
+                        "(45.5, -73.5833)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "23.235.252.66",
+                    "value": "23.235.252.66",
+                    "name": "23.235.252.66",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(33.4148, -111.9093)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102500"
+                    ],
+                    "signature": [
+                        "SLR Alert - RuRat Checkin - Base64 Encoded XML"
+                    ],
+                    "dispersion": 0.5186625194401244,
+                    "span": 2067720.0,
+                    "unique_s_port_count": 36,
+                    "gini_s_port": 0.026276276276276277,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-03-01 11:13:34",
+                    "NumOfEvents": 37,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'5655.0'}"
+                    ],
+                    "final_score": 6.816394000921606,
+                    "Severity": 4.5,
+                    "source": "10.1.1.76",
+                    "target": "108.163.130.184",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102500"
+                    ],
+                    "signature": [
+                        "SLR Alert - RuRat Checkin - Base64 Encoded XML"
+                    ],
+                    "dispersion": 0.21124604976258554,
+                    "span": 1911595.25,
+                    "unique_s_port_count": 27,
+                    "gini_s_port": 0.03439153439153439,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-03-01 13:21:01",
+                    "NumOfEvents": 28,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'5655.0'}"
+                    ],
+                    "final_score": 6.448744217200857,
+                    "Severity": 4.5,
+                    "source": "10.1.1.76",
+                    "target": "23.235.252.66",
+                    "key": 0,
+                    "idx": 1
+                }
+            }
+        ]
+    }
+}

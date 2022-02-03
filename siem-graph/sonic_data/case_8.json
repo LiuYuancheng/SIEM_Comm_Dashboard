@@ -1,0 +1,136 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 6.382960262345679,
+                    "consequences": [
+                        "Read Data",
+                        "Resource Consumption",
+                        "Execute Unauthorized Commands"
+                    ],
+                    "num_components": 1,
+                    "max_in_degree": [
+                        "10.1.1.24",
+                        0.5
+                    ],
+                    "max_out_degree": [
+                        "10.1.1.125",
+                        1.0
+                    ],
+                    "num_events": 2102
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.125",
+                    "value": "10.1.1.125",
+                    "name": "10.1.1.125",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.24",
+                    "value": "10.1.1.24",
+                    "name": "10.1.1.24",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.28",
+                    "value": "10.1.1.28",
+                    "name": "10.1.1.28",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2023883"
+                    ],
+                    "signature": [
+                        "ET DNS Query to a *.top domain - Likely Hostile"
+                    ],
+                    "dispersion": 0.34913793103448276,
+                    "span": 978567.0,
+                    "unique_s_port_count": 986,
+                    "gini_s_port": 0.033130824689631334,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-15 18:03:43",
+                    "NumOfEvents": 1021,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'53.0'}"
+                    ],
+                    "final_score": 6.377533564814815,
+                    "Severity": 5.0,
+                    "source": "10.1.1.125",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2023883"
+                    ],
+                    "signature": [
+                        "ET DNS Query to a *.top domain - Likely Hostile"
+                    ],
+                    "dispersion": 0.34324287467612163,
+                    "span": 1006699.0,
+                    "unique_s_port_count": 1035,
+                    "gini_s_port": 0.04074237934994883,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-15 17:42:50",
+                    "NumOfEvents": 1081,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'53.0'}"
+                    ],
+                    "final_score": 6.388386959876543,
+                    "Severity": 5.0,
+                    "source": "10.1.1.125",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 1
+                }
+            }
+        ]
+    }
+}

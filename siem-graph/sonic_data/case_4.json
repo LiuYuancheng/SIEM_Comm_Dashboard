@@ -1,0 +1,682 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 4.831074968583863,
+                    "consequences": [
+                        "Read Data",
+                        "Gain Privileges",
+                        "Alter Execution Logic",
+                        "Execute Unauthorized Commands",
+                        "Modify Data",
+                        "Bypass Protection Mechanism",
+                        "Other",
+                        "Unreliable Execution"
+                    ],
+                    "num_components": 0,
+                    "max_in_degree": [
+                        "10.1.1.232",
+                        0.42857142857142855
+                    ],
+                    "max_out_degree": [
+                        "10.1.1.161",
+                        2.0
+                    ],
+                    "num_events": 11485
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.161",
+                    "value": "10.1.1.161",
+                    "name": "10.1.1.161",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.232",
+                    "value": "10.1.1.232",
+                    "name": "10.1.1.232",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.231",
+                    "value": "10.1.1.231",
+                    "name": "10.1.1.231",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.234",
+                    "value": "10.1.1.234",
+                    "name": "10.1.1.234",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.235",
+                    "value": "10.1.1.235",
+                    "name": "10.1.1.235",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.233",
+                    "value": "10.1.1.233",
+                    "name": "10.1.1.233",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "166.70.146.205",
+                    "value": "166.70.146.205",
+                    "name": "166.70.146.205",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(40.7561, -111.8837)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "172.16.0.119",
+                    "value": "172.16.0.119",
+                    "name": "172.16.0.119",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "final_score": 6.886899114503851,
+                    "gini_s_port": 0.3203463203463203,
+                    "t_port_values": [
+                        "{'445.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 22,
+                    "span": 1015281.25,
+                    "signature_id": [
+                        "1:4011650",
+                        "1:4011659",
+                        "1:4011657",
+                        "1:4011658",
+                        "1:4011652"
+                    ],
+                    "start_timestamp": "2019-09-14 18:02:23",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 0.995201101386567,
+                    "NumOfEvents": 42,
+                    "signature": [
+                        "ET POLICY Nslookup Command in SMB Traffic - Possible Lateral Movement",
+                        "ET POLICY Ipconfig Command in SMB Traffic - Possible Lateral Movement",
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 19,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.232",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "final_score": 5.5,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'28732.0', '445.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 2,
+                    "unique_s_port_count": 3,
+                    "span": 666298.0,
+                    "signature_id": [
+                        "1:4011662"
+                    ],
+                    "start_timestamp": "2019-09-20 08:00:37",
+                    "s_port_values": [
+                        "62977.0",
+                        "65035.0",
+                        "52350.0"
+                    ],
+                    "dispersion": 0.3301747639484979,
+                    "NumOfEvents": 3,
+                    "signature": [
+                        "ET NETBIOS DCERPC DCOM ExecuteShellCommand Call - Likely Lateral Movement"
+                    ],
+                    "gini_t_port": 0.16666666666666666,
+                    "graph_num": 20,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.232",
+                    "key": 1,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "final_score": 5.5,
+                    "gini_s_port": 0.16666666666666666,
+                    "t_port_values": [
+                        "{'445.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 2,
+                    "span": 144012.5,
+                    "signature_id": [
+                        "1:4011763"
+                    ],
+                    "start_timestamp": "2019-09-21 18:13:00",
+                    "s_port_values": [
+                        "62340.0",
+                        "62126.0"
+                    ],
+                    "dispersion": 0.4999930561101023,
+                    "NumOfEvents": 3,
+                    "signature": [
+                        "ET TROJAN CobaltStrike SMB P2P Default Msagent Named Pipe Interaction"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 21,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.232",
+                    "key": 2,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "final_score": 6.827708327606483,
+                    "gini_s_port": 0.5254320987654321,
+                    "t_port_values": [
+                        "{'445.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 25,
+                    "span": 865102.0,
+                    "signature_id": [
+                        "1:4011650",
+                        "1:4011659",
+                        "1:4011657",
+                        "1:4011658",
+                        "1:4011653",
+                        "1:4011654",
+                        "1:4011652",
+                        "1:4011681"
+                    ],
+                    "start_timestamp": "2019-09-14 22:03:52",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 0.9939498399521616,
+                    "NumOfEvents": 81,
+                    "signature": [
+                        "ET POLICY WMIC WMI Request Over SMB - Likely Lateral Movement",
+                        "ET POLICY Nslookup Command in SMB Traffic - Possible Lateral Movement",
+                        "ET POLICY Command Shell Activity Using Comspec Environmental Variable Over SMB - Very Likely Lateral Movement",
+                        "ET POLICY Ipconfig Command in SMB Traffic - Possible Lateral Movement",
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 19,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.231",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "final_score": 4.850003472222222,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'28732.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 2,
+                    "span": 907209.0,
+                    "signature_id": [
+                        "1:4011662"
+                    ],
+                    "start_timestamp": "2019-09-14 00:43:27",
+                    "s_port_values": [
+                        "54101.0",
+                        "64273.0"
+                    ],
+                    "dispersion": 0.0,
+                    "NumOfEvents": 2,
+                    "signature": [
+                        "ET NETBIOS DCERPC DCOM ExecuteShellCommand Call - Likely Lateral Movement"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 20,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.231",
+                    "key": 1,
+                    "idx": 4
+                }
+            },
+            {
+                "data": {
+                    "final_score": 5.937719907407407,
+                    "gini_s_port": 0.26762246117084826,
+                    "t_port_values": [
+                        "{'445.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 31,
+                    "span": 1134570.0,
+                    "signature_id": [
+                        "1:4011650",
+                        "1:4011659",
+                        "1:4011658",
+                        "1:4011652",
+                        "1:4011654",
+                        "1:4011657",
+                        "1:4011681"
+                    ],
+                    "start_timestamp": "2019-09-14 04:11:28",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 0.9794548321694075,
+                    "NumOfEvents": 54,
+                    "signature": [
+                        "ET POLICY WMIC WMI Request Over SMB - Likely Lateral Movement",
+                        "ET POLICY Nslookup Command in SMB Traffic - Possible Lateral Movement",
+                        "ET POLICY Command Shell Activity Using Comspec Environmental Variable Over SMB - Very Likely Lateral Movement",
+                        "ET POLICY Ipconfig Command in SMB Traffic - Possible Lateral Movement",
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 19,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.234",
+                    "key": 0,
+                    "idx": 5
+                }
+            },
+            {
+                "data": {
+                    "final_score": 4.5,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'445.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature_id": [
+                        "1:4011662"
+                    ],
+                    "start_timestamp": "2019-09-29 08:21:50",
+                    "s_port_values": [
+                        "59755.0"
+                    ],
+                    "dispersion": 0.0,
+                    "NumOfEvents": 1,
+                    "signature": [
+                        "ET NETBIOS DCERPC DCOM ExecuteShellCommand Call - Likely Lateral Movement"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 20,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.234",
+                    "key": 1,
+                    "idx": 6
+                }
+            },
+            {
+                "data": {
+                    "final_score": 5.941505787037037,
+                    "gini_s_port": 0.2791023842917251,
+                    "t_port_values": [
+                        "{'445.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 31,
+                    "span": 1144383.0,
+                    "signature_id": [
+                        "1:4011650",
+                        "1:4011659",
+                        "1:4011658",
+                        "1:4011682",
+                        "1:4011652",
+                        "1:4011657",
+                        "1:4011681"
+                    ],
+                    "start_timestamp": "2019-09-14 02:14:44",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 0.9841579071310826,
+                    "NumOfEvents": 46,
+                    "signature": [
+                        "ET POLICY Nslookup Command in SMB Traffic - Possible Lateral Movement",
+                        "ET POLICY WMIC WMI Request Over SMB - Likely Lateral Movement",
+                        "ET POLICY Ipconfig Command in SMB Traffic - Possible Lateral Movement",
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 19,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.235",
+                    "key": 0,
+                    "idx": 7
+                }
+            },
+            {
+                "data": {
+                    "final_score": 4.5,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'445.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature_id": [
+                        "1:4011763"
+                    ],
+                    "start_timestamp": "2019-09-14 02:12:31",
+                    "s_port_values": [
+                        "49575.0"
+                    ],
+                    "dispersion": 0.0,
+                    "NumOfEvents": 1,
+                    "signature": [
+                        "ET TROJAN CobaltStrike SMB P2P Default Msagent Named Pipe Interaction"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 22,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.235",
+                    "key": 1,
+                    "idx": 8
+                }
+            },
+            {
+                "data": {
+                    "final_score": 4.5,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'445.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature_id": [
+                        "1:4011662"
+                    ],
+                    "start_timestamp": "2019-09-27 05:43:45",
+                    "s_port_values": [
+                        "56976.0"
+                    ],
+                    "dispersion": 0.0,
+                    "NumOfEvents": 1,
+                    "signature": [
+                        "ET NETBIOS DCERPC DCOM ExecuteShellCommand Call - Likely Lateral Movement"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 20,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.233",
+                    "key": 0,
+                    "idx": 9
+                }
+            },
+            {
+                "data": {
+                    "final_score": 5.821456790123457,
+                    "gini_s_port": 0.3525,
+                    "t_port_values": [
+                        "{'445.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 20,
+                    "span": 833216.0,
+                    "signature_id": [
+                        "1:4011650",
+                        "1:4011659",
+                        "1:4011658",
+                        "1:4011648",
+                        "1:4011652",
+                        "1:4011682"
+                    ],
+                    "start_timestamp": "2019-09-15 05:30:32",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 0.9910188109942955,
+                    "NumOfEvents": 40,
+                    "signature": [
+                        "ET POLICY WMIC WMI Request Over SMB - Likely Lateral Movement",
+                        "ET POLICY Powershell Command With Encoded Argument Over SMB - Likely Lateral Movement",
+                        "ET POLICY Ipconfig Command in SMB Traffic - Possible Lateral Movement",
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 23,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.233",
+                    "key": 1,
+                    "idx": 10
+                }
+            },
+            {
+                "data": {
+                    "final_score": 2.6,
+                    "gini_s_port": 0.04898663017963013,
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "logtype": "fortinet",
+                    "Severity": 2.0,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 1806,
+                    "span": 68766.0,
+                    "signature_id": [
+                        "fortigate-traffic-forward-deny"
+                    ],
+                    "start_timestamp": "2019-09-03 16:58:59",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 0.6,
+                    "NumOfEvents": 5689,
+                    "signature": [
+                        "fortigate-traffic-forward-deny"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 0,
+                    "source": "10.1.1.161",
+                    "target": "166.70.146.205",
+                    "key": 0,
+                    "idx": 11
+                }
+            },
+            {
+                "data": {
+                    "final_score": 3.378413305783412,
+                    "gini_s_port": 0.12156281282389732,
+                    "t_port_values": [
+                        "{'6402.0', '135.0', '1025.0', '10000.0', '445.0'}"
+                    ],
+                    "logtype": "fortinet",
+                    "Severity": 2.0,
+                    "unique_t_port_count": 5,
+                    "unique_s_port_count": 4314,
+                    "span": 1815854.0,
+                    "signature_id": [
+                        "fortigate-traffic-forward-close"
+                    ],
+                    "start_timestamp": "2019-09-01 05:20:47",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 0.6778523489932886,
+                    "NumOfEvents": 5024,
+                    "signature": [
+                        "fortigate-traffic-forward-close"
+                    ],
+                    "gini_t_port": 0.6024681528662421,
+                    "graph_num": 3,
+                    "source": "10.1.1.161",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 12
+                }
+            },
+            {
+                "data": {
+                    "final_score": 2.0,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'135.0'}"
+                    ],
+                    "logtype": "fortinet",
+                    "Severity": 2.0,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature_id": [
+                        "fortigate-traffic-forward-timeout"
+                    ],
+                    "start_timestamp": "2019-09-27 23:06:24",
+                    "s_port_values": [
+                        "62637.0"
+                    ],
+                    "dispersion": 0.0,
+                    "NumOfEvents": 1,
+                    "signature": [
+                        "fortigate-traffic-forward-timeout"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 4,
+                    "source": "10.1.1.161",
+                    "target": "172.16.0.119",
+                    "key": 1,
+                    "idx": 13
+                }
+            },
+            {
+                "data": {
+                    "final_score": 3.722417824074074,
+                    "gini_s_port": 0.00599956011371875,
+                    "t_port_values": [
+                        "{'6101.0'}"
+                    ],
+                    "logtype": "fortinet",
+                    "Severity": 2.0,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 494,
+                    "span": 1872507.0,
+                    "signature_id": [
+                        "fortigate-traffic-forward-close"
+                    ],
+                    "start_timestamp": "2019-09-01 05:36:38",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 1.0,
+                    "NumOfEvents": 497,
+                    "signature": [
+                        "fortigate-traffic-forward-close"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 5,
+                    "source": "172.16.0.119",
+                    "target": "10.1.1.161",
+                    "key": 0,
+                    "idx": 14
+                }
+            }
+        ]
+    }
+}

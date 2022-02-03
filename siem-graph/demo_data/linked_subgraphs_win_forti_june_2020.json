@@ -1,0 +1,174 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 5.81467734053498,
+                    "consequences": [
+                        "Read Data",
+                        "Gain Privileges",
+                        "Execute Unauthorized Commands",
+                        "Resource Consumption",
+                        "Modify Data",
+                        "Other"
+                    ],
+                    "num_components": 1,
+                    "max_in_degree": [
+                        "AGENT177",
+                        1.0
+                    ],
+                    "max_out_degree": [
+                        "10.1.1.64",
+                        1.5
+                    ],
+                    "num_events": 13418
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.64",
+                    "value": "10.1.1.64",
+                    "name": "10.1.1.64",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT177",
+                    "value": "AGENT177",
+                    "name": "AGENT177",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "172.16.0.119",
+                    "value": "172.16.0.119",
+                    "name": "172.16.0.119",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "gini_t_port": 0.0,
+                    "final_score": 6.0,
+                    "span": 1901028.0,
+                    "logtype": "windows",
+                    "gini_s_port": 0.19698040475425635,
+                    "dispersion": 1.0,
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "signature_id": [
+                        "win_sec-5145-ux-success"
+                    ],
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "signature": [
+                        "A network share object was checked to see whether client can be granted desired access"
+                    ],
+                    "unique_s_port_count": 33,
+                    "Severity": 6.0,
+                    "start_timestamp": "2020-06-01 19:27:52",
+                    "NumOfEvents": 4245,
+                    "unique_t_port_count": 0,
+                    "graph_num": 2,
+                    "source": "10.1.1.64",
+                    "target": "AGENT177",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "gini_t_port": 0.0,
+                    "final_score": 8.700092592592593,
+                    "span": 1814640.0,
+                    "logtype": "windows",
+                    "gini_s_port": 0.2895040369088812,
+                    "dispersion": 1.0,
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "signature_id": [
+                        "win_sec-5140-ux-success",
+                        "win_sec-5140-$x-failure"
+                    ],
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "signature": [
+                        "A network share object was accessed"
+                    ],
+                    "unique_s_port_count": 34,
+                    "Severity": 6.0,
+                    "start_timestamp": "2020-06-01 19:28:02",
+                    "NumOfEvents": 408,
+                    "unique_t_port_count": 0,
+                    "graph_num": 2,
+                    "source": "10.1.1.64",
+                    "target": "AGENT177",
+                    "key": 1,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "gini_t_port": 0.0,
+                    "final_score": 2.7439394290123458,
+                    "span": 1928291.0,
+                    "logtype": "fortinet",
+                    "gini_s_port": 0.0,
+                    "dispersion": 0.5291750503018109,
+                    "t_port_values": [
+                        "{'nan'}"
+                    ],
+                    "signature_id": [
+                        "fortigate-traffic-forward-accept"
+                    ],
+                    "s_port_values": [
+                        "nan"
+                    ],
+                    "signature": [
+                        "fortigate-traffic-forward-accept"
+                    ],
+                    "unique_s_port_count": 0,
+                    "Severity": 2.0,
+                    "start_timestamp": "2020-06-01 05:16:24",
+                    "NumOfEvents": 8765,
+                    "unique_t_port_count": 1,
+                    "graph_num": 1,
+                    "source": "10.1.1.64",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 2
+                }
+            }
+        ]
+    }
+}

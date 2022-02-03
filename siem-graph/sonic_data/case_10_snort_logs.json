@@ -1,0 +1,2504 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 6.485025503370642,
+                    "consequences": [
+                        "Read Data",
+                        "Execute Unauthorized Commands",
+                        "Resource Consumption",
+                        "Other",
+                        "Unreliable Execution"
+                    ],
+                    "num_components": 3,
+                    "max_in_degree": [
+                        "10.1.1.26",
+                        0.9215686274509803
+                    ],
+                    "max_out_degree": [
+                        "192.168.106.101",
+                        0.0392156862745098
+                    ],
+                    "num_events": 2785
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.118.101",
+                    "value": "192.168.118.101",
+                    "name": "192.168.118.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.26",
+                    "value": "10.1.1.26",
+                    "name": "10.1.1.26",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.109.102",
+                    "value": "192.168.109.102",
+                    "name": "192.168.109.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.115.102",
+                    "value": "192.168.115.102",
+                    "name": "192.168.115.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.106.101",
+                    "value": "192.168.106.101",
+                    "name": "192.168.106.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.19",
+                    "value": "10.1.1.19",
+                    "name": "10.1.1.19",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.118.111",
+                    "value": "192.168.118.111",
+                    "name": "192.168.118.111",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.108.111",
+                    "value": "192.168.108.111",
+                    "name": "192.168.108.111",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.105.111",
+                    "value": "192.168.105.111",
+                    "name": "192.168.105.111",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.110.101",
+                    "value": "192.168.110.101",
+                    "name": "192.168.110.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.116.111",
+                    "value": "192.168.116.111",
+                    "name": "192.168.116.111",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.112.101",
+                    "value": "192.168.112.101",
+                    "name": "192.168.112.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.107.111",
+                    "value": "192.168.107.111",
+                    "name": "192.168.107.111",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.108.103",
+                    "value": "192.168.108.103",
+                    "name": "192.168.108.103",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.111.111",
+                    "value": "192.168.111.111",
+                    "name": "192.168.111.111",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.111.102",
+                    "value": "192.168.111.102",
+                    "name": "192.168.111.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.24",
+                    "value": "10.1.1.24",
+                    "name": "10.1.1.24",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "198.60.22.22",
+                    "value": "198.60.22.22",
+                    "name": "198.60.22.22",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(40.0878, -105.3735)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.107.101",
+                    "value": "192.168.107.101",
+                    "name": "192.168.107.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.117.102",
+                    "value": "192.168.117.102",
+                    "name": "192.168.117.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.112.111",
+                    "value": "192.168.112.111",
+                    "name": "192.168.112.111",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.105.101",
+                    "value": "192.168.105.101",
+                    "name": "192.168.105.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.107.102",
+                    "value": "192.168.107.102",
+                    "name": "192.168.107.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.115.111",
+                    "value": "192.168.115.111",
+                    "name": "192.168.115.111",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.105.102",
+                    "value": "192.168.105.102",
+                    "name": "192.168.105.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.108.101",
+                    "value": "192.168.108.101",
+                    "name": "192.168.108.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.117.103",
+                    "value": "192.168.117.103",
+                    "name": "192.168.117.103",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.105.103",
+                    "value": "192.168.105.103",
+                    "name": "192.168.105.103",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.107.103",
+                    "value": "192.168.107.103",
+                    "name": "192.168.107.103",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.111.101",
+                    "value": "192.168.111.101",
+                    "name": "192.168.111.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.110.102",
+                    "value": "192.168.110.102",
+                    "name": "192.168.110.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.106.111",
+                    "value": "192.168.106.111",
+                    "name": "192.168.106.111",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.109.101",
+                    "value": "192.168.109.101",
+                    "name": "192.168.109.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.108.102",
+                    "value": "192.168.108.102",
+                    "name": "192.168.108.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.106.103",
+                    "value": "192.168.106.103",
+                    "name": "192.168.106.103",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.117.101",
+                    "value": "192.168.117.101",
+                    "name": "192.168.117.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.115.101",
+                    "value": "192.168.115.101",
+                    "name": "192.168.115.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.112.102",
+                    "value": "192.168.112.102",
+                    "name": "192.168.112.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.118.102",
+                    "value": "192.168.118.102",
+                    "name": "192.168.118.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.116.101",
+                    "value": "192.168.116.101",
+                    "name": "192.168.116.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.119.101",
+                    "value": "192.168.119.101",
+                    "name": "192.168.119.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.113.102",
+                    "value": "192.168.113.102",
+                    "name": "192.168.113.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.113.111",
+                    "value": "192.168.113.111",
+                    "name": "192.168.113.111",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.113.101",
+                    "value": "192.168.113.101",
+                    "name": "192.168.113.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.115.103",
+                    "value": "192.168.115.103",
+                    "name": "192.168.115.103",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.116.102",
+                    "value": "192.168.116.102",
+                    "name": "192.168.116.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.116.103",
+                    "value": "192.168.116.103",
+                    "name": "192.168.116.103",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.114.102",
+                    "value": "192.168.114.102",
+                    "name": "192.168.114.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.119.102",
+                    "value": "192.168.119.102",
+                    "name": "192.168.119.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.106.102",
+                    "value": "192.168.106.102",
+                    "name": "192.168.106.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.114.101",
+                    "value": "192.168.114.101",
+                    "name": "192.168.114.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.28",
+                    "value": "10.1.1.28",
+                    "name": "10.1.1.28",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999030020854551,
+                    "span": 1027122.5,
+                    "unique_s_port_count": 36,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-15 19:40:13",
+                    "NumOfEvents": 72,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 7.396169398690393,
+                    "Severity": 5.0,
+                    "source": "192.168.118.101",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 433469.249999,
+                    "unique_s_port_count": 27,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-24 18:46:33",
+                    "NumOfEvents": 54,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 7.0,
+                    "Severity": 5.0,
+                    "source": "192.168.109.102",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9998533670589098,
+                    "span": 390263.5,
+                    "unique_s_port_count": 16,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-23 14:39:55",
+                    "NumOfEvents": 32,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 5.999853367058909,
+                    "Severity": 5.0,
+                    "source": "192.168.115.102",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999767444564598,
+                    "span": 928886.249999,
+                    "unique_s_port_count": 27,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 04:00:06",
+                    "NumOfEvents": 54,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.999976744456459,
+                    "Severity": 5.0,
+                    "source": "192.168.106.101",
+                    "target": "10.1.1.19",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.99965858654831,
+                    "span": 1041738.75,
+                    "unique_s_port_count": 71,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-15 18:28:48",
+                    "NumOfEvents": 142,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 7.401563968492754,
+                    "Severity": 5.0,
+                    "source": "192.168.106.101",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 4
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9994424310008364,
+                    "span": 523523.0,
+                    "unique_s_port_count": 17,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-18 20:32:27",
+                    "NumOfEvents": 34,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 5.0,
+                    "Severity": 5.0,
+                    "source": "192.168.118.111",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 5
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999754778749126,
+                    "span": 542877.5,
+                    "unique_s_port_count": 3,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-18 17:19:31",
+                    "NumOfEvents": 6,
+                    "s_port_values": [
+                        "62969.0",
+                        "53737.0",
+                        "56487.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 5.999975477874912,
+                    "Severity": 5.0,
+                    "source": "192.168.108.111",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 6
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999914938138761,
+                    "span": 656750.0,
+                    "unique_s_port_count": 12,
+                    "gini_s_port": 0.03985507246376812,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-18 17:54:03",
+                    "NumOfEvents": 23,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.9999914938138765,
+                    "Severity": 5.0,
+                    "source": "192.168.105.111",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 7
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 950636.0,
+                    "unique_s_port_count": 13,
+                    "gini_s_port": 0.06593406593406594,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 11:15:48",
+                    "NumOfEvents": 28,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 7.366757716049383,
+                    "Severity": 5.0,
+                    "source": "192.168.110.101",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 8
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 246477.75,
+                    "unique_s_port_count": 7,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-18 18:33:51",
+                    "NumOfEvents": 14,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.0,
+                    "Severity": 5.0,
+                    "source": "192.168.116.111",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 9
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999008723235527,
+                    "span": 1042994.5,
+                    "unique_s_port_count": 50,
+                    "gini_s_port": 0.019215686274509803,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-15 19:15:16",
+                    "NumOfEvents": 102,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 7.402290725718614,
+                    "Severity": 5.0,
+                    "source": "192.168.112.101",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 10
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999845033017652,
+                    "span": 788109.0,
+                    "unique_s_port_count": 6,
+                    "gini_s_port": 0.07575757575757576,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-19 20:26:18",
+                    "NumOfEvents": 11,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.999984503301765,
+                    "Severity": 5.0,
+                    "source": "192.168.107.111",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 11
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 527361.75,
+                    "unique_s_port_count": 3,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-22 16:40:35",
+                    "NumOfEvents": 6,
+                    "s_port_values": [
+                        "49727.0",
+                        "62883.0",
+                        "49734.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.0,
+                    "Severity": 5.0,
+                    "source": "192.168.108.103",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 12
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9998709594167365,
+                    "span": 508075.749999,
+                    "unique_s_port_count": 9,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-20 14:22:27",
+                    "NumOfEvents": 18,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 5.999870959416737,
+                    "Severity": 5.0,
+                    "source": "192.168.111.111",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 13
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999720127062314,
+                    "span": 787783.749999,
+                    "unique_s_port_count": 25,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 15:35:23",
+                    "NumOfEvents": 50,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.999972012706231,
+                    "Severity": 5.0,
+                    "source": "192.168.111.102",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 14
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2023883"
+                    ],
+                    "signature": [
+                        "ET DNS Query to a *.top domain - Likely Hostile"
+                    ],
+                    "dispersion": 0.7779035032135422,
+                    "span": 933838.249999,
+                    "unique_s_port_count": 37,
+                    "gini_s_port": 0.025604551920341393,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-15 22:49:59",
+                    "NumOfEvents": 38,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'53.0'}"
+                    ],
+                    "final_score": 6.0,
+                    "Severity": 5.0,
+                    "source": "10.1.1.24",
+                    "target": "198.60.22.22",
+                    "key": 0,
+                    "idx": 15
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9995469988674972,
+                    "span": 900073.749999,
+                    "unique_s_port_count": 77,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 11:10:45",
+                    "NumOfEvents": 154,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.0,
+                    "Severity": 5.0,
+                    "source": "192.168.107.101",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 16
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9997534516765286,
+                    "span": 956620.0,
+                    "unique_s_port_count": 39,
+                    "gini_s_port": 0.012654012654012654,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-15 17:46:50",
+                    "NumOfEvents": 77,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 7.36881980970122,
+                    "Severity": 5.0,
+                    "source": "192.168.117.102",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 17
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999666849899222,
+                    "span": 881597.5,
+                    "unique_s_port_count": 22,
+                    "gini_s_port": 0.022198731501057084,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 15:25:52",
+                    "NumOfEvents": 43,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 5.999966684989922,
+                    "Severity": 5.0,
+                    "source": "192.168.112.111",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 18
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.999896190179591,
+                    "span": 907119.5,
+                    "unique_s_port_count": 55,
+                    "gini_s_port": 0.035371900826446284,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 10:56:08",
+                    "NumOfEvents": 110,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.999896190179591,
+                    "Severity": 5.0,
+                    "source": "192.168.105.101",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 19
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999767517552425,
+                    "span": 928893.249999,
+                    "unique_s_port_count": 26,
+                    "gini_s_port": 0.03561253561253561,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 04:00:02",
+                    "NumOfEvents": 54,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.999976751755242,
+                    "Severity": 5.0,
+                    "source": "192.168.105.101",
+                    "target": "10.1.1.19",
+                    "key": 0,
+                    "idx": 20
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9994323020153278,
+                    "span": 931808.249999,
+                    "unique_s_port_count": 58,
+                    "gini_s_port": 0.016656925774400935,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-15 20:34:54",
+                    "NumOfEvents": 118,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.0,
+                    "Severity": 5.0,
+                    "source": "192.168.107.102",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 21
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999177259451232,
+                    "span": 100427.0,
+                    "unique_s_port_count": 3,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-24 16:55:08",
+                    "NumOfEvents": 6,
+                    "s_port_values": [
+                        "57857.0",
+                        "54648.0",
+                        "63941.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 5.9999177259451235,
+                    "Severity": 5.0,
+                    "source": "192.168.115.111",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 22
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9993508601103538,
+                    "span": 1025315.5,
+                    "unique_s_port_count": 62,
+                    "gini_s_port": 0.01586462189317821,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-15 20:20:19",
+                    "NumOfEvents": 122,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.395569251543209,
+                    "Severity": 5.0,
+                    "source": "192.168.105.102",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 23
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9994490358126722,
+                    "span": 1027084.0,
+                    "unique_s_port_count": 85,
+                    "gini_s_port": 0.005847546119039332,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-15 20:06:53",
+                    "NumOfEvents": 169,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.3962515432098765,
+                    "Severity": 5.0,
+                    "source": "192.168.108.101",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 24
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9998543547917274,
+                    "span": 611123.249999,
+                    "unique_s_port_count": 10,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 16:30:17",
+                    "NumOfEvents": 20,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 5.999854354791728,
+                    "Severity": 5.0,
+                    "source": "192.168.117.103",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 25
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9130434782608695,
+                    "span": 950391.75,
+                    "unique_s_port_count": 29,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 04:00:29",
+                    "NumOfEvents": 58,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.366663483796296,
+                    "Severity": 5.0,
+                    "source": "192.168.105.103",
+                    "target": "10.1.1.19",
+                    "key": 0,
+                    "idx": 26
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.999971503375069,
+                    "span": 953227.0,
+                    "unique_s_port_count": 7,
+                    "gini_s_port": 0.05714285714285714,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-19 19:09:08",
+                    "NumOfEvents": 15,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 7.367728833621983,
+                    "Severity": 5.0,
+                    "source": "192.168.105.103",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 27
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999906982584814,
+                    "span": 601945.75,
+                    "unique_s_port_count": 4,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 23:38:25",
+                    "NumOfEvents": 8,
+                    "s_port_values": [
+                        "55409.0",
+                        "54364.0",
+                        "50899.0",
+                        "50889.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 5.999990698258482,
+                    "Severity": 5.0,
+                    "source": "192.168.107.103",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 28
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9998560633321338,
+                    "span": 949261.5,
+                    "unique_s_port_count": 57,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-15 18:26:18",
+                    "NumOfEvents": 114,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 7.36608349388769,
+                    "Severity": 5.0,
+                    "source": "192.168.111.101",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 29
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9934640522875817,
+                    "span": 305.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-30 18:40:25",
+                    "NumOfEvents": 4,
+                    "s_port_values": [
+                        "50927.0",
+                        "51004.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 5.0,
+                    "Severity": 5.0,
+                    "source": "192.168.110.102",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 30
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999966567427647,
+                    "span": 598217.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 18:25:49",
+                    "NumOfEvents": 4,
+                    "s_port_values": [
+                        "53423.0",
+                        "55648.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 5.9999966567427645,
+                    "Severity": 5.0,
+                    "source": "192.168.106.111",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 31
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999390057944495,
+                    "span": 1001867.75,
+                    "unique_s_port_count": 21,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 11:12:36",
+                    "NumOfEvents": 42,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.386462057491981,
+                    "Severity": 5.0,
+                    "source": "192.168.109.101",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 32
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9994799115849694,
+                    "span": 1034187.0,
+                    "unique_s_port_count": 54,
+                    "gini_s_port": 0.026984126984126982,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-15 18:13:24",
+                    "NumOfEvents": 105,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.398991898148148,
+                    "Severity": 5.0,
+                    "source": "192.168.108.102",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 33
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999768475643638,
+                    "span": 864044.25,
+                    "unique_s_port_count": 25,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 04:00:04",
+                    "NumOfEvents": 50,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.999976847564364,
+                    "Severity": 5.0,
+                    "source": "192.168.106.103",
+                    "target": "10.1.1.19",
+                    "key": 0,
+                    "idx": 34
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.999978081291012,
+                    "span": 999077.0,
+                    "unique_s_port_count": 12,
+                    "gini_s_port": 0.03985507246376812,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-15 18:32:30",
+                    "NumOfEvents": 23,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 7.385424454747802,
+                    "Severity": 5.0,
+                    "source": "192.168.106.103",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 35
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9998900101740589,
+                    "span": 1024664.249999,
+                    "unique_s_port_count": 50,
+                    "gini_s_port": 0.0388,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-15 19:34:32",
+                    "NumOfEvents": 100,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 7.395208007858858,
+                    "Severity": 5.0,
+                    "source": "192.168.117.101",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 36
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999714664802477,
+                    "span": 968044.249999,
+                    "unique_s_port_count": 22,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 10:54:38",
+                    "NumOfEvents": 44,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.373445328362578,
+                    "Severity": 5.0,
+                    "source": "192.168.115.101",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 37
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.999591211037302,
+                    "span": 1038265.249999,
+                    "unique_s_port_count": 38,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-15 20:40:46",
+                    "NumOfEvents": 76,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.400565297067516,
+                    "Severity": 5.0,
+                    "source": "192.168.112.102",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 38
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999766867160909,
+                    "span": 939509.499999,
+                    "unique_s_port_count": 15,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-15 19:27:30",
+                    "NumOfEvents": 30,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 5.99997668671609,
+                    "Severity": 5.0,
+                    "source": "192.168.118.102",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 39
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999436857665776,
+                    "span": 978392.25,
+                    "unique_s_port_count": 38,
+                    "gini_s_port": 0.02496626180836707,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 00:37:39",
+                    "NumOfEvents": 78,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 7.377409831599911,
+                    "Severity": 5.0,
+                    "source": "192.168.116.101",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 40
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999356178274236,
+                    "span": 1144716.0,
+                    "unique_s_port_count": 27,
+                    "gini_s_port": 0.01816911250873515,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 11:21:22",
+                    "NumOfEvents": 53,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 7.441569877086683,
+                    "Severity": 5.0,
+                    "source": "192.168.119.101",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 41
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999733996568556,
+                    "span": 1021097.5,
+                    "unique_s_port_count": 19,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 17:09:38",
+                    "NumOfEvents": 38,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.393915336385251,
+                    "Severity": 5.0,
+                    "source": "192.168.113.102",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 42
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9995176073323685,
+                    "span": 786891.749999,
+                    "unique_s_port_count": 9,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-17 16:40:31",
+                    "NumOfEvents": 18,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 5.0,
+                    "Severity": 5.0,
+                    "source": "192.168.113.111",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 43
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999086173809741,
+                    "span": 1045079.0,
+                    "unique_s_port_count": 44,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 10:52:56",
+                    "NumOfEvents": 88,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 7.40310267602295,
+                    "Severity": 5.0,
+                    "source": "192.168.113.101",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 44
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9998536299765808,
+                    "span": 77544.749999,
+                    "unique_s_port_count": 3,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-26 18:34:25",
+                    "NumOfEvents": 6,
+                    "s_port_values": [
+                        "53297.0",
+                        "55339.0",
+                        "50628.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 5.999853629976581,
+                    "Severity": 5.0,
+                    "source": "192.168.115.103",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 45
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9999769619757409,
+                    "span": 858004.0,
+                    "unique_s_port_count": 14,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-15 20:21:09",
+                    "NumOfEvents": 28,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 5.999976961975741,
+                    "Severity": 5.0,
+                    "source": "192.168.116.102",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 46
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 110280.249999,
+                    "unique_s_port_count": 3,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-29 00:11:26",
+                    "NumOfEvents": 6,
+                    "s_port_values": [
+                        "63981.0",
+                        "64171.0",
+                        "63994.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.0,
+                    "Severity": 5.0,
+                    "source": "192.168.116.103",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 47
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 268344.0,
+                    "unique_s_port_count": 5,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-24 14:23:21",
+                    "NumOfEvents": 10,
+                    "s_port_values": [
+                        "64757.0",
+                        "52593.0",
+                        "59202.0",
+                        "59074.0",
+                        "54341.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.0,
+                    "Severity": 5.0,
+                    "source": "192.168.114.102",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 48
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9997563278608632,
+                    "span": 277672.0,
+                    "unique_s_port_count": 19,
+                    "gini_s_port": 0.025604551920341393,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-24 19:23:12",
+                    "NumOfEvents": 37,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 5.999756327860863,
+                    "Severity": 5.0,
+                    "source": "192.168.119.102",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 49
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9998722085556372,
+                    "span": 787336.75,
+                    "unique_s_port_count": 32,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 14:53:18",
+                    "NumOfEvents": 64,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.9998722085556375,
+                    "Severity": 5.0,
+                    "source": "192.168.106.102",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 50
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.9938650306748467,
+                    "span": 864266.75,
+                    "unique_s_port_count": 26,
+                    "gini_s_port": 0.03561253561253561,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 04:00:28",
+                    "NumOfEvents": 54,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.0,
+                    "Severity": 5.0,
+                    "source": "192.168.106.102",
+                    "target": "10.1.1.19",
+                    "key": 0,
+                    "idx": 51
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2010935"
+                    ],
+                    "signature": [
+                        "ET SCAN Suspicious inbound to MSSQL port 1433"
+                    ],
+                    "dispersion": 0.999967719547428,
+                    "span": 1059558.25,
+                    "unique_s_port_count": 23,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-16 10:47:32",
+                    "NumOfEvents": 46,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'1433.0'}"
+                    ],
+                    "final_score": 6.408747908590637,
+                    "Severity": 5.0,
+                    "source": "192.168.114.101",
+                    "target": "10.1.1.26",
+                    "key": 0,
+                    "idx": 52
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2023883"
+                    ],
+                    "signature": [
+                        "ET DNS Query to a *.top domain - Likely Hostile"
+                    ],
+                    "dispersion": 0.6292014695596948,
+                    "span": 937642.0,
+                    "unique_s_port_count": 29,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-15 21:59:18",
+                    "NumOfEvents": 29,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'53.0'}"
+                    ],
+                    "final_score": 6.0,
+                    "Severity": 5.0,
+                    "source": "10.1.1.28",
+                    "target": "198.60.22.22",
+                    "key": 0,
+                    "idx": 53
+                }
+            }
+        ]
+    }
+}

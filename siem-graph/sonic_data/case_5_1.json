@@ -1,0 +1,142 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 3.25,
+                    "consequences": [
+                        "Read Data",
+                        "Gain Privileges",
+                        "Execute Unauthorized Commands",
+                        "Bypass Protection Mechanism",
+                        "Modify Data"
+                    ],
+                    "num_components": 1,
+                    "max_in_degree": [
+                        "172.16.0.110",
+                        0.5
+                    ],
+                    "max_out_degree": [
+                        "14.186.208.207",
+                        1.0
+                    ],
+                    "num_events": 5
+                }
+            },
+            {
+                "data": {
+                    "id": "14.186.208.207",
+                    "value": "14.186.208.207",
+                    "name": "14.186.208.207",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "VN",
+                        "(21.0333, 105.85)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "172.16.0.110",
+                    "value": "172.16.0.110",
+                    "name": "172.16.0.110",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "166.70.110.110",
+                    "value": "166.70.110.110",
+                    "name": "166.70.110.110",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(40.6974, -111.9961)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "final_score": 4.5,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "start_timestamp": "2019-09-07 08:34:00",
+                    "s_port_values": [
+                        "46943.0"
+                    ],
+                    "dispersion": 0.0,
+                    "NumOfEvents": 1,
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 43,
+                    "source": "14.186.208.207",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "final_score": 2.0,
+                    "gini_s_port": 0.16666666666666666,
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "logtype": "fortinet",
+                    "Severity": 2.0,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 3,
+                    "span": 134.25,
+                    "signature_id": [
+                        "fortigate-traffic-forward-close"
+                    ],
+                    "start_timestamp": "2019-09-07 08:34:33",
+                    "s_port_values": [
+                        "46943.0",
+                        "6772.0",
+                        "47146.0"
+                    ],
+                    "dispersion": 0.02127659574468085,
+                    "NumOfEvents": 4,
+                    "signature": [
+                        "fortigate-traffic-forward-close"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 5,
+                    "source": "14.186.208.207",
+                    "target": "166.70.110.110",
+                    "key": 0,
+                    "idx": 1
+                }
+            }
+        ]
+    }
+}

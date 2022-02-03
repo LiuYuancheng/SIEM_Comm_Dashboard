@@ -1,0 +1,2349 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 1.980024112654321,
+                    "consequences": [
+                        "Read Data",
+                        "Gain Privileges",
+                        "Alter Execution Logic",
+                        "Execute Unauthorized Commands",
+                        "Modify Data",
+                        "Bypass Protection Mechanism",
+                        "Other",
+                        "Unreliable Execution"
+                    ],
+                    "num_components": 1,
+                    "max_in_degree": [
+                        "10.1.1.106",
+                        1.0
+                    ],
+                    "max_out_degree": [
+                        "192.168.100.105",
+                        0.02
+                    ],
+                    "num_events": 2114
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.100.105",
+                    "value": "192.168.100.105",
+                    "name": "192.168.100.105",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.106",
+                    "value": "10.1.1.106",
+                    "name": "10.1.1.106",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.117.101",
+                    "value": "192.168.117.101",
+                    "name": "192.168.117.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.116.111",
+                    "value": "192.168.116.111",
+                    "name": "192.168.116.111",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.21",
+                    "value": "10.1.3.21",
+                    "name": "10.1.3.21",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.123",
+                    "value": "10.1.3.123",
+                    "name": "10.1.3.123",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.118.101",
+                    "value": "192.168.118.101",
+                    "name": "192.168.118.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.22",
+                    "value": "10.1.3.22",
+                    "name": "10.1.3.22",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.115",
+                    "value": "10.1.3.115",
+                    "name": "10.1.3.115",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.110",
+                    "value": "10.1.3.110",
+                    "name": "10.1.3.110",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.73",
+                    "value": "10.1.3.73",
+                    "name": "10.1.3.73",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.118",
+                    "value": "10.1.3.118",
+                    "name": "10.1.3.118",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.119.111",
+                    "value": "192.168.119.111",
+                    "name": "192.168.119.111",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.125",
+                    "value": "10.1.3.125",
+                    "name": "10.1.3.125",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.41",
+                    "value": "10.1.3.41",
+                    "name": "10.1.3.41",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.127",
+                    "value": "10.1.3.127",
+                    "name": "10.1.3.127",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.78",
+                    "value": "10.1.3.78",
+                    "name": "10.1.3.78",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.114",
+                    "value": "10.1.3.114",
+                    "name": "10.1.3.114",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.160",
+                    "value": "10.1.3.160",
+                    "name": "10.1.3.160",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.144",
+                    "value": "10.1.3.144",
+                    "name": "10.1.3.144",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.117.112",
+                    "value": "192.168.117.112",
+                    "name": "192.168.117.112",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.105",
+                    "value": "10.1.3.105",
+                    "name": "10.1.3.105",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.118.102",
+                    "value": "192.168.118.102",
+                    "name": "192.168.118.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.198",
+                    "value": "10.1.3.198",
+                    "name": "10.1.3.198",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.116.112",
+                    "value": "192.168.116.112",
+                    "name": "192.168.116.112",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.24",
+                    "value": "10.1.3.24",
+                    "name": "10.1.3.24",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.25",
+                    "value": "10.1.3.25",
+                    "name": "10.1.3.25",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.141",
+                    "value": "10.1.3.141",
+                    "name": "10.1.3.141",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.128",
+                    "value": "10.1.3.128",
+                    "name": "10.1.3.128",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.43",
+                    "value": "10.1.3.43",
+                    "name": "10.1.3.43",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.103",
+                    "value": "10.1.3.103",
+                    "name": "10.1.3.103",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.112",
+                    "value": "10.1.3.112",
+                    "name": "10.1.3.112",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.117.102",
+                    "value": "192.168.117.102",
+                    "name": "192.168.117.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.118.103",
+                    "value": "192.168.118.103",
+                    "name": "192.168.118.103",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.118.112",
+                    "value": "192.168.118.112",
+                    "name": "192.168.118.112",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.118.111",
+                    "value": "192.168.118.111",
+                    "name": "192.168.118.111",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.117.103",
+                    "value": "192.168.117.103",
+                    "name": "192.168.117.103",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.115.112",
+                    "value": "192.168.115.112",
+                    "name": "192.168.115.112",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.116.101",
+                    "value": "192.168.116.101",
+                    "name": "192.168.116.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.119.102",
+                    "value": "192.168.119.102",
+                    "name": "192.168.119.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.116.102",
+                    "value": "192.168.116.102",
+                    "name": "192.168.116.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.119.101",
+                    "value": "192.168.119.101",
+                    "name": "192.168.119.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.106",
+                    "value": "10.1.3.106",
+                    "name": "10.1.3.106",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.115.102",
+                    "value": "192.168.115.102",
+                    "name": "192.168.115.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.115.103",
+                    "value": "192.168.115.103",
+                    "name": "192.168.115.103",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.116.103",
+                    "value": "192.168.116.103",
+                    "name": "192.168.116.103",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.104",
+                    "value": "10.1.3.104",
+                    "name": "10.1.3.104",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.117.111",
+                    "value": "192.168.117.111",
+                    "name": "192.168.117.111",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.115.111",
+                    "value": "192.168.115.111",
+                    "name": "192.168.115.111",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.115.101",
+                    "value": "192.168.115.101",
+                    "name": "192.168.115.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.131",
+                    "value": "10.1.3.131",
+                    "name": "10.1.3.131",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 30.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-03 15:04:44",
+                    "NumOfEvents": 96,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.100.105",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 25.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 06:05:43",
+                    "NumOfEvents": 96,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.117.101",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 312.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 06:00:03",
+                    "NumOfEvents": 80,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9.00012037037037,
+                    "Severity": 8,
+                    "source": "192.168.116.111",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 10.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 05:23:00",
+                    "NumOfEvents": 67,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "10.1.3.21",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 9.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 06:08:30",
+                    "NumOfEvents": 64,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "10.1.3.123",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 4
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 14.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 06:05:23",
+                    "NumOfEvents": 64,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.118.101",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 5
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 12.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 06:09:36",
+                    "NumOfEvents": 61,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "10.1.3.22",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 6
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 13.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 06:09:05",
+                    "NumOfEvents": 61,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "10.1.3.115",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 7
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 7.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 06:04:27",
+                    "NumOfEvents": 61,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "10.1.3.110",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 8
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 10.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 05:25:02",
+                    "NumOfEvents": 61,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "10.1.3.73",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 9
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 11.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 05:48:32",
+                    "NumOfEvents": 61,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "10.1.3.118",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 10
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 13.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 05:57:29",
+                    "NumOfEvents": 61,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.119.111",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 11
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 317.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 05:11:18",
+                    "NumOfEvents": 52,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9.000122299382715,
+                    "Severity": 8,
+                    "source": "10.1.3.125",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 12
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 317.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 05:15:14",
+                    "NumOfEvents": 51,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9.000122299382715,
+                    "Severity": 8,
+                    "source": "10.1.3.41",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 13
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 300.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 05:25:51",
+                    "NumOfEvents": 49,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9.00011574074074,
+                    "Severity": 8,
+                    "source": "10.1.3.127",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 14
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 303.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 06:06:50",
+                    "NumOfEvents": 48,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9.000116898148148,
+                    "Severity": 8,
+                    "source": "10.1.3.78",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 15
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 161.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 05:50:55",
+                    "NumOfEvents": 48,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9.000062114197531,
+                    "Severity": 8,
+                    "source": "10.1.3.114",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 16
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 302.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 05:41:03",
+                    "NumOfEvents": 48,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9.000116512345679,
+                    "Severity": 8,
+                    "source": "10.1.3.160",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 17
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 301.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 05:28:00",
+                    "NumOfEvents": 48,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9.00011612654321,
+                    "Severity": 8,
+                    "source": "10.1.3.144",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 18
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 304.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 05:53:13",
+                    "NumOfEvents": 48,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9.000117283950617,
+                    "Severity": 8,
+                    "source": "192.168.117.112",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 19
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 301.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 05:28:24",
+                    "NumOfEvents": 47,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9.00011612654321,
+                    "Severity": 8,
+                    "source": "10.1.3.105",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 20
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 10.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 06:04:15",
+                    "NumOfEvents": 47,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.118.102",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 21
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 207.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 05:15:24",
+                    "NumOfEvents": 44,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9.00007986111111,
+                    "Severity": 8,
+                    "source": "10.1.3.198",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 22
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 4.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 06:00:13",
+                    "NumOfEvents": 32,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.116.112",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 23
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 4.5,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 06:10:03",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "10.1.3.24",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 24
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 2.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 06:07:55",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "10.1.3.25",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 25
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 2.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 06:01:35",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "10.1.3.141",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 26
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 5.5,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 05:58:00",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "10.1.3.128",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 27
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 5.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 05:57:02",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "10.1.3.43",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 28
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 16.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 05:15:29",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "10.1.3.103",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 29
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 1.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 05:25:06",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "10.1.3.112",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 30
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 4.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 06:05:48",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.117.102",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 31
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 5.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 06:05:22",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.118.103",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 32
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 4.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 06:04:21",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.118.112",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 33
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 4.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 06:04:16",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.118.111",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 34
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 4.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 06:01:18",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.117.103",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 35
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 11.5,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 06:01:08",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.115.112",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 36
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 4.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 05:58:49",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.116.101",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 37
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 8.5,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 05:58:48",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.119.102",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 38
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 9.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 05:58:44",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.116.102",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 39
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 4.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 05:58:40",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.119.101",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 40
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 1.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 06:05:40",
+                    "NumOfEvents": 29,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "10.1.3.106",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 41
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 4.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 06:06:14",
+                    "NumOfEvents": 29,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.115.102",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 42
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 13.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 06:02:08",
+                    "NumOfEvents": 29,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.115.103",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 43
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 4.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 05:59:59",
+                    "NumOfEvents": 29,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.116.103",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 44
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 1.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 06:01:14",
+                    "NumOfEvents": 16,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "10.1.3.104",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 45
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 5.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 06:11:06",
+                    "NumOfEvents": 16,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.117.111",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 46
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 4.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 06:05:48",
+                    "NumOfEvents": 16,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.115.111",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 47
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 6.5,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-09 06:04:16",
+                    "NumOfEvents": 16,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "192.168.115.101",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 48
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 1.5,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2020-07-04 05:30:46",
+                    "NumOfEvents": 12,
+                    "s_port_values": [
+                        "500.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 0.0,
+                    "Severity": 8,
+                    "source": "10.1.3.131",
+                    "target": "10.1.1.106",
+                    "key": 0,
+                    "idx": 49
+                }
+            }
+        ]
+    }
+}

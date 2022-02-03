@@ -1,0 +1,313 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 6.000001205632588,
+                    "consequences": [
+                        "Read Data",
+                        "Gain Privileges",
+                        "Execute Unauthorized Commands",
+                        "Resource Consumption",
+                        "Other",
+                        "Unreliable Execution"
+                    ],
+                    "num_components": 2,
+                    "max_in_degree": [
+                        "172.16.0.119",
+                        0.6000000000000001
+                    ],
+                    "max_out_degree": [
+                        "64.37.231.173",
+                        0.4
+                    ],
+                    "num_events": 11
+                }
+            },
+            {
+                "data": {
+                    "id": "64.37.231.173",
+                    "value": "64.37.231.173",
+                    "name": "64.37.231.173",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.6631, -90.5771)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "172.16.0.119",
+                    "value": "172.16.0.119",
+                    "name": "172.16.0.119",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "172.16.0.110",
+                    "value": "172.16.0.110",
+                    "name": "172.16.0.110",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "64.37.231.177",
+                    "value": "64.37.231.177",
+                    "name": "64.37.231.177",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.6631, -90.5771)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "64.37.231.140",
+                    "value": "64.37.231.140",
+                    "name": "64.37.231.140",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.6631, -90.5771)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "64.37.231.167",
+                    "value": "64.37.231.167",
+                    "name": "64.37.231.167",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.6631, -90.5771)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2019526"
+                    ],
+                    "signature": [
+                        "ET WEB_SERVER WEB-PHP phpinfo access"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.749999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-23 16:35:34",
+                    "NumOfEvents": 2,
+                    "s_port_values": [
+                        "58900.0",
+                        "58888.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 6.000000289351466,
+                    "Severity": 5.0,
+                    "source": "64.37.231.173",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2019526"
+                    ],
+                    "signature": [
+                        "ET WEB_SERVER WEB-PHP phpinfo access"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-23 16:27:15",
+                    "NumOfEvents": 1,
+                    "s_port_values": [
+                        "39414.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 6.0,
+                    "Severity": 5.0,
+                    "source": "64.37.231.173",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2019526"
+                    ],
+                    "signature": [
+                        "ET WEB_SERVER WEB-PHP phpinfo access"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 12.75,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-27 05:30:17",
+                    "NumOfEvents": 2,
+                    "s_port_values": [
+                        "33284.0",
+                        "33270.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 6.000004918981482,
+                    "Severity": 5.0,
+                    "source": "64.37.231.177",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2019526"
+                    ],
+                    "signature": [
+                        "ET WEB_SERVER WEB-PHP phpinfo access"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 3.75,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-27 05:39:19",
+                    "NumOfEvents": 2,
+                    "s_port_values": [
+                        "53928.0",
+                        "53924.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 6.000001446759259,
+                    "Severity": 5.0,
+                    "source": "64.37.231.177",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2019526"
+                    ],
+                    "signature": [
+                        "ET WEB_SERVER WEB-PHP phpinfo access"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 1.499999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-26 15:32:25",
+                    "NumOfEvents": 2,
+                    "s_port_values": [
+                        "40054.0",
+                        "40056.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 6.000000578703318,
+                    "Severity": 5.0,
+                    "source": "64.37.231.140",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 4
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2019526"
+                    ],
+                    "signature": [
+                        "ET WEB_SERVER WEB-PHP phpinfo access"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-26 15:40:45",
+                    "NumOfEvents": 2,
+                    "s_port_values": [
+                        "48084.0",
+                        "48086.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 6.0,
+                    "Severity": 5.0,
+                    "source": "64.37.231.167",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 5
+                }
+            }
+        ]
+    }
+}

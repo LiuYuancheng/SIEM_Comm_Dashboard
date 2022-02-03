@@ -1,0 +1,302 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 3.5,
+                    "consequences": [
+                        "Read Data",
+                        "Gain Privileges",
+                        "Execute Unauthorized Commands",
+                        "Resource Consumption",
+                        "Bypass Protection Mechanism",
+                        "Modify Data",
+                        "Other"
+                    ],
+                    "num_components": 1,
+                    "max_in_degree": [
+                        "AGENT177",
+                        0.5
+                    ],
+                    "max_out_degree": [
+                        "10.1.1.168",
+                        1.5
+                    ],
+                    "num_events": 34
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.168",
+                    "value": "10.1.1.168",
+                    "name": "10.1.1.168",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT177",
+                    "value": "AGENT177",
+                    "name": "AGENT177",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT182",
+                    "value": "AGENT182",
+                    "name": "AGENT182",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.6.104",
+                    "value": "10.1.6.104",
+                    "name": "10.1.6.104",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.2.59",
+                    "value": "10.1.2.59",
+                    "name": "10.1.2.59",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "final_score": 6.0,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "logtype": "windows",
+                    "Severity": 6.0,
+                    "unique_t_port_count": 0,
+                    "unique_s_port_count": 2,
+                    "span": 260516.0,
+                    "signature_id": [
+                        "win_sec-5145-ux-success"
+                    ],
+                    "start_timestamp": "2019-09-08 19:16:14",
+                    "s_port_values": [
+                        "63912.0",
+                        "51946.0"
+                    ],
+                    "dispersion": 1.0,
+                    "NumOfEvents": 6,
+                    "signature": [
+                        "A network share object was checked to see whether client can be granted desired access"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 0,
+                    "source": "10.1.1.168",
+                    "target": "AGENT177",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "final_score": 0.0,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "logtype": "windows",
+                    "Severity": 6.0,
+                    "unique_t_port_count": 0,
+                    "unique_s_port_count": 2,
+                    "span": 195387.0,
+                    "signature_id": [
+                        "win_sec-5140-ux-success"
+                    ],
+                    "start_timestamp": "2019-09-08 19:16:14",
+                    "s_port_values": [
+                        "63912.0",
+                        "51946.0"
+                    ],
+                    "dispersion": 0.0,
+                    "NumOfEvents": 2,
+                    "signature": [
+                        "A network share object was accessed"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 5,
+                    "source": "10.1.1.168",
+                    "target": "AGENT177",
+                    "key": 1,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "final_score": 6.0,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "logtype": "windows",
+                    "Severity": 6.0,
+                    "unique_t_port_count": 0,
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature_id": [
+                        "win_sec-5145-ux-success"
+                    ],
+                    "start_timestamp": "2019-09-19 19:39:31",
+                    "s_port_values": [
+                        "5896.0"
+                    ],
+                    "dispersion": 1.0,
+                    "NumOfEvents": 9,
+                    "signature": [
+                        "A network share object was checked to see whether client can be granted desired access"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 0,
+                    "source": "10.1.1.168",
+                    "target": "AGENT182",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "final_score": 0.0,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "logtype": "windows",
+                    "Severity": 6.0,
+                    "unique_t_port_count": 0,
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature_id": [
+                        "win_sec-5140-ux-success"
+                    ],
+                    "start_timestamp": "2019-09-19 19:39:31",
+                    "s_port_values": [
+                        "5896.0"
+                    ],
+                    "dispersion": 0.0,
+                    "NumOfEvents": 1,
+                    "signature": [
+                        "A network share object was accessed"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 5,
+                    "source": "10.1.1.168",
+                    "target": "AGENT182",
+                    "key": 1,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "final_score": 4.5,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'445.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "start_timestamp": "2019-09-09 18:48:17",
+                    "s_port_values": [
+                        "40283.0"
+                    ],
+                    "dispersion": 0.0,
+                    "NumOfEvents": 1,
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 8,
+                    "source": "10.1.1.168",
+                    "target": "10.1.6.104",
+                    "key": 0,
+                    "idx": 4
+                }
+            },
+            {
+                "data": {
+                    "final_score": 4.5,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'445.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 1,
+                    "span": 449.0,
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "start_timestamp": "2019-09-05 16:45:22",
+                    "s_port_values": [
+                        "22544.0"
+                    ],
+                    "dispersion": 0.912568306010929,
+                    "NumOfEvents": 15,
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 12,
+                    "source": "10.1.1.168",
+                    "target": "10.1.2.59",
+                    "key": 0,
+                    "idx": 5
+                }
+            }
+        ]
+    }
+}

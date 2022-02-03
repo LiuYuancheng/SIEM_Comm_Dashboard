@@ -1,0 +1,124 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 6.561682804713421,
+                    "consequences": [
+                        "Read Data",
+                        "Gain Privileges",
+                        "Resource Consumption",
+                        "Modify Data",
+                        "Other",
+                        "Unreliable Execution"
+                    ],
+                    "num_components": 1,
+                    "max_in_degree": [
+                        "66.240.205.51",
+                        2.0
+                    ],
+                    "max_out_degree": [
+                        "10.1.1.76",
+                        2.0
+                    ],
+                    "num_events": 24
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.76",
+                    "value": "10.1.1.76",
+                    "name": "10.1.1.76",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "66.240.205.51",
+                    "value": "66.240.205.51",
+                    "name": "66.240.205.51",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(32.8073, -117.1324)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102501"
+                    ],
+                    "signature": [
+                        "SLR Alert - Possible RuRat Checkin XML Elements"
+                    ],
+                    "dispersion": 0.8360141429308414,
+                    "span": 584949.0,
+                    "unique_s_port_count": 12,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-03-17 14:00:07",
+                    "NumOfEvents": 12,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'5655.0'}"
+                    ],
+                    "final_score": 6.56168891144936,
+                    "Severity": 4.5,
+                    "source": "10.1.1.76",
+                    "target": "66.240.205.51",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102500"
+                    ],
+                    "signature": [
+                        "SLR Alert - RuRat Checkin - Base64 Encoded XML"
+                    ],
+                    "dispersion": 0.8360023152614316,
+                    "span": 584948.0,
+                    "unique_s_port_count": 12,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-03-17 14:00:07",
+                    "NumOfEvents": 12,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'5655.0'}"
+                    ],
+                    "final_score": 6.561676697977481,
+                    "Severity": 4.5,
+                    "source": "10.1.1.76",
+                    "target": "66.240.205.51",
+                    "key": 1,
+                    "idx": 1
+                }
+            }
+        ]
+    }
+}

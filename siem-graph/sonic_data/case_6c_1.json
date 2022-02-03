@@ -1,0 +1,373 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 5.4100445764689455,
+                    "consequences": [],
+                    "num_components": 3,
+                    "max_in_degree": [
+                        "172.16.0.119",
+                        0.42857142857142855
+                    ],
+                    "max_out_degree": [
+                        "64.37.231.173",
+                        0.2857142857142857
+                    ],
+                    "num_events": 74
+                }
+            },
+            {
+                "data": {
+                    "id": "64.37.231.161",
+                    "value": "64.37.231.161",
+                    "name": "64.37.231.161",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.6631, -90.5771)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "172.16.0.116",
+                    "value": "172.16.0.116",
+                    "name": "172.16.0.116",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "64.37.231.173",
+                    "value": "64.37.231.173",
+                    "name": "64.37.231.173",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.6631, -90.5771)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "172.16.0.119",
+                    "value": "172.16.0.119",
+                    "name": "172.16.0.119",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "172.16.0.110",
+                    "value": "172.16.0.110",
+                    "name": "172.16.0.110",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "64.37.231.177",
+                    "value": "64.37.231.177",
+                    "name": "64.37.231.177",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.6631, -90.5771)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "64.37.231.140",
+                    "value": "64.37.231.140",
+                    "name": "64.37.231.140",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.6631, -90.5771)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "64.37.231.167",
+                    "value": "64.37.231.167",
+                    "name": "64.37.231.167",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.6631, -90.5771)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "signature_id": [
+                        "1:20037731"
+                    ],
+                    "signature": [
+                        "WEB-ATTACKS XSS.FILTER.SCRIPT"
+                    ],
+                    "dispersion": 0.4666666666666667,
+                    "span": 472.5,
+                    "unique_s_port_count": 46,
+                    "gini_s_port": 0.02081406105457909,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-26 06:07:11",
+                    "NumOfEvents": 47,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 5.466848958333333,
+                    "Severity": 4.0,
+                    "source": "64.37.231.161",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:20037731"
+                    ],
+                    "signature": [
+                        "WEB-ATTACKS XSS.FILTER.SCRIPT"
+                    ],
+                    "dispersion": 0.3333333333333333,
+                    "span": 1.249999,
+                    "unique_s_port_count": 4,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-23 16:18:33",
+                    "NumOfEvents": 4,
+                    "s_port_values": [
+                        "38014.0",
+                        "38008.0",
+                        "38090.0",
+                        "38104.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 5.333333815586034,
+                    "Severity": 4.0,
+                    "source": "64.37.231.173",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:20037731"
+                    ],
+                    "signature": [
+                        "WEB-ATTACKS XSS.FILTER.SCRIPT"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 412.249999,
+                    "unique_s_port_count": 6,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-23 16:18:45",
+                    "NumOfEvents": 6,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 5.000159047067515,
+                    "Severity": 4.0,
+                    "source": "64.37.231.173",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:20037731"
+                    ],
+                    "signature": [
+                        "WEB-ATTACKS XSS.FILTER.SCRIPT"
+                    ],
+                    "dispersion": 0.5,
+                    "span": 274.0,
+                    "unique_s_port_count": 3,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-27 05:21:43",
+                    "NumOfEvents": 3,
+                    "s_port_values": [
+                        "49422.0",
+                        "49276.0",
+                        "33760.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 5.500105709876543,
+                    "Severity": 4.0,
+                    "source": "64.37.231.177",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:20037731"
+                    ],
+                    "signature": [
+                        "WEB-ATTACKS XSS.FILTER.SCRIPT"
+                    ],
+                    "dispersion": 0.2,
+                    "span": 3.25,
+                    "unique_s_port_count": 4,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-27 05:21:42",
+                    "NumOfEvents": 4,
+                    "s_port_values": [
+                        "53370.0",
+                        "53602.0",
+                        "53372.0",
+                        "53594.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 5.200001253858025,
+                    "Severity": 4.0,
+                    "source": "64.37.231.177",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 4
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:20037731"
+                    ],
+                    "signature": [
+                        "WEB-ATTACKS XSS.FILTER.SCRIPT"
+                    ],
+                    "dispersion": 0.6363636363636364,
+                    "span": 417.75,
+                    "unique_s_port_count": 6,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-26 15:23:13",
+                    "NumOfEvents": 6,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 5.636524805345118,
+                    "Severity": 4.0,
+                    "source": "64.37.231.140",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 5
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:20037731"
+                    ],
+                    "signature": [
+                        "WEB-ATTACKS XSS.FILTER.SCRIPT"
+                    ],
+                    "dispersion": 0.7333333333333333,
+                    "span": 13.25,
+                    "unique_s_port_count": 4,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-26 15:23:00",
+                    "NumOfEvents": 4,
+                    "s_port_values": [
+                        "49048.0",
+                        "49060.0",
+                        "51038.0",
+                        "51040.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 5.73333844521605,
+                    "Severity": 4.0,
+                    "source": "64.37.231.167",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 6
+                }
+            }
+        ]
+    }
+}

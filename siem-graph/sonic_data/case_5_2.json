@@ -1,0 +1,139 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 4.299231942767042,
+                    "consequences": [
+                        "Read Data",
+                        "Unreliable Execution",
+                        "Execute Unauthorized Commands",
+                        "Other"
+                    ],
+                    "num_components": 1,
+                    "max_in_degree": [
+                        "10.1.1.24",
+                        0.5
+                    ],
+                    "max_out_degree": [
+                        "10.1.11.100",
+                        1.0
+                    ],
+                    "num_events": 74
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.11.100",
+                    "value": "10.1.11.100",
+                    "name": "10.1.11.100",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.24",
+                    "value": "10.1.1.24",
+                    "name": "10.1.1.24",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "166.70.146.205",
+                    "value": "166.70.146.205",
+                    "name": "166.70.146.205",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(40.7561, -111.8837)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "final_score": 5.0,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'53.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 5.0,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 1,
+                    "span": 1.5,
+                    "signature_id": [
+                        "1:2027757"
+                    ],
+                    "start_timestamp": "2019-09-04 15:38:59",
+                    "s_port_values": [
+                        "62534.0"
+                    ],
+                    "dispersion": 0.0,
+                    "NumOfEvents": 2,
+                    "signature": [
+                        "ET DNS Query for .to TLD"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 2,
+                    "source": "10.1.11.100",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "final_score": 3.598463885534085,
+                    "gini_s_port": 0.2698412698412698,
+                    "t_port_values": [
+                        "{'443.0'}"
+                    ],
+                    "logtype": "fortinet",
+                    "Severity": 2.0,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 14,
+                    "span": 2002001.0,
+                    "signature_id": [
+                        "fortigate-traffic-forward-deny"
+                    ],
+                    "start_timestamp": "2019-09-03 17:54:21",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 0.8260869565217391,
+                    "NumOfEvents": 72,
+                    "signature": [
+                        "fortigate-traffic-forward-deny"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 0,
+                    "source": "10.1.11.100",
+                    "target": "166.70.146.205",
+                    "key": 0,
+                    "idx": 1
+                }
+            }
+        ]
+    }
+}

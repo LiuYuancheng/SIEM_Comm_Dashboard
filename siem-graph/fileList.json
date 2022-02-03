@@ -1,0 +1,28 @@
+{
+    "SonicData": {
+        "case_1": "./assets/data/siem-graph/sonic_data/case_1.json",
+        "case_2": "./assets/data/siem-graph/sonic_data/case_2.json",
+        "case_4": "./assets/data/siem-graph/sonic_data/case_4.json",
+        "case_5_1": "./assets/data/siem-graph/sonic_data/case_5_1.json",
+        "case_5_2": "./assets/data/siem-graph/sonic_data/case_5_2.json",
+        "case_5_4": "./assets/data/siem-graph/sonic_data/case_5_4.json",
+        "case_6a_6b": "./assets/data/siem-graph/sonic_data/case_6a_6b.json",
+        "case_6c_1": "./assets/data/siem-graph/sonic_data/case_6c_1.json",
+        "case_6c_2": "./assets/data/siem-graph/sonic_data/case_6c_2.json",
+        "case_6c_3": "./assets/data/siem-graph/sonic_data/case_6c_3.json",
+        "case_6c_4": "./assets/data/siem-graph/sonic_data/case_6c_4.json",
+        "case_7": "./assets/data/siem-graph/sonic_data/case_7.json",
+        "case_8": "./assets/data/siem-graph/sonic_data/case_8.json",
+        "case_9_1": "./assets/data/siem-graph/sonic_data/case_9_1.json",
+        "case_9_2": "./assets/data/siem-graph/sonic_data/case_9_2.json",
+        "case_9_3": "./assets/data/siem-graph/sonic_data/case_9_3.json",
+        "case_10_snort_logs": "./assets/data/siem-graph/sonic_data/case_10_snort_logs.json",
+        "case_10_windows_logs": "./assets/data/siem-graph/sonic_data/case_10_windows_logs.json",
+        "case_11": "./assets/data/siem-graph/sonic_data/case_11.json",
+        "case_12": "./assets/data/siem-graph/sonic_data/case_12.json",
+        "linked_graphs_sep_2019_all_logs": "./assets/data/siem-graph/sonic_data/linked_graphs_sep_2019_all_logs.json",
+        "subgraphs_sep_2019_fortinet": "./assets/data/siem-graph/sonic_data/subgraphs_sep_2019_fortinet.json",
+        "subgraphs_sep_2019_snort": "./assets/data/siem-graph/sonic_data/subgraphs_sep_2019_snort.json",
+        "subgraphs_sep_2019_windows": "./assets/data/siem-graph/sonic_data/subgraphs_sep_2019_windows.json"
+    }
+}

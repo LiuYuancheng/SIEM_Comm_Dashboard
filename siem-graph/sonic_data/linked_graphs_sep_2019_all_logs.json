@@ -1,0 +1,378 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 6.854831924665046,
+                    "consequences": [
+                        "Read Data",
+                        "Gain Privileges",
+                        "Resource Consumption",
+                        "Modify Data",
+                        "Other",
+                        "Unreliable Execution"
+                    ],
+                    "num_components": 1,
+                    "max_in_degree": [
+                        "66.240.205.51",
+                        0.4
+                    ],
+                    "max_out_degree": [
+                        "10.1.1.50",
+                        1.6
+                    ],
+                    "num_events": 8964
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.50",
+                    "value": "10.1.1.50",
+                    "name": "10.1.1.50",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "JEWELRYSHIP",
+                    "value": "JEWELRYSHIP",
+                    "name": "JEWELRYSHIP",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "66.240.205.51",
+                    "value": "66.240.205.51",
+                    "name": "66.240.205.51",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(32.8073, -117.1324)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "108.163.130.184",
+                    "value": "108.163.130.184",
+                    "name": "108.163.130.184",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "CA",
+                        "(45.5, -73.5833)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "23.235.252.66",
+                    "value": "23.235.252.66",
+                    "name": "23.235.252.66",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(33.4148, -111.9093)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "166.70.146.205",
+                    "value": "166.70.146.205",
+                    "name": "166.70.146.205",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(40.7561, -111.8837)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "final_score": 10.0001199845679,
+                    "gini_s_port": 0.04523809523809524,
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "logtype": "windows",
+                    "Severity": 8.0,
+                    "unique_t_port_count": 0,
+                    "unique_s_port_count": 40,
+                    "span": 311.0,
+                    "signature_id": [
+                        "win_sec-4625-0xC0000064-uu-failure"
+                    ],
+                    "start_timestamp": "2019-09-30 21:40:34",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 1.0,
+                    "NumOfEvents": 42,
+                    "signature": [
+                        "An account failed to log on - 0xC0000064 - user name does not exist"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 2,
+                    "source": "10.1.1.50",
+                    "target": "JEWELRYSHIP",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "final_score": 7.083426232814254,
+                    "gini_s_port": 0.0019493028375733856,
+                    "t_port_values": [
+                        "{'5655.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 511,
+                    "span": 2454786.25,
+                    "signature_id": [
+                        "1:4102501"
+                    ],
+                    "start_timestamp": "2019-09-02 10:30:47",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 0.6363636363636364,
+                    "NumOfEvents": 512,
+                    "signature": [
+                        "SLR Alert - Possible RuRat Checkin XML Elements"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 6,
+                    "source": "10.1.1.50",
+                    "target": "66.240.205.51",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "final_score": 7.044502448361823,
+                    "gini_s_port": 0.0019531100111277388,
+                    "t_port_values": [
+                        "{'5655.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 510,
+                    "span": 2368396.5,
+                    "signature_id": [
+                        "1:4102500"
+                    ],
+                    "start_timestamp": "2019-09-03 10:30:36",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 0.6307692307692307,
+                    "NumOfEvents": 511,
+                    "signature": [
+                        "SLR Alert - RuRat Checkin - Base64 Encoded XML"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 6,
+                    "source": "10.1.1.50",
+                    "target": "66.240.205.51",
+                    "key": 1,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "final_score": 7.1077950874828,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'5655.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 36,
+                    "span": 1576885.249999,
+                    "signature_id": [
+                        "1:4102501"
+                    ],
+                    "start_timestamp": "2019-09-01 10:30:26",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 0.9994288644893582,
+                    "NumOfEvents": 36,
+                    "signature": [
+                        "SLR Alert - Possible RuRat Checkin XML Elements"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 6,
+                    "source": "10.1.1.50",
+                    "target": "108.163.130.184",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "final_score": 7.107829145496503,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'5655.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 36,
+                    "span": 1576881.0,
+                    "signature_id": [
+                        "1:4102500"
+                    ],
+                    "start_timestamp": "2019-09-01 10:30:26",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 0.9994645621631688,
+                    "NumOfEvents": 36,
+                    "signature": [
+                        "SLR Alert - RuRat Checkin - Base64 Encoded XML"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 6,
+                    "source": "10.1.1.50",
+                    "target": "108.163.130.184",
+                    "key": 1,
+                    "idx": 4
+                }
+            },
+            {
+                "data": {
+                    "final_score": 6.7424884259259255,
+                    "gini_s_port": 0.01991672042695443,
+                    "t_port_values": [
+                        "{'5655.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 867,
+                    "span": 1300530.0,
+                    "signature_id": [
+                        "1:4102500"
+                    ],
+                    "start_timestamp": "2019-09-03 17:52:03",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 0.7407407407407407,
+                    "NumOfEvents": 885,
+                    "signature": [
+                        "SLR Alert - RuRat Checkin - Base64 Encoded XML"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 6,
+                    "source": "10.1.1.50",
+                    "target": "23.235.252.66",
+                    "key": 0,
+                    "idx": 5
+                }
+            },
+            {
+                "data": {
+                    "final_score": 6.710838208473625,
+                    "gini_s_port": 0.01991672042695443,
+                    "t_port_values": [
+                        "{'5655.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 867,
+                    "span": 1300529.0,
+                    "signature_id": [
+                        "1:4102501"
+                    ],
+                    "start_timestamp": "2019-09-03 17:52:01",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 0.7090909090909091,
+                    "NumOfEvents": 885,
+                    "signature": [
+                        "SLR Alert - Possible RuRat Checkin XML Elements"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 6,
+                    "source": "10.1.1.50",
+                    "target": "23.235.252.66",
+                    "key": 1,
+                    "idx": 6
+                }
+            },
+            {
+                "data": {
+                    "final_score": 3.041655864197531,
+                    "gini_s_port": 0.07030535532827142,
+                    "t_port_values": [
+                        "{'80.0', '443.0'}"
+                    ],
+                    "logtype": "fortinet",
+                    "Severity": 2.0,
+                    "unique_t_port_count": 2,
+                    "unique_s_port_count": 1988,
+                    "span": 1079972.0,
+                    "signature_id": [
+                        "fortigate-traffic-forward-deny"
+                    ],
+                    "start_timestamp": "2019-09-01 05:04:33",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 0.625,
+                    "NumOfEvents": 6057,
+                    "signature": [
+                        "fortigate-traffic-forward-deny"
+                    ],
+                    "gini_t_port": 0.4346210995542348,
+                    "graph_num": 0,
+                    "source": "10.1.1.50",
+                    "target": "166.70.146.205",
+                    "key": 0,
+                    "idx": 7
+                }
+            }
+        ]
+    }
+}

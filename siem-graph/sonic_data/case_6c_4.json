@@ -1,0 +1,204 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 6.500010063014273,
+                    "consequences": [
+                        "Read Data",
+                        "Gain Privileges",
+                        "Execute Unauthorized Commands",
+                        "Modify Data",
+                        "Bypass Protection Mechanism",
+                        "Other",
+                        "Unreliable Execution"
+                    ],
+                    "num_components": 1,
+                    "max_in_degree": [
+                        "172.16.0.110",
+                        1.0
+                    ],
+                    "max_out_degree": [
+                        "64.37.231.173",
+                        0.3333333333333333
+                    ],
+                    "num_events": 78
+                }
+            },
+            {
+                "data": {
+                    "id": "64.37.231.173",
+                    "value": "64.37.231.173",
+                    "name": "64.37.231.173",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.6631, -90.5771)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "172.16.0.110",
+                    "value": "172.16.0.110",
+                    "name": "172.16.0.110",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "64.37.231.177",
+                    "value": "64.37.231.177",
+                    "name": "64.37.231.177",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.6631, -90.5771)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "64.37.231.140",
+                    "value": "64.37.231.140",
+                    "name": "64.37.231.140",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.6631, -90.5771)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101937",
+                        "1:4100957",
+                        "1:4100272"
+                    ],
+                    "signature": [
+                        "SLR Alert - Apache Struts2 wildcard OGNL command execution (CVE-2013-2134)",
+                        "SLR Alert - Apache Struts remote code execution attempt",
+                        "SLR Alert - Bash CGI environment variable injection attempt via HTTP headers (CVE-2014-6271)"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 29.249999,
+                    "unique_s_port_count": 5,
+                    "gini_s_port": 0.48,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-23 16:27:26",
+                    "NumOfEvents": 20,
+                    "s_port_values": [
+                        "40518.0",
+                        "40674.0",
+                        "40678.0",
+                        "39726.0",
+                        "39716.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 6.500011284721836,
+                    "Severity": 4.5,
+                    "source": "64.37.231.173",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101937",
+                        "1:4100272"
+                    ],
+                    "signature": [
+                        "SLR Alert - Apache Struts2 wildcard OGNL command execution (CVE-2013-2134)",
+                        "SLR Alert - Bash CGI environment variable injection attempt via HTTP headers (CVE-2014-6271)"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 25.0,
+                    "unique_s_port_count": 7,
+                    "gini_s_port": 0.5274725274725275,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-27 05:30:28",
+                    "NumOfEvents": 26,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 6.500009645061728,
+                    "Severity": 4.5,
+                    "source": "64.37.231.177",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101937",
+                        "1:4100957",
+                        "1:4100272"
+                    ],
+                    "signature": [
+                        "SLR Alert - Apache Struts2 wildcard OGNL command execution (CVE-2013-2134)",
+                        "SLR Alert - Apache Struts remote code execution attempt",
+                        "SLR Alert - Bash CGI environment variable injection attempt via HTTP headers (CVE-2014-6271)"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 24.0,
+                    "unique_s_port_count": 5,
+                    "gini_s_port": 0.25,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-26 15:31:49",
+                    "NumOfEvents": 32,
+                    "s_port_values": [
+                        "37562.0",
+                        "37542.0",
+                        "37566.0",
+                        "37552.0",
+                        "36216.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 6.500009259259259,
+                    "Severity": 4.5,
+                    "source": "64.37.231.140",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 2
+                }
+            }
+        ]
+    }
+}

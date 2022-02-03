@@ -1,0 +1,342 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 5.3991312682712795,
+                    "consequences": [
+                        "Read Data",
+                        "Gain Privileges",
+                        "Hide Activities",
+                        "Execute Unauthorized Commands",
+                        "Resource Consumption",
+                        "Modify Data",
+                        "Bypass Protection Mechanism",
+                        "Other",
+                        "Unreliable Execution"
+                    ],
+                    "num_components": 1,
+                    "max_in_degree": [
+                        "172.16.0.116",
+                        3.5
+                    ],
+                    "max_out_degree": [
+                        "49.234.178.89",
+                        4.0
+                    ],
+                    "num_events": 241
+                }
+            },
+            {
+                "data": {
+                    "id": "49.234.178.89",
+                    "value": "49.234.178.89",
+                    "name": "49.234.178.89",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "CN",
+                        "(39.9289, 116.3883)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "172.16.0.116",
+                    "value": "172.16.0.116",
+                    "name": "172.16.0.116",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "166.70.110.102",
+                    "value": "166.70.110.102",
+                    "name": "166.70.110.102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(40.6974, -111.9961)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "final_score": 6.000000578703704,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 5.0,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 1,
+                    "span": 1.5,
+                    "signature_id": [
+                        "1:6001808"
+                    ],
+                    "start_timestamp": "2019-10-02 12:18:56",
+                    "s_port_values": [
+                        "28369.0"
+                    ],
+                    "dispersion": 0.0,
+                    "NumOfEvents": 2,
+                    "signature": [
+                        "WEB-MISC phpinfo.php access"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 27,
+                    "source": "49.234.178.89",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "final_score": 4.5,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature_id": [
+                        "1:4010849"
+                    ],
+                    "start_timestamp": "2019-10-02 12:26:36",
+                    "s_port_values": [
+                        "41379.0"
+                    ],
+                    "dispersion": 0.0,
+                    "NumOfEvents": 1,
+                    "signature": [
+                        "ET WEB_SPECIFIC_APPS Microhard Systems 3G/4G Cellular Ethernet and Serial Gateway - Default Credentials"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 28,
+                    "source": "49.234.178.89",
+                    "target": "172.16.0.116",
+                    "key": 1,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "final_score": 4.5,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 1,
+                    "span": 1.5,
+                    "signature_id": [
+                        "1:4011836"
+                    ],
+                    "start_timestamp": "2019-10-02 12:24:24",
+                    "s_port_values": [
+                        "17966.0"
+                    ],
+                    "dispersion": 0.0,
+                    "NumOfEvents": 2,
+                    "signature": [
+                        "ET WEB_SPECIFIC_APPS ECSHOP user.php SQL INJECTION via Referer"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 28,
+                    "source": "49.234.178.89",
+                    "target": "172.16.0.116",
+                    "key": 2,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "final_score": 4.5,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "logtype": "snort",
+                    "Severity": 4.5,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 2,
+                    "span": 0.75,
+                    "signature_id": [
+                        "1:4101937"
+                    ],
+                    "start_timestamp": "2019-10-02 12:21:24",
+                    "s_port_values": [
+                        "52176.0",
+                        "52514.0"
+                    ],
+                    "dispersion": 0.0,
+                    "NumOfEvents": 2,
+                    "signature": [
+                        "SLR Alert - Apache Struts2 wildcard OGNL command execution (CVE-2013-2134)"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 29,
+                    "source": "49.234.178.89",
+                    "target": "172.16.0.116",
+                    "key": 3,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "final_score": 5.493049567466527,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "logtype": "fortinet",
+                    "Severity": 4.0,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 15,
+                    "span": 238.0,
+                    "signature_id": [
+                        "fortigate-47645"
+                    ],
+                    "start_timestamp": "2019-10-02 12:30:02",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 0.49295774647887325,
+                    "NumOfEvents": 15,
+                    "signature": [
+                        "PHP.Diescan"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 10,
+                    "source": "49.234.178.89",
+                    "target": "172.16.0.116",
+                    "key": 4,
+                    "idx": 4
+                }
+            },
+            {
+                "data": {
+                    "final_score": 4.0,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "logtype": "fortinet",
+                    "Severity": 4.0,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature_id": [
+                        "fortigate-47359"
+                    ],
+                    "start_timestamp": "2019-10-02 12:34:36",
+                    "s_port_values": [
+                        "13504.0"
+                    ],
+                    "dispersion": 0.0,
+                    "NumOfEvents": 1,
+                    "signature": [
+                        "ThinkPHP.Request.Method.Remote.Code.Execution"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 11,
+                    "source": "49.234.178.89",
+                    "target": "172.16.0.116",
+                    "key": 5,
+                    "idx": 5
+                }
+            },
+            {
+                "data": {
+                    "final_score": 11.2,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "logtype": "fortinet",
+                    "Severity": 8.2,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 4,
+                    "span": 187.75,
+                    "signature_id": [
+                        "fortigate-41851",
+                        "fortigate-47291"
+                    ],
+                    "start_timestamp": "2019-10-02 12:31:54",
+                    "s_port_values": [
+                        "49667.0",
+                        "14862.0",
+                        "50403.0",
+                        "16740.0"
+                    ],
+                    "dispersion": 0.8598130841121495,
+                    "NumOfEvents": 4,
+                    "signature": [
+                        "ThinkPHP.Controller.Parameter.Remote.Code.Execution",
+                        "Joomla!.Core.Session.Remote.Code.Execution"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 11,
+                    "source": "49.234.178.89",
+                    "target": "172.16.0.116",
+                    "key": 6,
+                    "idx": 6
+                }
+            },
+            {
+                "data": {
+                    "final_score": 3.0,
+                    "gini_s_port": 0.0,
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "logtype": "fortinet",
+                    "Severity": 2.0,
+                    "unique_t_port_count": 1,
+                    "unique_s_port_count": 214,
+                    "span": 343.0,
+                    "signature_id": [
+                        "fortigate-traffic-forward-close"
+                    ],
+                    "start_timestamp": "2019-10-02 12:29:54",
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "dispersion": 1.0,
+                    "NumOfEvents": 214,
+                    "signature": [
+                        "fortigate-traffic-forward-close"
+                    ],
+                    "gini_t_port": 0.0,
+                    "graph_num": 4,
+                    "source": "49.234.178.89",
+                    "target": "166.70.110.102",
+                    "key": 0,
+                    "idx": 7
+                }
+            }
+        ]
+    }
+}

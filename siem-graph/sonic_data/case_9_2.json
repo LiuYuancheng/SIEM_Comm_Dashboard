@@ -1,0 +1,553 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 9.5,
+                    "consequences": [
+                        "Read Data",
+                        "Gain Privileges",
+                        "Execute Unauthorized Commands",
+                        "Modify Data",
+                        "Other",
+                        "Unreliable Execution"
+                    ],
+                    "num_components": 2,
+                    "max_in_degree": [
+                        "10.3.7.86",
+                        0.18181818181818182
+                    ],
+                    "max_out_degree": [
+                        "10.1.1.76",
+                        0.9090909090909092
+                    ],
+                    "num_events": 27942
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.76",
+                    "value": "10.1.1.76",
+                    "name": "10.1.1.76",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.3.7.88",
+                    "value": "10.3.7.88",
+                    "name": "10.3.7.88",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.3.7.86",
+                    "value": "10.3.7.86",
+                    "name": "10.3.7.86",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.3.7.87",
+                    "value": "10.3.7.87",
+                    "name": "10.3.7.87",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.3.7.90",
+                    "value": "10.3.7.90",
+                    "name": "10.3.7.90",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.3.7.97",
+                    "value": "10.3.7.97",
+                    "name": "10.3.7.97",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.3.7.96",
+                    "value": "10.3.7.96",
+                    "name": "10.3.7.96",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.3.7.101",
+                    "value": "10.3.7.101",
+                    "name": "10.3.7.101",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.3.7.98",
+                    "value": "10.3.7.98",
+                    "name": "10.3.7.98",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.3.7.89",
+                    "value": "10.3.7.89",
+                    "name": "10.3.7.89",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.3.7.103",
+                    "value": "10.3.7.103",
+                    "name": "10.3.7.103",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.79",
+                    "value": "10.1.1.79",
+                    "name": "10.1.1.79",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102554"
+                    ],
+                    "signature": [
+                        "SLR Alert - Possible Uninitialized RDP Dummy Data Packet (CVE-2019-1224)"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 4643.75,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 2,
+                    "gini_t_port": 0.3443579766536965,
+                    "start_timestamp": "2020-03-17 11:17:42",
+                    "NumOfEvents": 1542,
+                    "s_port_values": [
+                        "3389.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'50108.0', '58221.0'}"
+                    ],
+                    "final_score": 9.5,
+                    "Severity": 6.5,
+                    "source": "10.1.1.76",
+                    "target": "10.3.7.88",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102554"
+                    ],
+                    "signature": [
+                        "SLR Alert - Possible Uninitialized RDP Dummy Data Packet (CVE-2019-1224)"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 200058.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 7,
+                    "gini_t_port": 0.46406787892639306,
+                    "start_timestamp": "2020-03-09 10:02:31",
+                    "NumOfEvents": 10001,
+                    "s_port_values": [
+                        "3389.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'LargeNumberOfUniquePorts'}"
+                    ],
+                    "final_score": 9.5,
+                    "Severity": 6.5,
+                    "source": "10.1.1.76",
+                    "target": "10.3.7.86",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102554"
+                    ],
+                    "signature": [
+                        "SLR Alert - Possible Uninitialized RDP Dummy Data Packet (CVE-2019-1224)"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 336247.249999,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 4,
+                    "gini_t_port": 0.5046766435061465,
+                    "start_timestamp": "2020-03-09 14:18:49",
+                    "NumOfEvents": 7484,
+                    "s_port_values": [
+                        "3389.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'54737.0', '49382.0', '61957.0', '53165.0'}"
+                    ],
+                    "final_score": 9.5,
+                    "Severity": 6.5,
+                    "source": "10.1.1.76",
+                    "target": "10.3.7.87",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102554"
+                    ],
+                    "signature": [
+                        "SLR Alert - Possible Uninitialized RDP Dummy Data Packet (CVE-2019-1224)"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 1852.25,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-03-16 19:37:17",
+                    "NumOfEvents": 788,
+                    "s_port_values": [
+                        "3389.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'49822.0'}"
+                    ],
+                    "final_score": 9.5,
+                    "Severity": 6.5,
+                    "source": "10.1.1.76",
+                    "target": "10.3.7.90",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102554"
+                    ],
+                    "signature": [
+                        "SLR Alert - Possible Uninitialized RDP Dummy Data Packet (CVE-2019-1224)"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 39.5,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-03-19 10:17:37",
+                    "NumOfEvents": 87,
+                    "s_port_values": [
+                        "3389.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'59552.0'}"
+                    ],
+                    "final_score": 9.5,
+                    "Severity": 6.5,
+                    "source": "10.1.1.76",
+                    "target": "10.3.7.97",
+                    "key": 0,
+                    "idx": 4
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102554"
+                    ],
+                    "signature": [
+                        "SLR Alert - Possible Uninitialized RDP Dummy Data Packet (CVE-2019-1224)"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 30893.499999,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 2,
+                    "gini_t_port": 0.022189828312277293,
+                    "start_timestamp": "2020-03-19 19:25:49",
+                    "NumOfEvents": 6174,
+                    "s_port_values": [
+                        "3389.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'50255.0', '63921.0'}"
+                    ],
+                    "final_score": 9.5,
+                    "Severity": 6.5,
+                    "source": "10.1.1.76",
+                    "target": "10.3.7.96",
+                    "key": 0,
+                    "idx": 5
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102554"
+                    ],
+                    "signature": [
+                        "SLR Alert - Possible Uninitialized RDP Dummy Data Packet (CVE-2019-1224)"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 50.75,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-03-20 16:48:06",
+                    "NumOfEvents": 114,
+                    "s_port_values": [
+                        "3389.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'55051.0'}"
+                    ],
+                    "final_score": 9.5,
+                    "Severity": 6.5,
+                    "source": "10.1.1.76",
+                    "target": "10.3.7.101",
+                    "key": 0,
+                    "idx": 6
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102554"
+                    ],
+                    "signature": [
+                        "SLR Alert - Possible Uninitialized RDP Dummy Data Packet (CVE-2019-1224)"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 36.25,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-03-20 05:45:49",
+                    "NumOfEvents": 88,
+                    "s_port_values": [
+                        "3389.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'55394.0'}"
+                    ],
+                    "final_score": 9.5,
+                    "Severity": 6.5,
+                    "source": "10.1.1.76",
+                    "target": "10.3.7.98",
+                    "key": 0,
+                    "idx": 7
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102554"
+                    ],
+                    "signature": [
+                        "SLR Alert - Possible Uninitialized RDP Dummy Data Packet (CVE-2019-1224)"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 310.749999,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-03-13 12:02:33",
+                    "NumOfEvents": 198,
+                    "s_port_values": [
+                        "3389.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'61917.0'}"
+                    ],
+                    "final_score": 9.5,
+                    "Severity": 6.5,
+                    "source": "10.1.1.76",
+                    "target": "10.3.7.89",
+                    "key": 0,
+                    "idx": 8
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102554"
+                    ],
+                    "signature": [
+                        "SLR Alert - Possible Uninitialized RDP Dummy Data Packet (CVE-2019-1224)"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 1101.75,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 3,
+                    "gini_t_port": 0.365361803084223,
+                    "start_timestamp": "2020-03-24 17:39:08",
+                    "NumOfEvents": 562,
+                    "s_port_values": [
+                        "3389.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'53175.0', '49672.0', '64954.0'}"
+                    ],
+                    "final_score": 9.5,
+                    "Severity": 6.5,
+                    "source": "10.1.1.76",
+                    "target": "10.3.7.103",
+                    "key": 0,
+                    "idx": 9
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102554"
+                    ],
+                    "signature": [
+                        "SLR Alert - Possible Uninitialized RDP Dummy Data Packet (CVE-2019-1224)"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 2731.249999,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-03-11 16:31:07",
+                    "NumOfEvents": 904,
+                    "s_port_values": [
+                        "3389.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'61403.0'}"
+                    ],
+                    "final_score": 9.5,
+                    "Severity": 6.5,
+                    "source": "10.1.1.79",
+                    "target": "10.3.7.86",
+                    "key": 0,
+                    "idx": 10
+                }
+            }
+        ]
+    }
+}

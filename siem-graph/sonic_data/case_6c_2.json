@@ -1,0 +1,318 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 5.666666666666667,
+                    "consequences": [
+                        "Execute Unauthorized Commands",
+                        "Modify Data"
+                    ],
+                    "num_components": 2,
+                    "max_in_degree": [
+                        "172.16.0.119",
+                        0.6000000000000001
+                    ],
+                    "max_out_degree": [
+                        "64.37.231.173",
+                        0.4
+                    ],
+                    "num_events": 30
+                }
+            },
+            {
+                "data": {
+                    "id": "64.37.231.173",
+                    "value": "64.37.231.173",
+                    "name": "64.37.231.173",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.6631, -90.5771)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "172.16.0.119",
+                    "value": "172.16.0.119",
+                    "name": "172.16.0.119",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "172.16.0.110",
+                    "value": "172.16.0.110",
+                    "name": "172.16.0.110",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "64.37.231.177",
+                    "value": "64.37.231.177",
+                    "name": "64.37.231.177",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.6631, -90.5771)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "64.37.231.140",
+                    "value": "64.37.231.140",
+                    "name": "64.37.231.140",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.6631, -90.5771)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "64.37.231.167",
+                    "value": "64.37.231.167",
+                    "name": "64.37.231.167",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.6631, -90.5771)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4001807"
+                    ],
+                    "signature": [
+                        "ET WEB_SPECIFIC_APPS PHP-CGI query string parameter vulnerability"
+                    ],
+                    "dispersion": 0.6666666666666666,
+                    "span": 11.0,
+                    "unique_s_port_count": 5,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-23 16:57:15",
+                    "NumOfEvents": 5,
+                    "s_port_values": [
+                        "44200.0",
+                        "44008.0",
+                        "44160.0",
+                        "44134.0",
+                        "44086.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 5.5,
+                    "Severity": 4.5,
+                    "source": "64.37.231.173",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4001807"
+                    ],
+                    "signature": [
+                        "ET WEB_SPECIFIC_APPS PHP-CGI query string parameter vulnerability"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 3.499999,
+                    "unique_s_port_count": 6,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-23 16:29:07",
+                    "NumOfEvents": 6,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 6.5,
+                    "Severity": 4.5,
+                    "source": "64.37.231.173",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4001807"
+                    ],
+                    "signature": [
+                        "ET WEB_SPECIFIC_APPS PHP-CGI query string parameter vulnerability"
+                    ],
+                    "dispersion": 0.7142857142857143,
+                    "span": 7.0,
+                    "unique_s_port_count": 4,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-27 05:30:30",
+                    "NumOfEvents": 4,
+                    "s_port_values": [
+                        "33556.0",
+                        "33482.0",
+                        "33400.0",
+                        "33592.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 4.5,
+                    "Severity": 4.5,
+                    "source": "64.37.231.177",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4001807"
+                    ],
+                    "signature": [
+                        "ET WEB_SPECIFIC_APPS PHP-CGI query string parameter vulnerability"
+                    ],
+                    "dispersion": 0.8571428571428571,
+                    "span": 13.0,
+                    "unique_s_port_count": 4,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-27 05:46:46",
+                    "NumOfEvents": 4,
+                    "s_port_values": [
+                        "54492.0",
+                        "54462.0",
+                        "54476.0",
+                        "54452.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 4.5,
+                    "Severity": 4.5,
+                    "source": "64.37.231.177",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4001807"
+                    ],
+                    "signature": [
+                        "ET WEB_SPECIFIC_APPS PHP-CGI query string parameter vulnerability"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 1.0,
+                    "unique_s_port_count": 5,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-26 15:33:09",
+                    "NumOfEvents": 5,
+                    "s_port_values": [
+                        "38888.0",
+                        "57124.0",
+                        "32884.0",
+                        "53812.0",
+                        "51196.0"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 6.5,
+                    "Severity": 4.5,
+                    "source": "64.37.231.140",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 4
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4001807"
+                    ],
+                    "signature": [
+                        "ET WEB_SPECIFIC_APPS PHP-CGI query string parameter vulnerability"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 12.75,
+                    "unique_s_port_count": 6,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "start_timestamp": "2020-06-26 15:47:28",
+                    "NumOfEvents": 6,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "{'80.0'}"
+                    ],
+                    "final_score": 6.5,
+                    "Severity": 4.5,
+                    "source": "64.37.231.167",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 5
+                }
+            }
+        ]
+    }
+}

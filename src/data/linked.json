@@ -1,0 +1,497 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 0.6666666666666666,
+                    "consequences": [
+                        "Other",
+                        "Execute Unauthorized Commands",
+                        "Read Data",
+                        "Gain Privileges",
+                        "Modify Data"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "64.37.231.165",
+                    "value": "64.37.231.165",
+                    "name": "64.37.231.165",
+                    "subgraphs": [
+                        "G0",
+                        "G1",
+                        "G2",
+                        "G3"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.6631, -90.5771)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "172.16.0.116",
+                    "value": "172.16.0.116",
+                    "name": "172.16.0.116",
+                    "subgraphs": [
+                        "G0",
+                        "G1",
+                        "G2",
+                        "G3"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "G1",
+                    "score": 0.3333333333333333,
+                    "consequences": []
+                }
+            },
+            {
+                "data": {
+                    "id": "G2",
+                    "score": 2.4166666666666665,
+                    "consequences": [
+                        "Execute Unauthorized Commands",
+                        "Modify Data"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "G3",
+                    "score": 1.0,
+                    "consequences": [
+                        "Other",
+                        "Execute Unauthorized Commands",
+                        "Bypass Protection Mechanism",
+                        "Read Data",
+                        "Gain Privileges",
+                        "Modify Data"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.186.16.50",
+                    "value": "192.186.16.50",
+                    "name": "192.186.16.50",
+                    "subgraphs": [
+                        "G3"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(34.1706, -118.8376)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "final_score": 0,
+                    "gini_t_port": 0.0,
+                    "s_port_values": [
+                        "40628.0"
+                    ],
+                    "signature": [
+                        "24975"
+                    ],
+                    "NumOfEvents": 1,
+                    "signature_id": [
+                        "fortigate-24975"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "logtype": "fortinet",
+                    "t_port_values": [
+                        "80.0"
+                    ],
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "start_timestamp": "2019-09-26 06:21:18",
+                    "gini_s_port": 0.0,
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "final_score": 0,
+                    "gini_t_port": 0.0,
+                    "s_port_values": [
+                        "41896.0"
+                    ],
+                    "signature": [
+                        "24975"
+                    ],
+                    "NumOfEvents": 1,
+                    "signature_id": [
+                        "fortigate-24975"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "logtype": "fortinet",
+                    "t_port_values": [
+                        "80.0"
+                    ],
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "start_timestamp": "2019-09-26 06:21:23",
+                    "gini_s_port": 0.0,
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 1,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "final_score": 2,
+                    "gini_t_port": 0.0,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "signature": [
+                        "SLR Alert - WordPress Plugin 'Quick Post Widget' 1.9.1 Cross-site scripting"
+                    ],
+                    "NumOfEvents": 11,
+                    "signature_id": [
+                        "1:4101213"
+                    ],
+                    "dispersion": 0.8695652173913043,
+                    "unique_t_port_count": 1,
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "80.0"
+                    ],
+                    "unique_s_port_count": 7,
+                    "span": 464.5,
+                    "start_timestamp": "2019-09-26 06:06:59",
+                    "gini_s_port": 0.2857142857142857,
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 2,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "final_score": 0,
+                    "gini_t_port": 0.0,
+                    "s_port_values": [
+                        "40628.0"
+                    ],
+                    "signature": [
+                        "24975"
+                    ],
+                    "NumOfEvents": 1,
+                    "signature_id": [
+                        "fortigate-24975"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "logtype": "fortinet",
+                    "t_port_values": [
+                        "80.0"
+                    ],
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "start_timestamp": "2019-09-26 06:21:18",
+                    "gini_s_port": 0.0,
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "final_score": 0,
+                    "gini_t_port": 0.0,
+                    "s_port_values": [
+                        "41896.0"
+                    ],
+                    "signature": [
+                        "24975"
+                    ],
+                    "NumOfEvents": 1,
+                    "signature_id": [
+                        "fortigate-24975"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "logtype": "fortinet",
+                    "t_port_values": [
+                        "80.0"
+                    ],
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "start_timestamp": "2019-09-26 06:21:23",
+                    "gini_s_port": 0.0,
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 1,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "final_score": 1,
+                    "gini_t_port": 0.0,
+                    "s_port_values": [
+                        "LargeNumberOfUniquePorts"
+                    ],
+                    "signature": [
+                        "WEB-ATTACKS XSS.FILTER.SCRIPT",
+                        "WEB-ATTACKS XSS.FILTER.JAVASCRIPT"
+                    ],
+                    "NumOfEvents": 16,
+                    "signature_id": [
+                        "1:20037731",
+                        "1:20037730"
+                    ],
+                    "dispersion": 0.9016393442622951,
+                    "unique_t_port_count": 1,
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "80.0"
+                    ],
+                    "unique_s_port_count": 8,
+                    "span": 455.75,
+                    "start_timestamp": "2019-09-26 06:07:02",
+                    "gini_s_port": 0.359375,
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 2,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "final_score": 0.0,
+                    "gini_t_port": 0.0,
+                    "s_port_values": [
+                        "40628.0"
+                    ],
+                    "signature": [
+                        "24975"
+                    ],
+                    "NumOfEvents": 1,
+                    "signature_id": [
+                        "fortigate-24975"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "logtype": "fortinet",
+                    "t_port_values": [
+                        "80.0"
+                    ],
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "start_timestamp": "2019-09-26 06:21:18",
+                    "gini_s_port": 0.0,
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "final_score": 0.0,
+                    "gini_t_port": 0.0,
+                    "s_port_values": [
+                        "41896.0"
+                    ],
+                    "signature": [
+                        "24975"
+                    ],
+                    "NumOfEvents": 1,
+                    "signature_id": [
+                        "fortigate-24975"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "logtype": "fortinet",
+                    "t_port_values": [
+                        "80.0"
+                    ],
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "start_timestamp": "2019-09-26 06:21:23",
+                    "gini_s_port": 0.0,
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 1,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "final_score": 7.25,
+                    "gini_t_port": 0.0,
+                    "s_port_values": [
+                        "42086.0"
+                    ],
+                    "signature": [
+                        "SLR Alert- PHP-CGI query string parameter vulnerability",
+                        "ET WEB_SPECIFIC_APPS PHP-CGI query string parameter vulnerability"
+                    ],
+                    "NumOfEvents": 2,
+                    "signature_id": [
+                        "1:4000010",
+                        "1:4001807"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "80.0"
+                    ],
+                    "unique_s_port_count": 1,
+                    "span": 0.75,
+                    "start_timestamp": "2019-09-26 06:22:00",
+                    "gini_s_port": 0.0,
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 2,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "final_score": 0,
+                    "gini_t_port": 0.0,
+                    "s_port_values": [
+                        "40628.0"
+                    ],
+                    "signature": [
+                        "24975"
+                    ],
+                    "NumOfEvents": 1,
+                    "signature_id": [
+                        "fortigate-24975"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "logtype": "fortinet",
+                    "t_port_values": [
+                        "80.0"
+                    ],
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "start_timestamp": "2019-09-26 06:21:18",
+                    "gini_s_port": 0.0,
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "final_score": 0,
+                    "gini_t_port": 0.0,
+                    "s_port_values": [
+                        "41896.0"
+                    ],
+                    "signature": [
+                        "24975"
+                    ],
+                    "NumOfEvents": 1,
+                    "signature_id": [
+                        "fortigate-24975"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "logtype": "fortinet",
+                    "t_port_values": [
+                        "80.0"
+                    ],
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "start_timestamp": "2019-09-26 06:21:23",
+                    "gini_s_port": 0.0,
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 1,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "final_score": 2,
+                    "gini_t_port": 0.0,
+                    "s_port_values": [
+                        "55544.0"
+                    ],
+                    "signature": [
+                        "WEB-MISC phpinfo.php access"
+                    ],
+                    "NumOfEvents": 1,
+                    "signature_id": [
+                        "1:6001808"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "80.0"
+                    ],
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "start_timestamp": "2019-09-26 06:13:56",
+                    "gini_s_port": 0.0,
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 2,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "final_score": 2,
+                    "gini_t_port": 0.0,
+                    "s_port_values": [
+                        "6896.0"
+                    ],
+                    "signature": [
+                        "WEB-MISC phpinfo.php access"
+                    ],
+                    "NumOfEvents": 2,
+                    "signature_id": [
+                        "1:6001808"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "logtype": "snort",
+                    "t_port_values": [
+                        "80.0"
+                    ],
+                    "unique_s_port_count": 1,
+                    "span": 1.5,
+                    "start_timestamp": "2019-09-30 23:19:44",
+                    "gini_s_port": 0.0,
+                    "source": "192.186.16.50",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 3
+                }
+            }
+        ]
+    }
+}

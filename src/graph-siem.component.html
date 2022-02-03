@@ -1,0 +1,235 @@
+<div class="container">
+
+  <mat-tab-group [selectedIndex]="selectedTag.value" (selectedIndexChange)="selectedTag.setValue($event)">
+
+    <!-- 1. Main landing page -->
+    <mat-tab label="Subgraph Page">
+      <div fxLayout="row" fxLayoutGap="10px" class="parent">
+        <!-- # show subgraph on the left -->
+        <div fxFlex="75%" class="left">
+          <app-cytoscape #cygraph (parentFun)="parentFun($event)"></app-cytoscape>
+        </div>
+        <!-- # show the function page and tables on the right -->
+        <div fxFlex="25%" class="right">
+          <!-- # data set selection -->
+          <select (change)="selectDataSetHandler($event)">
+
+            <option value="{{info.key}}" *ngFor="let info of graphDict | keyvalue"> {{info.key}}</option>
+
+            <!-- <option value="snort">Snort Subgraphs: test_data </option> -->
+            <!-- <option value="subgraphs_snort_sep_2019">Snort Subgraphs: sep_2019</option> -->
+            <!-- <option value="subgraphs_snort_june_2020">Snort Subgraphs: june_2020</option> -->
+            <!-- <option value="windows">Windows Subgraphs: test_data</option> -->
+            <!-- <option value="subgraphs_windows_sep_2019">Windows Subgraphs: sep_2019</option> -->
+            <!-- <option value="subgraphs_windows_june_2020">Windows Subgraphs: june_2020</option> -->
+            <!-- <option value="fortinet">Fortinet Subgraphs: test_data</option> -->
+            <!-- <option value="subgraphs_fortinet_sep_2019">Fortinet Subgraphs: sep_2019</option> -->
+            <!-- <option value="subgraphs_fortinet_june_2020">Fortinet Subgraphs: june_2020</option> -->
+            <!-- <option value="linked">Linked Subgraphs: test_data</option> -->
+            <!-- <option value="linked_subgraphs_all_logs_sep_2019">Linked Subgraphs: all_logs_sep_2019</option> -->
+            <!-- <option value="linked_subgraphs_snort_forti_sep_2019">Linked Subgraphs: snort_forti_sep_2019</option> -->
+            <!-- <option value="linked_subgraphs_win_snort_sep_2019">Linked Subgraphs: win_snort_sep_2019</option> -->
+            <!-- <option value="linked_subgraphs_snort_forti_june_2020">Linked Subgraphs: snort_forti_june_2020</option> -->
+            <!-- <option value="linked_subgraphs_win_forti_june_2020">Linked Subgraphs: win_forti_june_2020</option> -->
+          </select>
+          <button (click)="onReload()"> reload data </button>
+          <p> </p>
+          <!-- # graph table filter  -->
+          <table style="border-spacing: 1px;">
+            <tr>
+              <td>Graph Filter:</td>
+              <td>
+                <select (change)="selectFilterHandler($event)">
+                  <option value="none"> </option>
+                  <option value="nodeIP">Node ID</option>
+                  <option value="score">Score</option>
+                  <option value="consequences">Consequences</option>
+                </select>
+              </td>
+              <td> <input [value]="filterStrExpl" type="text" style="width: 160px;" #subgraphIPfilter> </td>
+              <td>
+                <div *ngIf="graphFilterKey!=='none'">
+                  <button (click)="onSubGraphFilter(subgraphIPfilter.value)"> Query </button>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <!-- # Subgraph table -->
+          <jqxGrid #graphGrid (onRowselect)="selectGraphRow($event)" [source]="subgrapSrc" [width]="'100%'"
+            [height]="'300px'" [theme]="'metrodark'" [pageable]="true" [altrows]="true" [filterable]="true"
+            [sortable]="true" [columns]="subgraphColumns" [rowdetails]="true" [initrowdetails]="initconqdetails"
+            [rowdetailstemplate]="sugbraphdetailstemplate">
+          </jqxGrid>
+          <!-- # Node table, edges table and config tab -->
+          <mat-tab-group>
+            <mat-tab label="Graph Nodes" style="width: 50px;">
+              <jqxGrid #nodedGrid (onRowselect)="selectNodeRow($event)" [source]="nodesSrc" [width]="'100%'"
+                [height]="'560px'" [theme]="'metrodark'" [pageable]="true" [altrows]="true" [filterable]="true"
+                [sortable]="true" [columns]="nodesLColums" #grid>
+              </jqxGrid>
+            </mat-tab>
+            <mat-tab label="Graph Edges" style="min-width: 50px;">
+              <jqxGrid #edgeGrid (onRowselect)="selectEdgeRow($event)" [source]="edgesSrc" [width]="'100%'"
+                [height]="'560px'" [theme]="'metrodark'" [pageable]="true" [altrows]="true" [filterable]="true"
+                [sortable]="true" [columns]="edgesWColumns" [rowdetails]="true" [initrowdetails]="initedgedetails"
+                [rowdetailstemplate]="edgedetailstemplate">
+              </jqxGrid>
+            </mat-tab>
+            <mat-tab label="Graph Config" style="min-width: 50px;">
+              <h4>Graph Filter Config </h4>
+              <table>
+                <tr>
+                  <td> Search Range: </td>
+                  <td> {{subgraphTitle}} </td>
+                </tr>
+                <tr>
+                  <td> Filter Target: </td>
+                  <td>
+                    <select (change)="filterSelHandler($event)">
+                      <option value="null"> </option>
+                      <option value="nodes">Node ID</option>
+                      <option value="edges">Edge Signature</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td> Filter Value: </td>
+                  <td> <input type="text" #filterValue> </td>
+                  <td>
+                    <div *ngIf="selectedfilter!=='null'">
+                      <button (click)="rebuildFiltergraph(filterValue.value)"> Query</button>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+              <h4>Graph Display Config</h4>
+              <table>
+                <tr>
+                  <td> Edges Label:</td>
+                  <td>
+                    <select (change)="setGraphEdgeLable($event)">
+                      <option value="none">No label</option>
+                      <option value="signature"> Signature</option>
+                      <option value="logtype"> Log type</option>
+                      <option value="port_values"> Port values</option>
+                      <option value="start_timestamp"> Start timestamp</option>
+                      <option value="span"> Span value</option>
+                      <option value="eventNum"> Num of events</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td> Edges Color:</td>
+                  <td>
+                    <select (change)="setGraphEdgeColor($event)">
+                      <option value="gray">Default[gray]</option>
+                      <option value="color">Customized[color]</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button (click)="reLayoutgraph($event)">Reset Graph Layout</button>
+                  </td>
+                </tr>
+              </table>
+              <div *ngIf="edgesColor=='color'">
+                <table>
+                  <tr>
+                    <td>Windows type edges color: </td>
+                    <td>
+                      <div style=" width:12px;height:12px;background:#f4f1de; border:solid 1px white;"> </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Snort type edges color: </td>
+                    <td>
+                      <div style=" width:12px;height:12px;background:#2a9d8f; border:solid 1px white;"> </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Fortinet type edges color: </td>
+                    <td>
+                      <div style=" width:12px;height:12px;background:#e9c46a; border:solid 1px white;"> </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </mat-tab>
+          </mat-tab-group>
+        </div>
+      </div>
+    </mat-tab>
+    <!-- 2. Node Detail page -->
+    <mat-tab label="Node Detail Information ">
+      <table style="width:100%">
+        <tbody>
+          <tr>
+            <div fxLayout="row" fxLayoutGap="10px" class="parent">
+              <div fxFlex="75%" class="left">
+                <app-nodedetail #nodegraph></app-nodedetail>
+              </div>
+              <div fxFlex="25%" class="right">
+                <hr>
+                <h4> Subgraphs Table</h4>
+                <hr>
+                <jqxGrid #subGrid (onRowselect)="selectNodeSubGRow($event)" [source]="nodePrtSrc" [width]="'100%'"
+                  [theme]="'metrodark'" [height]="'80%'" [pageable]="true" [altrows]="true" [filterable]="true"
+                  [sortable]="true" [columns]="subgraphColumns" [rowdetails]="true" [initrowdetails]="initconqdetails"
+                  [rowdetailstemplate]="sugbraphdetailstemplate">
+                </jqxGrid>
+                <p> <b> Edges Label : </b>
+                  <select (change)="selectEdgeLabel($event)">
+                    <option value="none">No label</option>
+                    <option value="sig"> Signature</option>
+                    <option value="score"> Final score</option>
+                  </select>
+                  <button (click)="reLayoutNodegraph($event)">Reset Graph Layout</button>
+                </p>
+              </div>
+            </div>
+          </tr>
+          <hr>
+          <tr>
+            <div fxLayout="row" fxLayoutGap="10px" class="parent">
+              <div fxFlex="25%" class="left">
+                Nodes Connected to Node [{{selectednodeID}}]:<br><br>
+                <jqxGrid [source]="nodeRelSrc" [width]="'100%'" [theme]="'metrodark'" [height]="'300px'"
+                  [pageable]="true" [altrows]="true" [filterable]="true" [sortable]="true" [columns]="nodesWColumns"
+                  #grid>
+                </jqxGrid>
+              </div>
+
+              <div fxFlex="75%" class="right">
+                Edges From/To Node [{{selectednodeID}}]: <br><br>
+                <jqxGrid [source]="edgeRelSrc" [width]="'100%'" [theme]="'metrodark'" [height]="'300px'"
+                  [pageable]="true" [altrows]="true" [filterable]="true" [sortable]="true" [columns]="edgesWColumns"
+                  #grid>
+                </jqxGrid>
+              </div>
+            </div>
+          </tr>
+        </tbody>
+      </table>
+    </mat-tab>
+     <!-- 2. Help and User Manual page -->
+    <mat-tab label="User Guide and Help">
+      <h3> Graph Based SIEM Analysis User Guide </h3>
+      <hr>
+      <div fxLayout="row" fxLayoutGap="10px" class="parent">
+        <div fxFlex="30%" class="left">
+          <p-card header="Introduction" [style]="{'width': '95%', 'height':'100%'}">
+            <markdown [src]="userManual.Introduction"></markdown>
+          </p-card>
+        </div>
+        <div fxFlex="65%" class="right">
+          <p-accordion>
+            <p-accordionTab [header]="info.title" *ngFor="let info of userManual.questions">
+              <p-scrollPanel [style]="{width: '100%', height: '600px'}">
+                <markdown [src]="info.path"></markdown>
+              </p-scrollPanel>
+            </p-accordionTab>
+          </p-accordion>
+        </div>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>

@@ -1,0 +1,169 @@
+@import 'tippy.js/dist/tippy.css';
+@import 'tippy.js/themes/light.css';
+@import '../../../styles/cygraph.scss';
+
+
+::ng-deep .scroll-container {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  // scroll-behavior: smooth;
+}
+
+
+// align
+::ng-deep .vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+::ng-deep .scrollpanel {
+  height: calc(100vh - 90px);
+  width: 100%;
+  text-indent: center;
+  margin: auto;
+}
+
+::ng-deep .selected-panel {
+  background-color: yellow;
+}
+
+::ng-deep .child-panel  {
+  width: 100%;
+  height: 100%;
+  // background-color: green;
+  position: relative;
+  text-align: "center";
+  margin: auto;
+}
+
+ table {
+     border-spacing: 12px;
+ }
+// table thead {
+//     /* head takes the height it requires, 
+//     and it's not scaled when table is resized */
+//     //flex: 0 0 auto;
+//     width: 50%;
+// }
+// table tbody {
+//     /* body takes all the remaining available space */
+//     display: block;
+//     //overflow-y: scroll;
+// }
+// table tbody tr {
+//     width: 100%;
+// }
+
+// table thead, table tbody tr {
+//     display: table;
+//     table-layout: fixed;
+// }
+
+::ng-deep .cy {
+    width: 1250px;
+    height: 980px;
+    //border:solid 1px black; 
+    vertical-align: center;
+    //display: block;
+    float: left;
+    margin: 10px;
+  }
+
+
+::ng-deep .rightsidebar{
+    width: 300px;
+    height:500px;
+    border:solid 1px red;
+    display: block;
+    float: left;
+    margin: 0px;
+    background-color:grey; 
+  }
+
+::ng-deep .p {
+  font-family: Lato;
+}
+
+::ng-deep .vertical-menu {
+  //width: 180px;
+  //height: 300px;
+  overflow-y: auto;
+}
+
+::ng-deep  .vertical-menu a {
+  background-color:#3E3E42;
+  color: white;
+  display: block;
+  padding: 5px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+::ng-deep  .vertical-menu a:hover {
+  background-color: black;
+}
+
+::ng-deep  .vertical-menu a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+::ng-deep .mat-tab-label {
+  min-width: 25px !important;
+  padding: 5px;
+  background-color: transparent;
+  //color: red;
+  font-weight: 700;
+}
+
+::ng-deep .child-panel  {
+  // width: 100%;
+  // height: 100%;
+  // background-color: green;
+  text-align: left;
+  align: left;
+  // position: relative;
+  // margin: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin: 0 auto;
+  z-index: 5000;
+  display: flex;
+}
+
+::ng-deep .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+::ng-deep .scam-box {
+  height: 500px;
+  // background-color: red;
+}
+
+::ng-deep .list-box {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+:host ::ng-deep {
+  .p-accordion-tab:not(.p-accordion-tab-active) {
+    .p-toggleable-content {
+      height: 0;
+      overflow: hidden;
+    }
+  }
+
+  .p-accordion-tab.p-accordion-tab-active {
+    .p-toggleable-content {
+      height: auto !important;
+      overflow: auto !important;
+    }
+  }
+}

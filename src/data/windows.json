@@ -1,0 +1,3340 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 8.830985915492958,
+                    "consequences": [
+                        "Gain Privileges",
+                        "Read Data",
+                        "Modify Data",
+                        "Execute Unauthorized Commands",
+                        "Unreliable Execution",
+                        "Alter Execution Logic",
+                        "Other",
+                        "Bypass Protection Mechanism"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.106",
+                    "value": "10.1.1.106",
+                    "name": "10.1.1.106",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "SLAKEPOS1",
+                    "value": "SLAKEPOS1",
+                    "name": "SLAKEPOS1",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "SLAKEPOS2NEW",
+                    "value": "SLAKEPOS2NEW",
+                    "name": "SLAKEPOS2NEW",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "SLAKEPOS3",
+                    "value": "SLAKEPOS3",
+                    "name": "SLAKEPOS3",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT186",
+                    "value": "AGENT186",
+                    "name": "AGENT186",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT192",
+                    "value": "AGENT192",
+                    "name": "AGENT192",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT183",
+                    "value": "AGENT183",
+                    "name": "AGENT183",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT169",
+                    "value": "AGENT169",
+                    "name": "AGENT169",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT188",
+                    "value": "AGENT188",
+                    "name": "AGENT188",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT193",
+                    "value": "AGENT193",
+                    "name": "AGENT193",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT194",
+                    "value": "AGENT194",
+                    "name": "AGENT194",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT106",
+                    "value": "AGENT106",
+                    "name": "AGENT106",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT184",
+                    "value": "AGENT184",
+                    "name": "AGENT184",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT187",
+                    "value": "AGENT187",
+                    "name": "AGENT187",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT176",
+                    "value": "AGENT176",
+                    "name": "AGENT176",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT162",
+                    "value": "AGENT162",
+                    "name": "AGENT162",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT155",
+                    "value": "AGENT155",
+                    "name": "AGENT155",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT147",
+                    "value": "AGENT147",
+                    "name": "AGENT147",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT152",
+                    "value": "AGENT152",
+                    "name": "AGENT152",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT159",
+                    "value": "AGENT159",
+                    "name": "AGENT159",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT164",
+                    "value": "AGENT164",
+                    "name": "AGENT164",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT157",
+                    "value": "AGENT157",
+                    "name": "AGENT157",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT151",
+                    "value": "AGENT151",
+                    "name": "AGENT151",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT137",
+                    "value": "AGENT137",
+                    "name": "AGENT137",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT140",
+                    "value": "AGENT140",
+                    "name": "AGENT140",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT131",
+                    "value": "AGENT131",
+                    "name": "AGENT131",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT190",
+                    "value": "AGENT190",
+                    "name": "AGENT190",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT105",
+                    "value": "AGENT105",
+                    "name": "AGENT105",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT136",
+                    "value": "AGENT136",
+                    "name": "AGENT136",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT108",
+                    "value": "AGENT108",
+                    "name": "AGENT108",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT107",
+                    "value": "AGENT107",
+                    "name": "AGENT107",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT103",
+                    "value": "AGENT103",
+                    "name": "AGENT103",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT185",
+                    "value": "AGENT185",
+                    "name": "AGENT185",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT168",
+                    "value": "AGENT168",
+                    "name": "AGENT168",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT119",
+                    "value": "AGENT119",
+                    "name": "AGENT119",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT181",
+                    "value": "AGENT181",
+                    "name": "AGENT181",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT150",
+                    "value": "AGENT150",
+                    "name": "AGENT150",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT179",
+                    "value": "AGENT179",
+                    "name": "AGENT179",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT161",
+                    "value": "AGENT161",
+                    "name": "AGENT161",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT180",
+                    "value": "AGENT180",
+                    "name": "AGENT180",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT134",
+                    "value": "AGENT134",
+                    "name": "AGENT134",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT160",
+                    "value": "AGENT160",
+                    "name": "AGENT160",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT123",
+                    "value": "AGENT123",
+                    "name": "AGENT123",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT158",
+                    "value": "AGENT158",
+                    "name": "AGENT158",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT148",
+                    "value": "AGENT148",
+                    "name": "AGENT148",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT146",
+                    "value": "AGENT146",
+                    "name": "AGENT146",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT145",
+                    "value": "AGENT145",
+                    "name": "AGENT145",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT143",
+                    "value": "AGENT143",
+                    "name": "AGENT143",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT128",
+                    "value": "AGENT128",
+                    "name": "AGENT128",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT153",
+                    "value": "AGENT153",
+                    "name": "AGENT153",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT125",
+                    "value": "AGENT125",
+                    "name": "AGENT125",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT138",
+                    "value": "AGENT138",
+                    "name": "AGENT138",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT127",
+                    "value": "AGENT127",
+                    "name": "AGENT127",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT120",
+                    "value": "AGENT120",
+                    "name": "AGENT120",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT102",
+                    "value": "AGENT102",
+                    "name": "AGENT102",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT141",
+                    "value": "AGENT141",
+                    "name": "AGENT141",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT130",
+                    "value": "AGENT130",
+                    "name": "AGENT130",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT121",
+                    "value": "AGENT121",
+                    "name": "AGENT121",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT109",
+                    "value": "AGENT109",
+                    "name": "AGENT109",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT113",
+                    "value": "AGENT113",
+                    "name": "AGENT113",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT110",
+                    "value": "AGENT110",
+                    "name": "AGENT110",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT114",
+                    "value": "AGENT114",
+                    "name": "AGENT114",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT115",
+                    "value": "AGENT115",
+                    "name": "AGENT115",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT117",
+                    "value": "AGENT117",
+                    "name": "AGENT117",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT177",
+                    "value": "AGENT177",
+                    "name": "AGENT177",
+                    "subgraphs": [
+                        "G0",
+                        "G1"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT144",
+                    "value": "AGENT144",
+                    "name": "AGENT144",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT118",
+                    "value": "AGENT118",
+                    "name": "AGENT118",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT175",
+                    "value": "AGENT175",
+                    "name": "AGENT175",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT171",
+                    "value": "AGENT171",
+                    "name": "AGENT171",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT104",
+                    "value": "AGENT104",
+                    "name": "AGENT104",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT112",
+                    "value": "AGENT112",
+                    "name": "AGENT112",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT178",
+                    "value": "AGENT178",
+                    "name": "AGENT178",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "G1",
+                    "score": 6.0,
+                    "consequences": [
+                        "Gain Privileges",
+                        "Other",
+                        "Execute Unauthorized Commands",
+                        "Resource Consumption",
+                        "Read Data",
+                        "Modify Data"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.168",
+                    "value": "10.1.1.168",
+                    "name": "10.1.1.168",
+                    "subgraphs": [
+                        "G1"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "AGENT182",
+                    "value": "AGENT182",
+                    "name": "AGENT182",
+                    "subgraphs": [
+                        "G1"
+                    ],
+                    "type": "other",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 0.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-09 05:52:48",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "59396.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 8,
+                    "source": "10.1.1.106",
+                    "target": "SLAKEPOS1",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 21.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-09 05:47:52",
+                    "NumOfEvents": 96,
+                    "s_port_values": [
+                        "36680.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 8,
+                    "source": "10.1.1.106",
+                    "target": "SLAKEPOS2NEW",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 0.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-09 05:47:54",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "35309.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 8,
+                    "source": "10.1.1.106",
+                    "target": "SLAKEPOS3",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 279.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 06:10:15",
+                    "NumOfEvents": 50,
+                    "s_port_values": [
+                        "51451.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT186",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 88.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 06:09:51",
+                    "NumOfEvents": 55,
+                    "s_port_values": [
+                        "33566.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT192",
+                    "key": 0,
+                    "idx": 4
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 2434.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 06:03:16",
+                    "NumOfEvents": 81,
+                    "s_port_values": [
+                        "37759.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT183",
+                    "key": 0,
+                    "idx": 5
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 826.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:58:37",
+                    "NumOfEvents": 54,
+                    "s_port_values": [
+                        "60088.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT169",
+                    "key": 0,
+                    "idx": 6
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 2462.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:57:26",
+                    "NumOfEvents": 74,
+                    "s_port_values": [
+                        "38140.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT188",
+                    "key": 0,
+                    "idx": 7
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 2353.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:59:58",
+                    "NumOfEvents": 79,
+                    "s_port_values": [
+                        "36747.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT193",
+                    "key": 0,
+                    "idx": 8
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 13115.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:59:42",
+                    "NumOfEvents": 69,
+                    "s_port_values": [
+                        "34262.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT194",
+                    "key": 0,
+                    "idx": 9
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 92.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:57:02",
+                    "NumOfEvents": 63,
+                    "s_port_values": [
+                        "33352.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT106",
+                    "key": 0,
+                    "idx": 10
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 21.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:56:21",
+                    "NumOfEvents": 63,
+                    "s_port_values": [
+                        "45022.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 8,
+                    "source": "10.1.1.106",
+                    "target": "AGENT184",
+                    "key": 0,
+                    "idx": 11
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 670.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:58:32",
+                    "NumOfEvents": 81,
+                    "s_port_values": [
+                        "52363.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT187",
+                    "key": 0,
+                    "idx": 12
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 1685.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 06:07:39",
+                    "NumOfEvents": 55,
+                    "s_port_values": [
+                        "34909.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT176",
+                    "key": 0,
+                    "idx": 13
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 13615.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:54:35",
+                    "NumOfEvents": 51,
+                    "s_port_values": [
+                        "60201.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT162",
+                    "key": 0,
+                    "idx": 14
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 13342.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:48:48",
+                    "NumOfEvents": 83,
+                    "s_port_values": [
+                        "34795.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT155",
+                    "key": 0,
+                    "idx": 15
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 4.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:43:39",
+                    "NumOfEvents": 75,
+                    "s_port_values": [
+                        "59096.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 8,
+                    "source": "10.1.1.106",
+                    "target": "AGENT147",
+                    "key": 0,
+                    "idx": 16
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 2472.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:47:01",
+                    "NumOfEvents": 90,
+                    "s_port_values": [
+                        "45220.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT152",
+                    "key": 0,
+                    "idx": 17
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 610.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:49:16",
+                    "NumOfEvents": 82,
+                    "s_port_values": [
+                        "42638.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT159",
+                    "key": 0,
+                    "idx": 18
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 95.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:52:55",
+                    "NumOfEvents": 78,
+                    "s_port_values": [
+                        "47811.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT164",
+                    "key": 0,
+                    "idx": 19
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 15901.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:48:00",
+                    "NumOfEvents": 55,
+                    "s_port_values": [
+                        "54112.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT157",
+                    "key": 0,
+                    "idx": 20
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 19.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:43:57",
+                    "NumOfEvents": 73,
+                    "s_port_values": [
+                        "47333.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 8,
+                    "source": "10.1.1.106",
+                    "target": "AGENT151",
+                    "key": 0,
+                    "idx": 21
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 13721.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:29:49",
+                    "NumOfEvents": 57,
+                    "s_port_values": [
+                        "37284.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT137",
+                    "key": 0,
+                    "idx": 22
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 16776.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:43:05",
+                    "NumOfEvents": 81,
+                    "s_port_values": [
+                        "52757.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT140",
+                    "key": 0,
+                    "idx": 23
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 562.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:35:30",
+                    "NumOfEvents": 84,
+                    "s_port_values": [
+                        "49408.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT131",
+                    "key": 0,
+                    "idx": 24
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 16393.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:34:02",
+                    "NumOfEvents": 85,
+                    "s_port_values": [
+                        "46210.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT190",
+                    "key": 0,
+                    "idx": 25
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 2878.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:28:44",
+                    "NumOfEvents": 77,
+                    "s_port_values": [
+                        "42924.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT105",
+                    "key": 0,
+                    "idx": 26
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 17467.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:27:53",
+                    "NumOfEvents": 56,
+                    "s_port_values": [
+                        "48652.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT136",
+                    "key": 0,
+                    "idx": 27
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 16713.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:31:13",
+                    "NumOfEvents": 82,
+                    "s_port_values": [
+                        "43489.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT108",
+                    "key": 0,
+                    "idx": 28
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 17169.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:29:52",
+                    "NumOfEvents": 83,
+                    "s_port_values": [
+                        "54048.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT107",
+                    "key": 0,
+                    "idx": 29
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 3254.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:22:47",
+                    "NumOfEvents": 46,
+                    "s_port_values": [
+                        "40747.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT103",
+                    "key": 0,
+                    "idx": 30
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 503.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:18:07",
+                    "NumOfEvents": 45,
+                    "s_port_values": [
+                        "60819.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT185",
+                    "key": 0,
+                    "idx": 31
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 605.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:18:12",
+                    "NumOfEvents": 42,
+                    "s_port_values": [
+                        "59429.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT168",
+                    "key": 0,
+                    "idx": 32
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 14238.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:15:52",
+                    "NumOfEvents": 78,
+                    "s_port_values": [
+                        "34850.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT119",
+                    "key": 0,
+                    "idx": 33
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 14206.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:11:30",
+                    "NumOfEvents": 62,
+                    "s_port_values": [
+                        "51896.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT181",
+                    "key": 0,
+                    "idx": 34
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 371.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 06:53:41",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "44723.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT150",
+                    "key": 0,
+                    "idx": 35
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 12449.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 06:13:53",
+                    "NumOfEvents": 48,
+                    "s_port_values": [
+                        "48899.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT179",
+                    "key": 0,
+                    "idx": 36
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 3366.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 09:37:23",
+                    "NumOfEvents": 48,
+                    "s_port_values": [
+                        "54247.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT161",
+                    "key": 0,
+                    "idx": 37
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 142.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 09:37:11",
+                    "NumOfEvents": 42,
+                    "s_port_values": [
+                        "33071.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT180",
+                    "key": 0,
+                    "idx": 38
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 16501.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:36:31",
+                    "NumOfEvents": 89,
+                    "s_port_values": [
+                        "45919.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT134",
+                    "key": 0,
+                    "idx": 39
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 13687.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:49:16",
+                    "NumOfEvents": 87,
+                    "s_port_values": [
+                        "60660.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT160",
+                    "key": 0,
+                    "idx": 40
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 2659.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:49:54",
+                    "NumOfEvents": 81,
+                    "s_port_values": [
+                        "46134.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT123",
+                    "key": 0,
+                    "idx": 41
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 2262.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:49:37",
+                    "NumOfEvents": 52,
+                    "s_port_values": [
+                        "35530.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT158",
+                    "key": 0,
+                    "idx": 42
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 26.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:44:22",
+                    "NumOfEvents": 78,
+                    "s_port_values": [
+                        "40208.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 8,
+                    "source": "10.1.1.106",
+                    "target": "AGENT148",
+                    "key": 0,
+                    "idx": 43
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 16825.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:43:05",
+                    "NumOfEvents": 84,
+                    "s_port_values": [
+                        "48606.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT146",
+                    "key": 0,
+                    "idx": 44
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 2279.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:42:14",
+                    "NumOfEvents": 96,
+                    "s_port_values": [
+                        "33929.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT145",
+                    "key": 0,
+                    "idx": 45
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 2413.5,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 09:29:47",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "38460.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT143",
+                    "key": 0,
+                    "idx": 46
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 93.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:36:31",
+                    "NumOfEvents": 67,
+                    "s_port_values": [
+                        "44406.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT128",
+                    "key": 0,
+                    "idx": 47
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 13733.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:39:44",
+                    "NumOfEvents": 53,
+                    "s_port_values": [
+                        "41947.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT153",
+                    "key": 0,
+                    "idx": 48
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 16445.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:42:58",
+                    "NumOfEvents": 44,
+                    "s_port_values": [
+                        "38486.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT125",
+                    "key": 0,
+                    "idx": 49
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 15738.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:42:40",
+                    "NumOfEvents": 84,
+                    "s_port_values": [
+                        "46918.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT138",
+                    "key": 0,
+                    "idx": 50
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 215.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 09:23:42",
+                    "NumOfEvents": 86,
+                    "s_port_values": [
+                        "59949.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT127",
+                    "key": 0,
+                    "idx": 51
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 13876.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:32:21",
+                    "NumOfEvents": 90,
+                    "s_port_values": [
+                        "60277.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT120",
+                    "key": 0,
+                    "idx": 52
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 16397.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:43:37",
+                    "NumOfEvents": 66,
+                    "s_port_values": [
+                        "35038.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT102",
+                    "key": 0,
+                    "idx": 53
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 17216.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:29:59",
+                    "NumOfEvents": 96,
+                    "s_port_values": [
+                        "36107.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT141",
+                    "key": 0,
+                    "idx": 54
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 427.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:32:19",
+                    "NumOfEvents": 58,
+                    "s_port_values": [
+                        "41115.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT130",
+                    "key": 0,
+                    "idx": 55
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 15884.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:39:19",
+                    "NumOfEvents": 68,
+                    "s_port_values": [
+                        "58337.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT121",
+                    "key": 0,
+                    "idx": 56
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 13889.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:30:14",
+                    "NumOfEvents": 78,
+                    "s_port_values": [
+                        "34489.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT109",
+                    "key": 0,
+                    "idx": 57
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 4.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:26:41",
+                    "NumOfEvents": 76,
+                    "s_port_values": [
+                        "52012.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 8,
+                    "source": "10.1.1.106",
+                    "target": "AGENT113",
+                    "key": 0,
+                    "idx": 58
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 1029.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 10:01:10",
+                    "NumOfEvents": 59,
+                    "s_port_values": [
+                        "33215.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT110",
+                    "key": 0,
+                    "idx": 59
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 479.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:26:19",
+                    "NumOfEvents": 59,
+                    "s_port_values": [
+                        "50203.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT114",
+                    "key": 0,
+                    "idx": 60
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 16670.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:36:57",
+                    "NumOfEvents": 86,
+                    "s_port_values": [
+                        "37775.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT115",
+                    "key": 0,
+                    "idx": 61
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 54.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:26:27",
+                    "NumOfEvents": 75,
+                    "s_port_values": [
+                        "53334.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 8,
+                    "source": "10.1.1.106",
+                    "target": "AGENT117",
+                    "key": 0,
+                    "idx": 62
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 14288.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:25:38",
+                    "NumOfEvents": 44,
+                    "s_port_values": [
+                        "45340.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT177",
+                    "key": 0,
+                    "idx": 63
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 28.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:24:13",
+                    "NumOfEvents": 60,
+                    "s_port_values": [
+                        "54130.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 8,
+                    "source": "10.1.1.106",
+                    "target": "AGENT144",
+                    "key": 0,
+                    "idx": 64
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 9.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:25:28",
+                    "NumOfEvents": 70,
+                    "s_port_values": [
+                        "42661.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 8,
+                    "source": "10.1.1.106",
+                    "target": "AGENT118",
+                    "key": 0,
+                    "idx": 65
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 249.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:23:03",
+                    "NumOfEvents": 49,
+                    "s_port_values": [
+                        "56984.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT175",
+                    "key": 0,
+                    "idx": 66
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 0.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 06:14:38",
+                    "NumOfEvents": 31,
+                    "s_port_values": [
+                        "35236.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 8,
+                    "source": "10.1.1.106",
+                    "target": "AGENT171",
+                    "key": 0,
+                    "idx": 67
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 541.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:21:57",
+                    "NumOfEvents": 52,
+                    "s_port_values": [
+                        "55990.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT104",
+                    "key": 0,
+                    "idx": 68
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 16163.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 05:28:25",
+                    "NumOfEvents": 46,
+                    "s_port_values": [
+                        "50040.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT112",
+                    "key": 0,
+                    "idx": 69
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-4653-ux-failure"
+                    ],
+                    "signature": [
+                        "An IPsec Main Mode negotiation failed"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 2402.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-04 09:13:39",
+                    "NumOfEvents": 57,
+                    "s_port_values": [
+                        "46599.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 9,
+                    "source": "10.1.1.106",
+                    "target": "AGENT178",
+                    "key": 0,
+                    "idx": 70
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-5140-ux-success"
+                    ],
+                    "signature": [
+                        "A network share object was accessed"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 195387.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-08 19:16:14",
+                    "NumOfEvents": 2,
+                    "s_port_values": [
+                        "63912.0",
+                        "51946.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 6,
+                    "source": "10.1.1.168",
+                    "target": "AGENT177",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "win_sec-5140-ux-success"
+                    ],
+                    "signature": [
+                        "A network share object was accessed"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 0,
+                    "gini_t_port": 0,
+                    "start_timestamp": "2019-09-19 19:39:31",
+                    "NumOfEvents": 1,
+                    "s_port_values": [
+                        "5896.0"
+                    ],
+                    "logtype": "windows",
+                    "t_port_values": [
+                        "0"
+                    ],
+                    "final_score": 6,
+                    "source": "10.1.1.168",
+                    "target": "AGENT182",
+                    "key": 0,
+                    "idx": 1
+                }
+            }
+        ]
+    }
+}

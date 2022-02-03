@@ -1,0 +1,5052 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 1.0,
+                    "consequences": []
+                }
+            },
+            {
+                "data": {
+                    "id": "10.2.5.124",
+                    "value": "10.2.5.124",
+                    "name": "10.2.5.124",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.6.16",
+                    "value": "10.1.6.16",
+                    "name": "10.1.6.16",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.2.5.136",
+                    "value": "10.2.5.136",
+                    "name": "10.2.5.136",
+                    "subgraphs": [
+                        "G0"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "G1",
+                    "score": 2.6666666666666665,
+                    "consequences": [
+                        "Resource Consumption",
+                        "Unreliable Execution",
+                        "Modify Data",
+                        "Gain Privileges",
+                        "Read Data",
+                        "Other"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.50",
+                    "value": "10.1.1.50",
+                    "name": "10.1.1.50",
+                    "subgraphs": [
+                        "G1"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "66.240.205.51",
+                    "value": "66.240.205.51",
+                    "name": "66.240.205.51",
+                    "subgraphs": [
+                        "G1"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(32.8073, -117.1324)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "108.163.130.184",
+                    "value": "108.163.130.184",
+                    "name": "108.163.130.184",
+                    "subgraphs": [
+                        "G1"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "CA",
+                        "(45.5, -73.5833)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "23.235.252.66",
+                    "value": "23.235.252.66",
+                    "name": "23.235.252.66",
+                    "subgraphs": [
+                        "G1"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(33.4148, -111.9093)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "G2",
+                    "score": 1.28,
+                    "consequences": [
+                        "Execute Unauthorized Commands",
+                        "Gain Privileges",
+                        "Modify Data",
+                        "Read Data"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.2.236",
+                    "value": "10.1.2.236",
+                    "name": "10.1.2.236",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.24",
+                    "value": "10.1.1.24",
+                    "name": "10.1.1.24",
+                    "subgraphs": [
+                        "G2",
+                        "G4",
+                        "G5",
+                        "G8",
+                        "G9"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.28",
+                    "value": "10.1.1.28",
+                    "name": "10.1.1.28",
+                    "subgraphs": [
+                        "G2",
+                        "G4",
+                        "G5",
+                        "G8",
+                        "G9"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.8.68",
+                    "value": "10.1.8.68",
+                    "name": "10.1.8.68",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.89",
+                    "value": "10.1.3.89",
+                    "name": "10.1.3.89",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.4.28",
+                    "value": "10.1.4.28",
+                    "name": "10.1.4.28",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.8.51",
+                    "value": "10.1.8.51",
+                    "name": "10.1.8.51",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.8.132",
+                    "value": "10.1.8.132",
+                    "name": "10.1.8.132",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.8.71",
+                    "value": "10.1.8.71",
+                    "name": "10.1.8.71",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.8.91",
+                    "value": "10.1.8.91",
+                    "name": "10.1.8.91",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.6.149",
+                    "value": "10.1.6.149",
+                    "name": "10.1.6.149",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.10.11",
+                    "value": "10.1.10.11",
+                    "name": "10.1.10.11",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.8.80",
+                    "value": "10.1.8.80",
+                    "name": "10.1.8.80",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.4.24",
+                    "value": "10.1.4.24",
+                    "name": "10.1.4.24",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.22.127",
+                    "value": "10.1.22.127",
+                    "name": "10.1.22.127",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.8.84",
+                    "value": "10.1.8.84",
+                    "name": "10.1.8.84",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.8.53",
+                    "value": "10.1.8.53",
+                    "name": "10.1.8.53",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.6.150",
+                    "value": "10.1.6.150",
+                    "name": "10.1.6.150",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.8.14",
+                    "value": "10.1.8.14",
+                    "name": "10.1.8.14",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.8.79",
+                    "value": "10.1.8.79",
+                    "name": "10.1.8.79",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.8.75",
+                    "value": "10.1.8.75",
+                    "name": "10.1.8.75",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.6.88",
+                    "value": "10.1.6.88",
+                    "name": "10.1.6.88",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.11.87",
+                    "value": "10.1.11.87",
+                    "name": "10.1.11.87",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.11.38",
+                    "value": "10.1.11.38",
+                    "name": "10.1.11.38",
+                    "subgraphs": [
+                        "G2"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "G3",
+                    "score": 6.0,
+                    "consequences": [
+                        "Execute Unauthorized Commands",
+                        "Read Data",
+                        "Hide Activities",
+                        "Bypass Protection Mechanism",
+                        "Other"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.168.113.111",
+                    "value": "192.168.113.111",
+                    "name": "192.168.113.111",
+                    "subgraphs": [
+                        "G3"
+                    ],
+                    "type": "localIP",
+                    "geo": [
+                        "local",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "172.16.0.119",
+                    "value": "172.16.0.119",
+                    "name": "172.16.0.119",
+                    "subgraphs": [
+                        "G3",
+                        "G12",
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "107.77.205.141",
+                    "value": "107.77.205.141",
+                    "name": "107.77.205.141",
+                    "subgraphs": [
+                        "G3"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.0, -97.0)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "73.3.79.145",
+                    "value": "73.3.79.145",
+                    "name": "73.3.79.145",
+                    "subgraphs": [
+                        "G3"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.0, -97.0)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "97.117.4.178",
+                    "value": "97.117.4.178",
+                    "name": "97.117.4.178",
+                    "subgraphs": [
+                        "G3"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(40.7561, -111.9007)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "107.77.227.139",
+                    "value": "107.77.227.139",
+                    "name": "107.77.227.139",
+                    "subgraphs": [
+                        "G3"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.0, -97.0)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "G4",
+                    "score": 1.1666666666666667,
+                    "consequences": [
+                        "Execute Unauthorized Commands",
+                        "Resource Consumption",
+                        "Read Data"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.8.137",
+                    "value": "10.1.8.137",
+                    "name": "10.1.8.137",
+                    "subgraphs": [
+                        "G4"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.22.107",
+                    "value": "10.1.22.107",
+                    "name": "10.1.22.107",
+                    "subgraphs": [
+                        "G4"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.22.25",
+                    "value": "10.1.22.25",
+                    "name": "10.1.22.25",
+                    "subgraphs": [
+                        "G4"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.22.40",
+                    "value": "10.1.22.40",
+                    "name": "10.1.22.40",
+                    "subgraphs": [
+                        "G4"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "G5",
+                    "score": 0.9512195121951219,
+                    "consequences": [
+                        "Read Data",
+                        "Gain Privileges",
+                        "Modify Data",
+                        "Execute Unauthorized Commands",
+                        "Bypass Protection Mechanism"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.48",
+                    "value": "10.1.3.48",
+                    "name": "10.1.3.48",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.37",
+                    "value": "10.1.3.37",
+                    "name": "10.1.3.37",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.164",
+                    "value": "10.1.3.164",
+                    "name": "10.1.3.164",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.117",
+                    "value": "10.1.3.117",
+                    "name": "10.1.3.117",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.120",
+                    "value": "10.1.3.120",
+                    "name": "10.1.3.120",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.123",
+                    "value": "10.1.3.123",
+                    "name": "10.1.3.123",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.25",
+                    "value": "10.1.3.25",
+                    "name": "10.1.3.25",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.31",
+                    "value": "10.1.3.31",
+                    "name": "10.1.3.31",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.30",
+                    "value": "10.1.3.30",
+                    "name": "10.1.3.30",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.158",
+                    "value": "10.1.3.158",
+                    "name": "10.1.3.158",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.96",
+                    "value": "10.1.3.96",
+                    "name": "10.1.3.96",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.81",
+                    "value": "10.1.3.81",
+                    "name": "10.1.3.81",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.167",
+                    "value": "10.1.3.167",
+                    "name": "10.1.3.167",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.166",
+                    "value": "10.1.3.166",
+                    "name": "10.1.3.166",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.174",
+                    "value": "10.1.3.174",
+                    "name": "10.1.3.174",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.60",
+                    "value": "10.1.3.60",
+                    "name": "10.1.3.60",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.168",
+                    "value": "10.1.1.168",
+                    "name": "10.1.1.168",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.2.59",
+                    "value": "10.1.2.59",
+                    "name": "10.1.2.59",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.156",
+                    "value": "10.1.3.156",
+                    "name": "10.1.3.156",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.131",
+                    "value": "10.1.3.131",
+                    "name": "10.1.3.131",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.113",
+                    "value": "10.1.3.113",
+                    "name": "10.1.3.113",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.198",
+                    "value": "10.1.3.198",
+                    "name": "10.1.3.198",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.178",
+                    "value": "10.1.3.178",
+                    "name": "10.1.3.178",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.73",
+                    "value": "10.1.3.73",
+                    "name": "10.1.3.73",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.105",
+                    "value": "10.1.3.105",
+                    "name": "10.1.3.105",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.147",
+                    "value": "10.1.3.147",
+                    "name": "10.1.3.147",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.112",
+                    "value": "10.1.3.112",
+                    "name": "10.1.3.112",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.52",
+                    "value": "10.1.3.52",
+                    "name": "10.1.3.52",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.101",
+                    "value": "10.1.3.101",
+                    "name": "10.1.3.101",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.169",
+                    "value": "10.1.3.169",
+                    "name": "10.1.3.169",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.172",
+                    "value": "10.1.3.172",
+                    "name": "10.1.3.172",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.35",
+                    "value": "10.1.3.35",
+                    "name": "10.1.3.35",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.67",
+                    "value": "10.1.3.67",
+                    "name": "10.1.3.67",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.133",
+                    "value": "10.1.3.133",
+                    "name": "10.1.3.133",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.3.53",
+                    "value": "10.1.3.53",
+                    "name": "10.1.3.53",
+                    "subgraphs": [
+                        "G5"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "G6",
+                    "score": 2.0,
+                    "consequences": []
+                }
+            },
+            {
+                "data": {
+                    "id": "10.2.5.64",
+                    "value": "10.2.5.64",
+                    "name": "10.2.5.64",
+                    "subgraphs": [
+                        "G6"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.6.52",
+                    "value": "10.1.6.52",
+                    "name": "10.1.6.52",
+                    "subgraphs": [
+                        "G6"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "G7",
+                    "score": 8.5,
+                    "consequences": [
+                        "Other",
+                        "Resource Consumption",
+                        "Unreliable Execution",
+                        "Modify Data",
+                        "Execute Unauthorized Commands",
+                        "Gain Privileges",
+                        "Read Data"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.8.45",
+                    "value": "10.1.8.45",
+                    "name": "10.1.8.45",
+                    "subgraphs": [
+                        "G7"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.49",
+                    "value": "10.1.1.49",
+                    "name": "10.1.1.49",
+                    "subgraphs": [
+                        "G7"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "G8",
+                    "score": 2.75,
+                    "consequences": [
+                        "Execute Unauthorized Commands",
+                        "Read Data",
+                        "Resource Consumption",
+                        "Gain Privileges",
+                        "Modify Data"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "198.60.22.2",
+                    "value": "198.60.22.2",
+                    "name": "198.60.22.2",
+                    "subgraphs": [
+                        "G8",
+                        "G9"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(40.0878, -105.3735)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "198.60.22.22",
+                    "value": "198.60.22.22",
+                    "name": "198.60.22.22",
+                    "subgraphs": [
+                        "G8",
+                        "G9"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(40.0878, -105.3735)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "G9",
+                    "score": 2.0,
+                    "consequences": [
+                        "Read Data",
+                        "Other",
+                        "Bypass Protection Mechanism",
+                        "Hide Activities",
+                        "Unreliable Execution",
+                        "Modify Data",
+                        "Execute Unauthorized Commands",
+                        "Gain Privileges"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "G10",
+                    "score": 1.0,
+                    "consequences": [
+                        "Read Data",
+                        "Gain Privileges",
+                        "Modify Data",
+                        "Execute Unauthorized Commands",
+                        "Unreliable Execution",
+                        "Other",
+                        "Bypass Protection Mechanism"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.161",
+                    "value": "10.1.1.161",
+                    "name": "10.1.1.161",
+                    "subgraphs": [
+                        "G10",
+                        "G11"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.232",
+                    "value": "10.1.1.232",
+                    "name": "10.1.1.232",
+                    "subgraphs": [
+                        "G10",
+                        "G11"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.231",
+                    "value": "10.1.1.231",
+                    "name": "10.1.1.231",
+                    "subgraphs": [
+                        "G10",
+                        "G11"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.234",
+                    "value": "10.1.1.234",
+                    "name": "10.1.1.234",
+                    "subgraphs": [
+                        "G10",
+                        "G11"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.235",
+                    "value": "10.1.1.235",
+                    "name": "10.1.1.235",
+                    "subgraphs": [
+                        "G10"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "G11",
+                    "score": 0.25,
+                    "consequences": [
+                        "Read Data",
+                        "Other",
+                        "Unreliable Execution",
+                        "Execute Unauthorized Commands",
+                        "Gain Privileges",
+                        "Modify Data",
+                        "Alter Execution Logic"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "10.1.1.233",
+                    "value": "10.1.1.233",
+                    "name": "10.1.1.233",
+                    "subgraphs": [
+                        "G11"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "G12",
+                    "score": 8.011538461538462,
+                    "consequences": [
+                        "Read Data",
+                        "Execute Unauthorized Commands",
+                        "Gain Privileges",
+                        "Bypass Protection Mechanism",
+                        "Other",
+                        "Modify Data"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "175.176.160.166",
+                    "value": "175.176.160.166",
+                    "name": "175.176.160.166",
+                    "subgraphs": [
+                        "G12"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "ID",
+                        "(-6.1744, 106.8294)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "130.211.254.102",
+                    "value": "130.211.254.102",
+                    "name": "130.211.254.102",
+                    "subgraphs": [
+                        "G12"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.0, -97.0)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.186.16.50",
+                    "value": "192.186.16.50",
+                    "name": "192.186.16.50",
+                    "subgraphs": [
+                        "G12"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(34.1706, -118.8376)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "172.16.0.116",
+                    "value": "172.16.0.116",
+                    "name": "172.16.0.116",
+                    "subgraphs": [
+                        "G12",
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "219.122.61.165",
+                    "value": "219.122.61.165",
+                    "name": "219.122.61.165",
+                    "subgraphs": [
+                        "G12"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "JP",
+                        "(35.69, 139.69)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "103.60.221.180",
+                    "value": "103.60.221.180",
+                    "name": "103.60.221.180",
+                    "subgraphs": [
+                        "G12"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "172.16.0.110",
+                    "value": "172.16.0.110",
+                    "name": "172.16.0.110",
+                    "subgraphs": [
+                        "G12",
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "140.143.129.40",
+                    "value": "140.143.129.40",
+                    "name": "140.143.129.40",
+                    "subgraphs": [
+                        "G12"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "CN",
+                        "(32.2803, 119.17)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "103.60.109.143",
+                    "value": "103.60.109.143",
+                    "name": "103.60.109.143",
+                    "subgraphs": [
+                        "G12"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "140.143.122.201",
+                    "value": "140.143.122.201",
+                    "name": "140.143.122.201",
+                    "subgraphs": [
+                        "G12"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "CN",
+                        "(32.2803, 119.17)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "139.199.175.232",
+                    "value": "139.199.175.232",
+                    "name": "139.199.175.232",
+                    "subgraphs": [
+                        "G12"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "CN",
+                        "(39.9289, 116.3883)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "94.255.177.203",
+                    "value": "94.255.177.203",
+                    "name": "94.255.177.203",
+                    "subgraphs": [
+                        "G12"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "SE",
+                        "(59.3294, 18.0686)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "122.112.230.32",
+                    "value": "122.112.230.32",
+                    "name": "122.112.230.32",
+                    "subgraphs": [
+                        "G12"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "CN",
+                        "(39.9289, 116.3883)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "45.93.18.46",
+                    "value": "45.93.18.46",
+                    "name": "45.93.18.46",
+                    "subgraphs": [
+                        "G12"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "118.25.175.45",
+                    "value": "118.25.175.45",
+                    "name": "118.25.175.45",
+                    "subgraphs": [
+                        "G12"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "CN",
+                        "(22.8167, 108.3167)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "G13",
+                    "score": 7.25,
+                    "consequences": [
+                        "Read Data",
+                        "Bypass Protection Mechanism",
+                        "Modify Data",
+                        "Execute Unauthorized Commands",
+                        "Gain Privileges"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "93.57.245.6",
+                    "value": "93.57.245.6",
+                    "name": "93.57.245.6",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "IT",
+                        "(42.8333, 12.8333)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "171.241.60.163",
+                    "value": "171.241.60.163",
+                    "name": "171.241.60.163",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "VN",
+                        "(21.0333, 105.85)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "190.229.76.213",
+                    "value": "190.229.76.213",
+                    "name": "190.229.76.213",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "AR",
+                        "(-34.6033, -58.3817)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "14.186.32.147",
+                    "value": "14.186.32.147",
+                    "name": "14.186.32.147",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "VN",
+                        "(21.0333, 105.85)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "190.195.246.15",
+                    "value": "190.195.246.15",
+                    "name": "190.195.246.15",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "AR",
+                        "(-34.6033, -58.3816)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "179.145.33.61",
+                    "value": "179.145.33.61",
+                    "name": "179.145.33.61",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "BR",
+                        "(-23.5477, -46.6358)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "179.42.212.253",
+                    "value": "179.42.212.253",
+                    "name": "179.42.212.253",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "BZ",
+                        "(17.4833, -88.1833)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "191.188.44.237",
+                    "value": "191.188.44.237",
+                    "name": "191.188.44.237",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "BR",
+                        "(-23.5477, -46.6358)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "187.188.209.134",
+                    "value": "187.188.209.134",
+                    "name": "187.188.209.134",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "MX",
+                        "(19.4342, -99.1386)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "179.60.103.177",
+                    "value": "179.60.103.177",
+                    "name": "179.60.103.177",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "AR",
+                        "(-31.425, -64.175)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "95.226.248.5",
+                    "value": "95.226.248.5",
+                    "name": "95.226.248.5",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "IT",
+                        "(42.8333, 12.8333)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "14.248.31.65",
+                    "value": "14.248.31.65",
+                    "name": "14.248.31.65",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "VN",
+                        "(21.0333, 105.85)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "201.143.128.171",
+                    "value": "201.143.128.171",
+                    "name": "201.143.128.171",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "MX",
+                        "(32.051, -115.9092)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "14.226.235.234",
+                    "value": "14.226.235.234",
+                    "name": "14.226.235.234",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "VN",
+                        "(21.0333, 105.85)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "60.39.54.226",
+                    "value": "60.39.54.226",
+                    "name": "60.39.54.226",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "JP",
+                        "(35.69, 139.69)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "222.252.16.132",
+                    "value": "222.252.16.132",
+                    "name": "222.252.16.132",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "VN",
+                        "(21.0333, 105.85)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "201.140.236.154",
+                    "value": "201.140.236.154",
+                    "name": "201.140.236.154",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "CO",
+                        "(4.5981, -74.0758)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "122.165.233.90",
+                    "value": "122.165.233.90",
+                    "name": "122.165.233.90",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "IN",
+                        "(13.0833, 80.2833)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "177.34.47.3",
+                    "value": "177.34.47.3",
+                    "name": "177.34.47.3",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "BR",
+                        "(-23.5477, -46.6358)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "85.105.162.154",
+                    "value": "85.105.162.154",
+                    "name": "85.105.162.154",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "TR",
+                        "(41.0186, 28.9647)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "189.120.234.93",
+                    "value": "189.120.234.93",
+                    "name": "189.120.234.93",
+                    "subgraphs": [
+                        "G13"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "BR",
+                        "(-23.5477, -46.6358)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "signature_id": [
+                        "1:20010879"
+                    ],
+                    "signature": [
+                        "MISC NULL-BYTE.USER-AUTHENTICATION.BYPASS"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.2.5.124",
+                    "target": "10.1.6.16",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:20010879"
+                    ],
+                    "signature": [
+                        "MISC NULL-BYTE.USER-AUTHENTICATION.BYPASS"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 378.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.2.5.136",
+                    "target": "10.1.6.16",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102501"
+                    ],
+                    "signature": [
+                        "SLR Alert - Possible RuRat Checkin XML Elements"
+                    ],
+                    "dispersion": 0.6363636363636364,
+                    "span": 2454786.25,
+                    "unique_s_port_count": 511,
+                    "gini_s_port": 0.0019493028375733856,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 3,
+                    "source": "10.1.1.50",
+                    "target": "66.240.205.51",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102500"
+                    ],
+                    "signature": [
+                        "SLR Alert - RuRat Checkin - Base64 Encoded XML"
+                    ],
+                    "dispersion": 0.6307692307692307,
+                    "span": 2368396.5,
+                    "unique_s_port_count": 510,
+                    "gini_s_port": 0.0019531100111277388,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 3,
+                    "source": "10.1.1.50",
+                    "target": "66.240.205.51",
+                    "key": 1,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102501"
+                    ],
+                    "signature": [
+                        "SLR Alert - Possible RuRat Checkin XML Elements"
+                    ],
+                    "dispersion": 0.9994288644893582,
+                    "span": 1576885.249999,
+                    "unique_s_port_count": 36,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 3,
+                    "source": "10.1.1.50",
+                    "target": "108.163.130.184",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102500"
+                    ],
+                    "signature": [
+                        "SLR Alert - RuRat Checkin - Base64 Encoded XML"
+                    ],
+                    "dispersion": 0.9994645621631688,
+                    "span": 1576881.0,
+                    "unique_s_port_count": 36,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 3,
+                    "source": "10.1.1.50",
+                    "target": "108.163.130.184",
+                    "key": 1,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102500"
+                    ],
+                    "signature": [
+                        "SLR Alert - RuRat Checkin - Base64 Encoded XML"
+                    ],
+                    "dispersion": 0.7407407407407407,
+                    "span": 1300530.0,
+                    "unique_s_port_count": 867,
+                    "gini_s_port": 0.01991672042695443,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 2,
+                    "source": "10.1.1.50",
+                    "target": "23.235.252.66",
+                    "key": 0,
+                    "idx": 4
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4102501"
+                    ],
+                    "signature": [
+                        "SLR Alert - Possible RuRat Checkin XML Elements"
+                    ],
+                    "dispersion": 0.7090909090909091,
+                    "span": 1300529.0,
+                    "unique_s_port_count": 867,
+                    "gini_s_port": 0.01991672042695443,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 2,
+                    "source": "10.1.1.50",
+                    "target": "23.235.252.66",
+                    "key": 1,
+                    "idx": 5
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.42857142857142855,
+                    "span": 1468260.75,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.16666666666666666,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 2,
+                    "source": "10.1.2.236",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.3333333333333333,
+                    "span": 5.499999,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 0,
+                    "source": "10.1.2.236",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.3333333333333333,
+                    "span": 1982167.75,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.16666666666666666,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 2,
+                    "source": "10.1.8.68",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.8,
+                    "span": 1490019.5,
+                    "unique_s_port_count": 11,
+                    "gini_s_port": 0.15584415584415584,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 2,
+                    "source": "10.1.3.89",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.47368421052631576,
+                    "span": 13.749999,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 0,
+                    "source": "10.1.4.28",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 4
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.9999956949668781,
+                    "span": 2317395.249999,
+                    "unique_s_port_count": 3,
+                    "gini_s_port": 0.16666666666666666,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 3,
+                    "source": "10.1.4.28",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 5
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.6,
+                    "span": 3.249999,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 0,
+                    "source": "10.1.8.51",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 6
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.9999941082375676,
+                    "span": 2183920.25,
+                    "unique_s_port_count": 3,
+                    "gini_s_port": 0.16666666666666666,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 3,
+                    "source": "10.1.8.132",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 7
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 2.249999,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 0,
+                    "source": "10.1.8.71",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 8
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.5,
+                    "span": 2.249999,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 0,
+                    "source": "10.1.8.91",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 9
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.9999887734424555,
+                    "span": 2216162.749999,
+                    "unique_s_port_count": 5,
+                    "gini_s_port": 0.17142857142857143,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 3,
+                    "source": "10.1.6.149",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 10
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.9629629629629629,
+                    "span": 694473.75,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.16666666666666666,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 2,
+                    "source": "10.1.10.11",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 11
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.3333333333333333,
+                    "span": 2.75,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 0,
+                    "source": "10.1.8.80",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 12
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.5,
+                    "span": 3.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 0,
+                    "source": "10.1.4.24",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 13
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.6,
+                    "span": 536159.75,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.16666666666666666,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.22.127",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 14
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 2.249999,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 0,
+                    "source": "10.1.8.84",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 15
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.9945205479452055,
+                    "span": 1131062.75,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.16666666666666666,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 2,
+                    "source": "10.1.8.53",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 16
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.6666666666666666,
+                    "span": 2156372.499999,
+                    "unique_s_port_count": 14,
+                    "gini_s_port": 0.13865546218487396,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 2,
+                    "source": "10.1.6.150",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 17
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.9999789186089655,
+                    "span": 2156375.0,
+                    "unique_s_port_count": 3,
+                    "gini_s_port": 0.16666666666666666,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 3,
+                    "source": "10.1.6.150",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 18
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.9999891084741517,
+                    "span": 1997060.0,
+                    "unique_s_port_count": 4,
+                    "gini_s_port": 0.15,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 3,
+                    "source": "10.1.8.14",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 19
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.5,
+                    "span": 1373614.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.16666666666666666,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 2,
+                    "source": "10.1.8.79",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 20
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.2727272727272727,
+                    "span": 7.249999,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 0,
+                    "source": "10.1.8.75",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 21
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.84,
+                    "span": 965818.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.16666666666666666,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 2,
+                    "source": "10.1.6.88",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 22
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.3333333333333333,
+                    "span": 2.75,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 0,
+                    "source": "10.1.11.87",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 23
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:4007665"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)"
+                    ],
+                    "dispersion": 0.3333333333333333,
+                    "span": 2.5,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 0,
+                    "source": "10.1.11.38",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 24
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101124",
+                        "1:4101123"
+                    ],
+                    "signature": [
+                        "SLR Alert - OpenSSL TLS Heartbeat information disclosure (CVE-2014-0160)"
+                    ],
+                    "dispersion": 0.3333333333333333,
+                    "span": 1.25,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 6.0,
+                    "source": "192.168.113.111",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101124",
+                        "1:4101123"
+                    ],
+                    "signature": [
+                        "SLR Alert - OpenSSL TLS Heartbeat information disclosure (CVE-2014-0160)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.749999,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 6.0,
+                    "source": "107.77.205.141",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101124",
+                        "1:4101123"
+                    ],
+                    "signature": [
+                        "SLR Alert - OpenSSL TLS Heartbeat information disclosure (CVE-2014-0160)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.75,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 6.0,
+                    "source": "73.3.79.145",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101124",
+                        "1:4101123"
+                    ],
+                    "signature": [
+                        "SLR Alert - OpenSSL TLS Heartbeat information disclosure (CVE-2014-0160)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 113.249999,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 6.0,
+                    "source": "97.117.4.178",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101124",
+                        "1:4101123"
+                    ],
+                    "signature": [
+                        "SLR Alert - OpenSSL TLS Heartbeat information disclosure (CVE-2014-0160)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 2.249999,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 6.0,
+                    "source": "107.77.227.139",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 4
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2023883"
+                    ],
+                    "signature": [
+                        "ET DNS Query to a *.top domain - Likely Hostile"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 119.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.8.137",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2023883"
+                    ],
+                    "signature": [
+                        "ET DNS Query to a *.top domain - Likely Hostile"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 477.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.22.107",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2023883"
+                    ],
+                    "signature": [
+                        "ET DNS Query to a *.top domain - Likely Hostile"
+                    ],
+                    "dispersion": 0.13571910871033085,
+                    "span": 171445.75,
+                    "unique_s_port_count": 21,
+                    "gini_s_port": 0.04329004329004329,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 2,
+                    "source": "10.1.22.25",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2023883"
+                    ],
+                    "signature": [
+                        "ET DNS Query to a *.top domain - Likely Hostile"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 12603.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.22.25",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2023883"
+                    ],
+                    "signature": [
+                        "ET DNS Query to a *.top domain - Likely Hostile"
+                    ],
+                    "dispersion": 0.38488261332436824,
+                    "span": 26496.25,
+                    "unique_s_port_count": 8,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.22.40",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 4
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2023883"
+                    ],
+                    "signature": [
+                        "ET DNS Query to a *.top domain - Likely Hostile"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 5494.5,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.22.40",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 5
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999489268249084,
+                    "span": 78317.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.48",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999534228391108,
+                    "span": 633996.0,
+                    "unique_s_port_count": 4,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.37",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.4999931466949937,
+                    "span": 145914.5,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.16666666666666666,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.164",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.92,
+                    "span": 72.25,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 0,
+                    "source": "10.1.3.117",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999691182885355,
+                    "span": 259049.5,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.120",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 4
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9998783765704625,
+                    "span": 82216.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.120",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 5
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999635495452806,
+                    "span": 416474.0,
+                    "unique_s_port_count": 3,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.123",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 6
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999831526454559,
+                    "span": 520290.0,
+                    "unique_s_port_count": 3,
+                    "gini_s_port": 0.13333333333333333,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.123",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 7
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999874900702432,
+                    "span": 159872.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.25",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 8
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999962935782537,
+                    "span": 539602.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.31",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 9
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.999976651061793,
+                    "span": 342621.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.30",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 10
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9924242424242424,
+                    "span": 526.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 0,
+                    "source": "10.1.3.158",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 11
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.999988689254226,
+                    "span": 562347.249999,
+                    "unique_s_port_count": 3,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.96",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 12
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.5,
+                    "span": 313050.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.16666666666666666,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.81",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 13
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999550541597375,
+                    "span": 242342.5,
+                    "unique_s_port_count": 3,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.167",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 14
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9996584699453552,
+                    "span": 23420.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.167",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 15
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999779212893967,
+                    "span": 600566.75,
+                    "unique_s_port_count": 5,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 2,
+                    "source": "10.1.3.166",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 16
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 168760.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.174",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 17
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999783620036785,
+                    "span": 410287.249999,
+                    "unique_s_port_count": 3,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.174",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 18
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999505489071309,
+                    "span": 121328.499999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.60",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 19
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.912568306010929,
+                    "span": 449.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 0,
+                    "source": "10.1.1.168",
+                    "target": "10.1.2.59",
+                    "key": 0,
+                    "idx": 20
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9757575757575757,
+                    "span": 524422.249999,
+                    "unique_s_port_count": 5,
+                    "gini_s_port": 0.13333333333333333,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.156",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 21
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 355486.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.156",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 22
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999847748388988,
+                    "span": 262721.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.131",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 23
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999334117594832,
+                    "span": 90102.5,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.131",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 24
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999605518792098,
+                    "span": 261666.25,
+                    "unique_s_port_count": 4,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.113",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 25
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999760882820626,
+                    "span": 83640.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.113",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 26
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999780352534182,
+                    "span": 299625.249999,
+                    "unique_s_port_count": 4,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.198",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 27
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999884378527358,
+                    "span": 475092.0,
+                    "unique_s_port_count": 4,
+                    "gini_s_port": 0.10714285714285714,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.178",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 28
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999363827215472,
+                    "span": 400159.249999,
+                    "unique_s_port_count": 3,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.73",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 29
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999763542138761,
+                    "span": 253741.5,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.105",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 30
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9997104247104247,
+                    "span": 20717.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.147",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 31
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999571688617624,
+                    "span": 93386.5,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.112",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 32
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999942323719658,
+                    "span": 346762.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.52",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 33
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999847233202336,
+                    "span": 261835.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.101",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 34
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999888073379093,
+                    "span": 357375.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.169",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 35
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 302.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.172",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 36
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.999969004502096,
+                    "span": 258098.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.35",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 37
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999922396700308,
+                    "span": 257719.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.67",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 38
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999844972056213,
+                    "span": 258016.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.133",
+                    "target": "10.1.1.28",
+                    "key": 0,
+                    "idx": 39
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011655"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9999758802211783,
+                    "span": 165837.25,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.3.53",
+                    "target": "10.1.1.24",
+                    "key": 0,
+                    "idx": 40
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:6002581"
+                    ],
+                    "signature": [
+                        "EXPLOIT Sun Solaris printd Daemon Arbitrary File Deletion"
+                    ],
+                    "dispersion": 1.0,
+                    "span": 463.75,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.2822222222222222,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 2,
+                    "source": "10.2.5.64",
+                    "target": "10.1.6.52",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4000453",
+                        "1:4000463"
+                    ],
+                    "signature": [
+                        "ET NETBIOS Microsoft Windows NETAPI Stack Overflow Inbound - MS08-067 (15)",
+                        "ET NETBIOS Microsoft Windows NETAPI Stack Overflow Inbound - MS08-067 (25)"
+                    ],
+                    "dispersion": 0.2727272727272727,
+                    "span": 5.749999,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 8.5,
+                    "source": "10.1.8.45",
+                    "target": "10.1.1.49",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:2023883",
+                        "1:2016778"
+                    ],
+                    "signature": [
+                        "ET DNS Query to a *.top domain - Likely Hostile",
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)",
+                        "ET DNS Query to a *.pw domain - Likely Hostile"
+                    ],
+                    "dispersion": 0.9997518190535282,
+                    "span": 215516.0,
+                    "unique_s_port_count": 18,
+                    "gini_s_port": 0.1475095785440613,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 2,
+                    "source": "10.1.1.28",
+                    "target": "198.60.22.2",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:2023883",
+                        "1:2024527",
+                        "1:2016778"
+                    ],
+                    "signature": [
+                        "ET DNS Query to a *.top domain - Likely Hostile",
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)",
+                        "ET DNS Query to a *.pw domain - Likely Hostile",
+                        "ET POLICY External IP Lookup Domain (ipapi .co in DNS lookup)"
+                    ],
+                    "dispersion": 0.999344262295082,
+                    "span": 1228884.249999,
+                    "unique_s_port_count": 30,
+                    "gini_s_port": 0.11728395061728394,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 3,
+                    "source": "10.1.1.28",
+                    "target": "198.60.22.22",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:2023883",
+                        "1:2024527",
+                        "1:2016778"
+                    ],
+                    "signature": [
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)",
+                        "ET POLICY External IP Lookup Domain (ipapi .co in DNS lookup)",
+                        "ET DNS Query to a *.pw domain - Likely Hostile",
+                        "ET DNS Query to a *.top domain - Likely Hostile"
+                    ],
+                    "dispersion": 0.9980666988883519,
+                    "span": 1461209.0,
+                    "unique_s_port_count": 119,
+                    "gini_s_port": 0.11780944261762676,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 3,
+                    "source": "10.1.1.24",
+                    "target": "198.60.22.22",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2022642",
+                        "1:2023883",
+                        "1:2024527",
+                        "1:2016778"
+                    ],
+                    "signature": [
+                        "ET DNS Query to a *.top domain - Likely Hostile",
+                        "ET POLICY DNS Query to a *.ngrok domain (ngrok.io)",
+                        "ET DNS Query to a *.pw domain - Likely Hostile",
+                        "ET POLICY External IP Lookup Domain (ipapi .co in DNS lookup)"
+                    ],
+                    "dispersion": 0.9991582491582491,
+                    "span": 1657558.249999,
+                    "unique_s_port_count": 28,
+                    "gini_s_port": 0.13975155279503107,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 3,
+                    "source": "10.1.1.24",
+                    "target": "198.60.22.2",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2026097"
+                    ],
+                    "signature": [
+                        "ET TROJAN Suspected Monero Miner CnC Channel TXT Lookup"
+                    ],
+                    "dispersion": 0.9998970928736814,
+                    "span": 33426.5,
+                    "unique_s_port_count": 4,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 2,
+                    "source": "10.1.1.28",
+                    "target": "198.60.22.2",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2026097"
+                    ],
+                    "signature": [
+                        "ET TROJAN Suspected Monero Miner CnC Channel TXT Lookup"
+                    ],
+                    "dispersion": 0.9991692282130099,
+                    "span": 12032.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 2,
+                    "source": "10.1.1.28",
+                    "target": "198.60.22.22",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2026097"
+                    ],
+                    "signature": [
+                        "ET TROJAN Suspected Monero Miner CnC Channel TXT Lookup"
+                    ],
+                    "dispersion": 0.9995875438234687,
+                    "span": 339625.249999,
+                    "unique_s_port_count": 12,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 2,
+                    "source": "10.1.1.24",
+                    "target": "198.60.22.22",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:2026097"
+                    ],
+                    "signature": [
+                        "ET TROJAN Suspected Monero Miner CnC Channel TXT Lookup"
+                    ],
+                    "dispersion": 0.9981768459434822,
+                    "span": 20538.75,
+                    "unique_s_port_count": 4,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 2,
+                    "source": "10.1.1.24",
+                    "target": "198.60.22.2",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011657",
+                        "1:4011659",
+                        "1:4011650",
+                        "1:4011658",
+                        "1:4011652"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement",
+                        "ET POLICY Nslookup Command in SMB Traffic - Possible Lateral Movement",
+                        "ET POLICY Ipconfig Command in SMB Traffic - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.995201101386567,
+                    "span": 1015281.25,
+                    "unique_s_port_count": 22,
+                    "gini_s_port": 0.3203463203463203,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.232",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011657",
+                        "1:4011659",
+                        "1:4011654",
+                        "1:4011650",
+                        "1:4011653",
+                        "1:4011658",
+                        "1:4011652",
+                        "1:4011681"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement",
+                        "ET POLICY Command Shell Activity Using Comspec Environmental Variable Over SMB - Very Likely Lateral Movement",
+                        "ET POLICY WMIC WMI Request Over SMB - Likely Lateral Movement",
+                        "ET POLICY Ipconfig Command in SMB Traffic - Possible Lateral Movement",
+                        "ET POLICY Nslookup Command in SMB Traffic - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9939498399521616,
+                    "span": 865102.0,
+                    "unique_s_port_count": 25,
+                    "gini_s_port": 0.5254320987654321,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.231",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011657",
+                        "1:4011659",
+                        "1:4011654",
+                        "1:4011650",
+                        "1:4011658",
+                        "1:4011652",
+                        "1:4011681"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement",
+                        "ET POLICY Command Shell Activity Using Comspec Environmental Variable Over SMB - Very Likely Lateral Movement",
+                        "ET POLICY WMIC WMI Request Over SMB - Likely Lateral Movement",
+                        "ET POLICY Ipconfig Command in SMB Traffic - Possible Lateral Movement",
+                        "ET POLICY Nslookup Command in SMB Traffic - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9794548321694075,
+                    "span": 1134570.0,
+                    "unique_s_port_count": 31,
+                    "gini_s_port": 0.26762246117084826,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.234",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011657",
+                        "1:4011659",
+                        "1:4011682",
+                        "1:4011650",
+                        "1:4011658",
+                        "1:4011652",
+                        "1:4011681"
+                    ],
+                    "signature": [
+                        "ET POLICY Command Shell Activity Over SMB - Possible Lateral Movement",
+                        "ET POLICY Nslookup Command in SMB Traffic - Possible Lateral Movement",
+                        "ET POLICY WMIC WMI Request Over SMB - Likely Lateral Movement",
+                        "ET POLICY Ipconfig Command in SMB Traffic - Possible Lateral Movement"
+                    ],
+                    "dispersion": 0.9841579071310826,
+                    "span": 1144383.0,
+                    "unique_s_port_count": 31,
+                    "gini_s_port": 0.2791023842917251,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 1,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.235",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011662"
+                    ],
+                    "signature": [
+                        "ET NETBIOS DCERPC DCOM ExecuteShellCommand Call - Likely Lateral Movement"
+                    ],
+                    "dispersion": 0.3301747639484979,
+                    "span": 666298.0,
+                    "unique_s_port_count": 3,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 2,
+                    "gini_t_port": 0.16666666666666666,
+                    "final_score": 1,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.232",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011662"
+                    ],
+                    "signature": [
+                        "ET NETBIOS DCERPC DCOM ExecuteShellCommand Call - Likely Lateral Movement"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 907209.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 0,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.231",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011662"
+                    ],
+                    "signature": [
+                        "ET NETBIOS DCERPC DCOM ExecuteShellCommand Call - Likely Lateral Movement"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 0,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.234",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4011662"
+                    ],
+                    "signature": [
+                        "ET NETBIOS DCERPC DCOM ExecuteShellCommand Call - Likely Lateral Movement"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 0,
+                    "source": "10.1.1.161",
+                    "target": "10.1.1.233",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4100629"
+                    ],
+                    "signature": [
+                        "SLR Alert - Apache Struts Content-Type RCE (CVE-2017-5638)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 4.75,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 8.5,
+                    "source": "175.176.160.166",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101319"
+                    ],
+                    "signature": [
+                        "SLR Alert - Apache HTTPD mod_proxy Security Bypass"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 6.0,
+                    "source": "130.211.254.102",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101937"
+                    ],
+                    "signature": [
+                        "SLR Alert - Apache Struts2 wildcard OGNL command execution (CVE-2013-2134)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 8.15,
+                    "source": "192.186.16.50",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101937"
+                    ],
+                    "signature": [
+                        "SLR Alert - Apache Struts2 wildcard OGNL command execution (CVE-2013-2134)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.75,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 8.15,
+                    "source": "219.122.61.165",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101937"
+                    ],
+                    "signature": [
+                        "SLR Alert - Apache Struts2 wildcard OGNL command execution (CVE-2013-2134)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.75,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 8.15,
+                    "source": "103.60.221.180",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 4
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101937"
+                    ],
+                    "signature": [
+                        "SLR Alert - Apache Struts2 wildcard OGNL command execution (CVE-2013-2134)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 8.15,
+                    "source": "140.143.129.40",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 5
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101937"
+                    ],
+                    "signature": [
+                        "SLR Alert - Apache Struts2 wildcard OGNL command execution (CVE-2013-2134)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.75,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 8.15,
+                    "source": "103.60.109.143",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 6
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101937"
+                    ],
+                    "signature": [
+                        "SLR Alert - Apache Struts2 wildcard OGNL command execution (CVE-2013-2134)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 8.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 8.15,
+                    "source": "140.143.122.201",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 7
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101937"
+                    ],
+                    "signature": [
+                        "SLR Alert - Apache Struts2 wildcard OGNL command execution (CVE-2013-2134)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 8.15,
+                    "source": "139.199.175.232",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 8
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101937"
+                    ],
+                    "signature": [
+                        "SLR Alert - Apache Struts2 wildcard OGNL command execution (CVE-2013-2134)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 8.15,
+                    "source": "94.255.177.203",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 9
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101937"
+                    ],
+                    "signature": [
+                        "SLR Alert - Apache Struts2 wildcard OGNL command execution (CVE-2013-2134)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 8.15,
+                    "source": "122.112.230.32",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 10
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101937"
+                    ],
+                    "signature": [
+                        "SLR Alert - Apache Struts2 wildcard OGNL command execution (CVE-2013-2134)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 8.15,
+                    "source": "45.93.18.46",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 11
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101937"
+                    ],
+                    "signature": [
+                        "SLR Alert - Apache Struts2 wildcard OGNL command execution (CVE-2013-2134)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.0,
+                    "unique_s_port_count": 1,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 8.15,
+                    "source": "118.25.175.45",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 12
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.8474656560871625,
+                    "span": 1256.75,
+                    "unique_s_port_count": 4,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "93.57.245.6",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.5394614670380687,
+                    "span": 1616.499999,
+                    "unique_s_port_count": 4,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "93.57.245.6",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.21649484536082475,
+                    "span": 45.749999,
+                    "unique_s_port_count": 4,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "171.241.60.163",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.4166666666666667,
+                    "span": 11.5,
+                    "unique_s_port_count": 3,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "190.229.76.213",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 3
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.5,
+                    "span": 0.5,
+                    "unique_s_port_count": 3,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "14.186.32.147",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 4
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 157978.499999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "190.195.246.15",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 5
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 997.499999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "179.145.33.61",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 6
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 10.5,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "179.42.212.253",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 7
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 0.749999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "191.188.44.237",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 8
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 122470.5,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "187.188.209.134",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 9
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 2.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "179.60.103.177",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 10
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 65517.0,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "95.226.248.5",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 11
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 497.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "14.248.31.65",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 12
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 2297.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "201.143.128.171",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 13
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 335.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "14.226.235.234",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 14
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 1261.5,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "60.39.54.226",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 15
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 188.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "222.252.16.132",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 16
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 38.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "201.140.236.154",
+                    "target": "172.16.0.119",
+                    "key": 0,
+                    "idx": 17
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 45.75,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "122.165.233.90",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 18
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 173.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "177.34.47.3",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 19
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 203.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "85.105.162.154",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 20
+                }
+            },
+            {
+                "data": {
+                    "signature_id": [
+                        "1:4101031"
+                    ],
+                    "signature": [
+                        "SLR Alert - Indusoft Web Studio Directory Traversal (CVE-2014-0780)"
+                    ],
+                    "dispersion": 0.0,
+                    "span": 8.249999,
+                    "unique_s_port_count": 2,
+                    "gini_s_port": 0.0,
+                    "unique_t_port_count": 1,
+                    "gini_t_port": 0.0,
+                    "final_score": 7.25,
+                    "source": "189.120.234.93",
+                    "target": "172.16.0.110",
+                    "key": 0,
+                    "idx": 21
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,380 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "G0",
+                    "score": 0.6666666666666666,
+                    "consequences": [
+                        "Modify Data",
+                        "Execute Unauthorized Commands",
+                        "Gain Privileges",
+                        "Read Data",
+                        "Other"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "64.37.231.165",
+                    "value": "64.37.231.165",
+                    "name": "64.37.231.165",
+                    "subgraphs": [
+                        "G0",
+                        "G1",
+                        "G2",
+                        "G3"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(38.6631, -90.5771)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "172.16.0.116",
+                    "value": "172.16.0.116",
+                    "name": "172.16.0.116",
+                    "subgraphs": [
+                        "G0",
+                        "G1",
+                        "G2",
+                        "G3"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "unknown",
+                        "(na,na)"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "G1",
+                    "score": 0.3333333333333333,
+                    "consequences": []
+                }
+            },
+            {
+                "data": {
+                    "id": "G2",
+                    "score": 2.4166666666666665,
+                    "consequences": [
+                        "Modify Data",
+                        "Execute Unauthorized Commands"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "G3",
+                    "score": 1.0,
+                    "consequences": [
+                        "Modify Data",
+                        "Execute Unauthorized Commands",
+                        "Bypass Protection Mechanism",
+                        "Gain Privileges",
+                        "Read Data",
+                        "Other"
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "id": "192.186.16.50",
+                    "value": "192.186.16.50",
+                    "name": "192.186.16.50",
+                    "subgraphs": [
+                        "G3"
+                    ],
+                    "type": "pubIP",
+                    "geo": [
+                        "US",
+                        "(34.1706, -118.8376)"
+                    ]
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature": [
+                        "24975"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "final_score": 0,
+                    "gini_s_port": 0.0,
+                    "gini_t_port": 0.0,
+                    "signature_id": [
+                        "fortigate-24975"
+                    ],
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature": [
+                        "24975"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "final_score": 0,
+                    "gini_s_port": 0.0,
+                    "gini_t_port": 0.0,
+                    "signature_id": [
+                        "fortigate-24975"
+                    ],
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 1,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "unique_s_port_count": 7,
+                    "span": 464.5,
+                    "signature": [
+                        "SLR Alert - WordPress Plugin 'Quick Post Widget' 1.9.1 Cross-site scripting"
+                    ],
+                    "dispersion": 0.8695652173913043,
+                    "unique_t_port_count": 1,
+                    "final_score": 2,
+                    "gini_s_port": 0.2857142857142857,
+                    "gini_t_port": 0.0,
+                    "signature_id": [
+                        "1:4101213"
+                    ],
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 2,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature": [
+                        "24975"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "final_score": 0,
+                    "gini_s_port": 0.0,
+                    "gini_t_port": 0.0,
+                    "signature_id": [
+                        "fortigate-24975"
+                    ],
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature": [
+                        "24975"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "final_score": 0,
+                    "gini_s_port": 0.0,
+                    "gini_t_port": 0.0,
+                    "signature_id": [
+                        "fortigate-24975"
+                    ],
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 1,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "unique_s_port_count": 8,
+                    "span": 455.75,
+                    "signature": [
+                        "WEB-ATTACKS XSS.FILTER.SCRIPT",
+                        "WEB-ATTACKS XSS.FILTER.JAVASCRIPT"
+                    ],
+                    "dispersion": 0.9016393442622951,
+                    "unique_t_port_count": 1,
+                    "final_score": 1,
+                    "gini_s_port": 0.359375,
+                    "gini_t_port": 0.0,
+                    "signature_id": [
+                        "1:20037731",
+                        "1:20037730"
+                    ],
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 2,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature": [
+                        "24975"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "final_score": 0.0,
+                    "gini_s_port": 0.0,
+                    "gini_t_port": 0.0,
+                    "signature_id": [
+                        "fortigate-24975"
+                    ],
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature": [
+                        "24975"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "final_score": 0.0,
+                    "gini_s_port": 0.0,
+                    "gini_t_port": 0.0,
+                    "signature_id": [
+                        "fortigate-24975"
+                    ],
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 1,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "unique_s_port_count": 1,
+                    "span": 0.75,
+                    "signature": [
+                        "SLR Alert- PHP-CGI query string parameter vulnerability",
+                        "ET WEB_SPECIFIC_APPS PHP-CGI query string parameter vulnerability"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "final_score": 7.25,
+                    "gini_s_port": 0.0,
+                    "gini_t_port": 0.0,
+                    "signature_id": [
+                        "1:4001807",
+                        "1:4000010"
+                    ],
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 2,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature": [
+                        "24975"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "final_score": 0,
+                    "gini_s_port": 0.0,
+                    "gini_t_port": 0.0,
+                    "signature_id": [
+                        "fortigate-24975"
+                    ],
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 0
+                }
+            },
+            {
+                "data": {
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature": [
+                        "24975"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "final_score": 0,
+                    "gini_s_port": 0.0,
+                    "gini_t_port": 0.0,
+                    "signature_id": [
+                        "fortigate-24975"
+                    ],
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 1,
+                    "idx": 1
+                }
+            },
+            {
+                "data": {
+                    "unique_s_port_count": 1,
+                    "span": 0.0,
+                    "signature": [
+                        "WEB-MISC phpinfo.php access"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "final_score": 2,
+                    "gini_s_port": 0.0,
+                    "gini_t_port": 0.0,
+                    "signature_id": [
+                        "1:6001808"
+                    ],
+                    "source": "64.37.231.165",
+                    "target": "172.16.0.116",
+                    "key": 2,
+                    "idx": 2
+                }
+            },
+            {
+                "data": {
+                    "unique_s_port_count": 1,
+                    "span": 1.5,
+                    "signature": [
+                        "WEB-MISC phpinfo.php access"
+                    ],
+                    "dispersion": 0.0,
+                    "unique_t_port_count": 1,
+                    "final_score": 2,
+                    "gini_s_port": 0.0,
+                    "gini_t_port": 0.0,
+                    "signature_id": [
+                        "1:6001808"
+                    ],
+                    "source": "192.186.16.50",
+                    "target": "172.16.0.116",
+                    "key": 0,
+                    "idx": 3
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+<p-card header="{{nodeName}}" [style]="{'width': '100%', 'height':'600px'}" styleClass="panel-background">
+    <!-- <p> Node ID: {{nodeName}}</p> -->
+    <p> Risk score: [ -- ] </p>
+    <div #cygraph [className]="'cy'" (click)="evtListener()" style="height:680;"></div>
+</p-card>
+

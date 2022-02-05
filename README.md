@@ -1,45 +1,57 @@
 # SIEM_Comm_Dashboard
 
-**Program Design Purpose**: We want to create a dashboard to visualize the network node communication situation based on the firewall logs to analysis and find the threat event of the nodes. 
+**Program Design Purpose**: We want to create a SIEM(system information and event management) dashboard to visualize the network nodes communication situation based on the firewall & host-computer logs. The use can use the cytoscapte type Node-Edge graph to analysis and find the threat events of the network. 
 
 [TOC]
 
 ### Introduction
 
-This project is create a Web-based platform dashboard to visualize the network node communication scenario as a nodes-edges graph with different function page and panels. 
+This project will create a web-based SIEM(system information and event management) platform dashboard to visualize the network nodes communication scenario as a cystoscape type nodes-edges graph with different function page and panels. The intention of generating these graphs is to identify patterns of similar activity from very voluminous SIEM alerts.
 
-The model as of now takes as input SIEM alerts for 3 log sources – Snort, Fortinet and Windows. It ingests the alerts for a configurable period of time (set at 1 month for now), and generates graphs based on them. These graphs represents collections of similar activities seen across the log types. We consider activities to be similar, if the are similar in terms of the signature which led to generation of alerts, as well as similarity in terms of the intensity of the events, duration of the events as well as whether the events target specific ports or were generated from similar ports or not. 
+The backend takes three kinds of alerts log sources as input – **Snort**, **Fortinet** and **Windows**. This can be helpful, as SIEM alerts can be very voluminous with thousands of alerts generated on a daily basis. In the data we have, we see Snort logs have 4000 to 16000 alerts generated on a daily basis. Due to these large volumes, it is difficult for analysts to identify patterns through manual analysis at the alerts level. By consolidating collections of similar activities within and across log types, we provide an easier tool for inference to the analysts. Further, the graphs are also sorted by a `Severity Score` calculated by the model. This Severity score gives the analyst an indication of the maliciousness of the events seen in each graph. 
 
-The intention of generating these graphs is to identify patterns of similar activity from very voluminous SIEM alerts. This can be helpful, as SIEM alerts can be very voluminous with thousands of alerts generated on a daily basis. In the data we have, we see Snort logs have 4000 to 16000 alerts generated on a daily basis. Due to these large volumes, it is difficult for analysts to identify patterns through manual analysis at the alerts level. By consolidating collections of similar activities within and across log types, we provide an easier tool for inference to the analysts. Further, the graphs are also sorted by a Severity Score calculated by the model. This Severity score gives the analyst an indication of the maliciousness of the events seen in each graph. 
+The platform ingests the alerts for a configurable period of time (set at 1 month for now), and generates graphs based on them. These graphs represents collections of similar activities seen across the log types. We consider activities to be similar if they are similar in terms of the signature. The alert  similarity level is also generated based on the intensity of the events, duration of the events as well as whether the events target specific ports or were generated from similar ports or not. 
 
-#### Dashboard Main UI view
 
-The dashboard contents 3 main tab: 1. SIEM-Graph(case-subgraph display page), 2.Node detail display page, 3.User guide page:
+
+#### Dashboard Main UI View
+
+The dashboard is under `Fusion` => `GRAPH SIEM DISPLAY` page with three main notebook tab: 
+
+1. SIEM-Graph (case-subgraph display page) to show the data set subgraph information.  
+2. Node detail display page to show the user focused node's own information and graph relationship. 
+3. User guide page to show the use how to use the platform.
 
 ![](doc/img/siem.gif)
 
-#### SIEM Event Prioritization Use Case
 
-Use case 1: Network devices and end point hosts generate large quantities of alerts independently. 
 
-Use case 2: A system which takes as input alerts from multiple devices and generates as output a graph highlighting  “collection of events” within and across log types and assigns severity score to each graph, can help in event prioritization to analysts.
+#### SIEM Prioritization Use Case
+
+The event shown in the system information and event management platform follows two kinds of prioritization user cases: 
+
+**Use case 1**: Network devices and end point hosts generate large quantities of alerts independently. 
+
+- **Network logs** : Timestamp when alert was generated, device name, source and destination IP and ports, 
+  signature used for alert generation. Signature used for alert generation consists of multiple information such as type of malicious activity (eg. Trojan activity), malware family information (if available), MITRE ATT&CK mapping (if available), short explanation on possible type of malicious activity (for eg. ‘SLR Alert – Possible RuRat checking XML elements). 
+
+**Use case 2:** A system which takes as input alerts from multiple devices and generates as output a graph highlighting  “collection of events” within and across log types and assigns severity score to each graph, can help in event prioritization to analysts.
+
+- **Host logs**: ComputerName (identified for the host), user id, group id, ip, port, type of event (eg. An account failed to log on)  -user name is correct but the password is wrong), object type (for ex. Logon type 3 – Network) etc. 
 
 Motivating Example: For a start, we can consider network logs and host logs as the data sources. The information available in each of the logs consists of :
-
-**Network logs** : Timestamp when alert was generated, device name, source and destination IP and ports, 
-signature used for alert generation. Signature used for alert generation consists of multiple information such as type of malicious activity (eg. Trojan activity), malware family information (if available), MITRE ATT&CK mapping (if available), short explanation on possible type of malicious activity (for eg. ‘SLR Alert – Possible RuRat checking XML elements). 
-
-**Host logs**: ComputerName (identified for the host), user id, group id, ip, port, type of event (eg. An account failed to log on)  -user name is correct but the password is wrong), object type (for ex. Logon type 3 – Network) etc. 
 
 
 
 ------
 
-### Program Design
+### Program/System Design
 
-#### SIEM-Graph(case-subgraph display page) design
+#### SIEM-Graph Page UI Design
 
-**Page View:** 
+The SIEM graph page contents two areas: graph display area on the left and information view + control area on the right.
+
+**Web Page View:** 
 
 ![](doc/img/main_1.png)
 
@@ -54,11 +66,24 @@ The top left portion of the left panel gives high level information for each gra
 - **Max out degree centrality** : Similar to Max in degree centrality, tells if the source for most edges is 1 or 2 IP values, or its spread across various values. 
 - **Consequences** : Possible types of consequences which may result based on the signature and other activity patterns seen in the graph. 
 
+The Graph will shown in the mid of the page. 
+
+- **Node/Edges detail**: When the use left click the node/Edge, the node/edge's detail info will show at the left bottom corner. 
+
+The right side control area: 
+
+- **Data set selection**: user can select the graph dataset from the drop down menu and click the graph in the table to show them on the graph display area. (A filter function was also provide)
+- **'Graph Node' sub tab**: A table list all the nodes (detail information) in the current displayed dashboard. 
+- **'Graph Edge' sub tab**: A table list all the edge (detail information) in the current displayed dashboard. 
+- **'Graph Config' sub tab**: Config the graph display style and provide a node and edge filter function. 
 
 
-#### Node detail display page design
 
-**Page View:**
+#### Node Detail Display Page Design
+
+When the user right click a node in  the SIEM-Graph Page, a round selection menu will show if the user select "Show detail", the page will auto switch to the node detail tab. The Node detail page is similar with the graph page, the selected node and its related "neighbors" will be organized in a new "graph" and show in the graph area. The neighbors' information, edges to the neighbors and the parent subgraph will show in different tables.
+
+**Web Page View:**
 
 ![](doc/img/main_2.png)
 
@@ -74,11 +99,15 @@ Selecting a particular edge from the Graph Edges section highlights the edge in 
 
 
 
-#### User guide page
+#### User Guide Page Design
 
-This page will show the user how to use the dashboard
+This page will give a general introduction about the research and show the user how to use the dashboard with `F&Q` section:
+
+ **Web Page View:**
 
 ![](doc/img/main_3.png)
+
+
 
 
 
@@ -86,24 +115,12 @@ This page will show the user how to use the dashboard
 
 ### Program Setup
 
-###### Development env: Angular 14.0
+###### Development env: Angular 14.0 (Typescript)
 
 ###### Additional Lib need: 
 
 ```
-{
-  "name": "v9template",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "dev": "node --max_old_space_size=8048 ./node_modules/@angular/cli/bin/ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
-  },
-  "private": true,
+
   "dependencies": {
     "@angular/animations": "^12.0.5",
     "@angular/cdk": "^12.0.5",
@@ -211,30 +228,24 @@ This page will show the user how to use the dashboard
     "tslint": "~6.1.0",
     "typescript": "~4.2.4"
   },
-  "browser": {
-    "fs": false,
-    "path": false,
-    "os": false
-  }
 }
 ```
 
-
-
-###### Hardware Need: N.A
-
-
+###### Hardware need: N.A
 
 ###### Program Files List 
 
-| Program file/folder | Execution Env | Description                            |
-| ------------------- | ------------- | -------------------------------------- |
-| src/*               | Typescript    | main dashboard                         |
-| src/nodedetail/*    | Typescript    | Node detail page                       |
-| src/data/*          | Typescript    | All the test data.                     |
-| src/cytoscape/*     | Typescript    | Customized cytoscape graph components. |
-| siem-graph/*        | json          | All the data file used for demo.       |
-| images.zip          |               | All image/icon files used by the web.  |
+| Program file/folder   | Execution Env | Description                                   |
+| --------------------- | ------------- | --------------------------------------------- |
+| src/*                 | Typescript    | Main dashboard host program.                  |
+| src/nodedetail/*      | Typescript    | Node detail page components.                  |
+| src/data/*            | Typescript    | All the test-case data files.                 |
+| src/cytoscape/*       | Typescript    | Customized cytoscape graph module components. |
+| siem-graph/*          | json          | All the data files used for demo.             |
+| images.zip            |               | All image/icon files used by the web.         |
+| app-routing.module.ts |               | The routing module.                           |
+
+`version: v_0.2`
 
 
 
@@ -242,23 +253,66 @@ This page will show the user how to use the dashboard
 
 ### Program Usage/Execution
 
-##### Copy file to the position 
+#### Copy file to the position 
 
 - copy `src` folder to your `Project<fusion-cloudy>\src\app\pages` folder. 
 - copy `siem-graph` folder to your `Project<fusion-cloudy>\src\assets\data` folder. 
 - unzip `images.zip` and copy `images` folder to your `Project<fusion-cloudy>\src\assets` folder. 
+- Import the `graph-siem-component` in your project 's routing module as shown in the `app-routing.module.ts`.
+
+#### View the webpage 
 
 ###### Program execution cmd: 
 
 ```
-python XandaWebHost.py
+npm run dev
 ```
 
-###### 
+###### View the webpage
+
+After the compile process in the previous steps finished open the browser and type in the url: http://localhost:4200/
+
+
+
+------
 
 ### Problem and Solution
 
-N.A
+###### Problem[1] **:** Can check the web page from localhost but can not view by use the IP address
+
+**OS Platform** : Windows/Linux
+
+**Error Message**: N.A 
+
+On host machine the user can access with the url http://localhost:4200/ , when connect the host computer to network other computer can not access the url with the ulr http://ip:4200/
+
+**Type**: Config issue.
+
+**Solution**:
+
+You can use the following command to access with your ip.
+
+```js
+ng serve --host 0.0.0.0 --disable-host-check
+```
+
+If you are using npm and want to avoid running the command every time, we can add the following line to the **package.json** file in the **scripts** section.
+
+```js
+"scripts": {
+    ...
+    "start": "ng serve --host 0.0.0.0 --disable-host-check"
+    ...
+}
+```
+
+Then you can run you app using the below command to be accessed from the other system in the same network.
+
+```js
+npm start
+```
+
+
 
 ------
 
@@ -266,19 +320,19 @@ N.A
 
 1. Flex layout exmaple: https://livebook.manning.com/book/angular-development-with-typescript-second-edition/chapter-7/39
 
-2. Html display if-else: https://malcoded.com/posts/angular-ngif-else/
+2. Html display if-else example: https://malcoded.com/posts/angular-ngif-else/
 
 3. cytocapte.Js API: https://js.cytoscape.org/#ele.isEdge
 
-4. call parent function from child: https://stackblitz.com/edit/calling-parent-function-from-child-component?file=src%2Fapp%2Fparent-component%2Fparent-component.component.html
+4. Call parent function from child angular: https://stackblitz.com/edit/calling-parent-function-from-child-component?file=src%2Fapp%2Fparent-component%2Fparent-component.component.html
 
-5. how to pass value in parent funcion: `<app-cytoscape #cygraph (parentFun)="parentFun($event)"></app-cytoscape>`
+5. How to pass value in parent function: `<app-cytoscape #cygraph (parentFun)="parentFun($event)"></app-cytoscape>`
 
 6. Config color set from online: https://coolors.co/palettes/trending
 
 7. Node selector setup: https://dash.plotly.com/cytoscape/styling
 
-8. jxgrid need to be init after sidebar or dialog box to display the table instead of separate tab. https://www.primefaces.org/primeng/showcase/#/sidebar
+8. Dev Tips: jxgrid need to be init after sidebar or dialog box to display the table instead of separate tab. https://www.primefaces.org/primeng/showcase/#/sidebar
 
 9. Text icon generator: https://cooltext.com/Logo-Design-Simple
 

@@ -1,8 +1,19 @@
-# SIEM_Comm_Dashboard
+# Graph-Based SIEM Log Analysis Dashboard
 
-**Program Design Purpose**: We want to create a SIEM(system information and event management) dashboard to visualize the network nodes communication situation based on the firewall & host-computer logs. The use can use the cytoscapte type Node-Edge graph to analysis and find the threat events of the network. 
+**Program Design Purpose**: The purpose of this program is to develop a Graph-Based SIEM (System Information and Event Management) dashboard that visualizes network communication patterns by processing and analyzing logs from firewalls, host computers, and other security devices. This dashboard will help security analysts quickly identify and investigate potential threats by using a Cytoscape-style Node-Edge graph for intuitive data representation. The program is an angular plug in which can integrate in other SIEM visualization system to provide an intuitive and easy-to-navigate dashboard for security analysts to quickly interpret data with the function like search, filtering, and custom views to allow users to tailor the analysis based on their needs.
+
+The program key Features include: Node-Edge Graph Visualization, Integration with Multiple Log Sources Automated Event Filtering and Prioritization and Data Correlation and Analysis. It aims to bridge the gap between overwhelming volumes of security logs and actionable insights by providing a powerful, graph-based tool for visualizing, analyzing, and prioritizing network security events.
+
+```
+# Version:     v0.1.2
+# Created:     2022/10/31
+# Copyright:   Copyright (c) 2024 LiuYuancheng
+# License:     MIT License 
+```
 
 [TOC]
+
+------
 
 ### Introduction
 

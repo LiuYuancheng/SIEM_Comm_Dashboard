@@ -2,7 +2,7 @@
 
 **Program Design Purpose**: The purpose of this program is to develop a Graph-Based SIEM (System Information and Event Management) dashboard that visualizes network communication patterns by processing and analyzing logs from firewalls, host computers, and other security devices. This dashboard will help security analysts quickly identify and investigate potential threats by using a Cytoscape-style Node-Edge graph for intuitive data representation. The program is an angular plug in which can integrate in other SIEM visualization system to provide an intuitive and easy-to-navigate dashboard for security analysts to quickly interpret data with the function like search, filtering, and custom views to allow users to tailor the analysis based on their needs.
 
-The program key Features include: Node-Edge Graph Visualization, Integration with Multiple Log Sources Automated Event Filtering and Prioritization and Data Correlation and Analysis. It aims to bridge the gap between overwhelming volumes of security logs and actionable insights by providing a powerful, graph-based tool for visualizing, analyzing, and prioritizing network security events.
+The program key Features include: `Node-Edge Graph Visualization`, `Integration with Multiple Log Sources`,  `Automated Event Filtering and Prioritization` and `Data Correlation and Analysis`. It aims to bridge the gap between overwhelming volumes of security logs and actionable insights by providing a powerful, graph-based tool for visualizing, analyzing, and prioritizing network security events.
 
 ```
 # Version:     v0.1.2
@@ -17,15 +17,56 @@ The program key Features include: Node-Edge Graph Visualization, Integration wit
 
 ### Introduction
 
-This project will create a web-based SIEM(system information and event management) platform dashboard to visualize the network nodes communication scenario as a cystoscape type nodes-edges graph with different function page and panels. The intention of generating these graphs is to identify patterns of similar activity from very voluminous SIEM alerts.
+The Graph-Based SIEM Log Analysis Angular plugin is a web-based SIEM (System Information and Event Management) platform dashboard that visualizes network communication patterns using a Cytoscape-style node-edge graph. The platform provides various function pages and panels to help security analysts quickly identify and analyze patterns within the large volumes of SIEM alerts. The dashboard main user interface view is shown below:
 
-The backend takes three kinds of alerts log sources as input – **Snort**, **Fortinet** and **Windows**. This can be helpful, as SIEM alerts can be very voluminous with thousands of alerts generated on a daily basis. In the data we have, we see Snort logs have 4000 to 16000 alerts generated on a daily basis. Due to these large volumes, it is difficult for analysts to identify patterns through manual analysis at the alerts level. By consolidating collections of similar activities within and across log types, we provide an easier tool for inference to the analysts. Further, the graphs are also sorted by a `Severity Score` calculated by the model. This Severity score gives the analyst an indication of the maliciousness of the events seen in each graph. 
+![](doc/img/siem.gif)
 
-The platform ingests the alerts for a configurable period of time (set at 1 month for now), and generates graphs based on them. These graphs represents collections of similar activities seen across the log types. We consider activities to be similar if they are similar in terms of the signature. The alert  similarity level is also generated based on the intensity of the events, duration of the events as well as whether the events target specific ports or were generated from similar ports or not. 
+The four key features of the program:
+
+- **Node-Edge Graph Visualization**: Represent network nodes (e.g., servers, workstations, routers) as graph nodes, and connections or communication events between them as edges. we use dynamic, interactive graph visualization to allow analysts to zoom, filter, and focus on specific parts of the network and highlight suspicious nodes and connections to draw attention to potential security threats.
+- **Integration with Multiple Log Sources**: Aggregate and correlate logs from multiple sources, including Firewalls, Intrusion Detection Systems (IDS), Host Operating Systems.
+- **Automated Event Filtering and Prioritization**: Filtering to prioritize events based on predefined rules, Identify and highlight high-risk events that need immediate human intervention, helping analysts focus on the most critical alerts.
+- **Data Correlation and Analysis**: Correlate events from different log sources to detect patterns indicative of multi-stage attacks or complex threat scenarios. Enable deeper analysis by linking related events across the network, helping to understand the context of security incidents.
+
+The platform ingests alerts over a configurable period (currently set to 1 month) and generates visual representations of similar activities detected across different log types. Activities are considered similar based on factors such as event signatures, intensity, duration, and specific ports targeted or used. This approach enables faster, more efficient threat identification, allowing security analysts to make informed decisions based on clearer, data-driven insights.
 
 
 
-#### Dashboard Main UI View
+------
+
+### Data Sources Detail
+
+The system processes logs from three primary sources: **Snort Intrusion Detection System (IDS) logs**, **Fortinet firewall network logs**, and **Windows OS network logs**. These logs can generate thousands of alerts daily, making manual analysis challenging and time-consuming. For instance, Snort IDS logs alone can produce between 4,000 to 16,000 alerts each day. To address this, the platform consolidates similar activities across these log types, simplifying the identification of critical patterns. It further sorts the data using a `Severity Score`, which indicates the potential maliciousness of events, helping analysts prioritize their investigations.
+
+The datasets utilized in this project include:
+
+- **Snort IDS Logs**: Source IP, target IP, source and target ports, signature identifier, and SIEM type.
+
+- **Fortinet Firewall Logs**: Source IP, target IP, source and target ports, event identifier, and SIEM type.
+
+- **Windows Alerts Logs**: Source IP, port, computer name, Windows event ID, and SIEM type.
+
+- **IDS Signature Details**: Contains brief descriptions of event types (e.g., "trojan activity suspected"), along with associated CVE (Common Vulnerabilities and Exposures) information, MITRE ATT&CK tactics, and techniques. Each signature has a class type and score.
+
+- **Firewall Signature Details**: Includes detailed descriptions related to each event identifier, associated CVEs, and a list of potential impacts.
+
+- **Windows Event Information**: Provides descriptions of Windows event types.
+
+- **MITRE ATT&CK Documentation**: Extracted via MITRE's API, containing information on tactics and techniques, associated Windows event IDs, and taxonomy values like CAPEC (Common Attack Pattern Enumeration and Classification) IDs.
+
+- **CAPEC Documentation**: Enumerates various attack patterns at different abstraction levels. Each CAPEC entry includes a title, description, severity score, and possible impacts.
+
+- **CVE Data**: Downloaded from NIST’s website, this data contains CVE descriptions and scores.
+
+The analysis of these data sources involved using Python scripts and manual inspection to identify ground truth. From this analysis, 14 suspicious cases or sets of events were identified across all three types of logs, providing a basis for further investigation and system improvement.
+
+
+
+------
+
+
+
+#### 
 
 The dashboard is under `Fusion` => `GRAPH SIEM DISPLAY` page with three main notebook tab: 
 
@@ -33,7 +74,7 @@ The dashboard is under `Fusion` => `GRAPH SIEM DISPLAY` page with three main not
 2. Node detail display page to show the user focused node's own information and graph relationship. 
 3. User guide page to show the use how to use the platform.
 
-![](doc/img/siem.gif)
+
 
 
 

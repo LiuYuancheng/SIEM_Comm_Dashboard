@@ -19,7 +19,7 @@ The program key Features include: `Node-Edge Graph Visualization`, `Integration 
 
 The Graph-Based SIEM Log Analysis Angular plugin is a web-based SIEM (System Information and Event Management) platform dashboard that visualizes network communication patterns using a Cytoscape-style node-edge graph. The platform provides various function pages and panels to help security analysts quickly identify and analyze patterns within the large volumes of SIEM alerts. The dashboard main user interface view is shown below:
 
-![](doc/img/siem.gif)
+![](doc/img/rms_03.gif)
 
 The four key features of the program:
 
@@ -64,34 +64,70 @@ The analysis of these data sources involved using Python scripts and manual insp
 
 ------
 
-
-
-#### 
-
-The dashboard is under `Fusion` => `GRAPH SIEM DISPLAY` page with three main notebook tab: 
-
-1. SIEM-Graph (case-subgraph display page) to show the data set subgraph information.  
-2. Node detail display page to show the user focused node's own information and graph relationship. 
-3. User guide page to show the use how to use the platform.
+### System Design 
 
 
 
+#### Dashboard User Interface Design 
+
+The Graph-Based SIEM Log Analysis Dashboard contents three main tabs:
+
+**SIEM-Graph Tab**: Displays case-specific subgraphs, allowing users to view and analyze subsets of the data based on selected cases. Each subgraph visually represents network communication patterns and potential security events.
+
+**Node Detail Tab**: Provides detailed information about a selected node, including its attributes, connections, and relationships within the graph. This view helps users focus on specific nodes and investigate their interactions in greater depth.
+
+**User Guide Tab**: Offers comprehensive instructions on how to navigate and use the platform, ensuring that users can make the most of the dashboard's features and functionalities.
+
+#### SIEM-Graph Tab Design
+
+The **SIEM-Graph Tab** is the primary interface for visualizing network communication patterns and potential security events. It displays case-specific subgraphs, enabling users to analyze subsets of data based on selected cases.
+
+**Web Page Layout**:
+
+The page is divided into two main areas:
+
+- **Graph Display Area (Left Side)**
+- **Information View & Control Area (Right Side)**
+
+The UI 
 
 
-#### SIEM Prioritization Use Case
 
-The event shown in the system information and event management platform follows two kinds of prioritization user cases: 
+------
 
-**Use case 1**: Network devices and end point hosts generate large quantities of alerts independently. 
+### SIEM Prioritization Use Case
 
-- **Network logs** : Timestamp when alert was generated, device name, source and destination IP and ports, 
-  signature used for alert generation. Signature used for alert generation consists of multiple information such as type of malicious activity (eg. Trojan activity), malware family information (if available), MITRE ATT&CK mapping (if available), short explanation on possible type of malicious activity (for eg. ‘SLR Alert – Possible RuRat checking XML elements). 
+The platform employs two main use cases for prioritizing events within the System Information and Event Management (SIEM) environment:
 
-**Use case 2:** A system which takes as input alerts from multiple devices and generates as output a graph highlighting  “collection of events” within and across log types and assigns severity score to each graph, can help in event prioritization to analysts.
+**Use Case 1: Independent Alert Generation by Network Devices and Endpoint Hosts**
+Network devices and endpoint hosts independently generate large volumes of alerts, each containing critical information for threat analysis.
 
-- **Host logs**: ComputerName (identified for the host), user id, group id, ip, port, type of event (eg. An account failed to log on)  -user name is correct but the password is wrong), object type (for ex. Logon type 3 – Network) etc. 
+- **Network Logs**: Each alert includes a timestamp, device name, source and destination IP addresses, and ports, along with a signature that identifies the reason for the alert. The signature provides multiple layers of information, such as the type of malicious activity (e.g., Trojan activity), related malware families (if available), MITRE ATT&CK mappings (if applicable), and a brief description of the potential threat (e.g., "SLR Alert – Possible RuRat checking XML elements").
 
-Motivating Example: For a start, we can consider network logs and host logs as the data sources. The information available in each of the logs consists of :
+**Use Case 2: Aggregated Event Collection and Prioritization Across Multiple Devices**
+The system integrates alerts from multiple sources and generates a consolidated graph that highlights "collections of events" across different log types. By analyzing these event clusters, the platform assigns a severity score to each graph, allowing security analysts to prioritize their focus on critical threats.
+
+- **Host Logs**: Key information includes the computer name (host identifier), user ID, group ID, IP, port, event type (e.g., account login failures where the username is correct but the password is wrong), and object type (e.g., "Logon type 3 – Network").
+
+**Motivating Example**:
+To illustrate, the platform can begin by using both network and host logs as data sources. Each type of log provides detailed information essential for threat detection and analysis, enabling the system to correlate events and effectively prioritize them for further investigation.
+
+#### Potential Use Cases
+
+There are also some potential use cases which the system can be applied for:
+
+- **Detecting Lateral Movement**: Track and visualize how an attacker moves across the network after compromising a system.
+- **Identifying DDoS Attacks**: Visualize and correlate traffic spikes and unusual communication patterns to identify potential Distributed Denial of Service (DDoS) attacks.
+- **Monitoring Data Exfiltration**: Track data flows to detect abnormal outbound connections that may indicate data theft.
+- **Investigating Failed Login Attempts**: Correlate multiple failed login events across different systems to identify potential brute-force attack attempts.
+
+
+
+
+
+
+
+
 
 
 
@@ -99,7 +135,7 @@ Motivating Example: For a start, we can consider network logs and host logs as t
 
 ### Program/System Design
 
-#### SIEM-Graph Page UI Design
+#### SIEM-Graph Tab Design
 
 The SIEM graph page contents two areas: graph display area on the left and information view + control area on the right.
 

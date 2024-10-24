@@ -255,5 +255,5 @@ For the detail program usage, please refer to the usage manual: [Usage Manual Do
 
 ------
 
-> Last edit by LiuYuancheng(liu_yuan_cheng@hotmail.com) at 31/10/2024,  if you have any problem, please send me a message. 
+> Last edit by LiuYuancheng(liu_yuan_cheng@hotmail.com) at 24/10/2024,  if you have any problem, please send me a message. 
 

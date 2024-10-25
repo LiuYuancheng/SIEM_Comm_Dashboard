@@ -1,10 +1,12 @@
 # Graph-Based SIEM Log Analysis Dashboard
 
+![](doc/img/title.png)
+
 **Program Design Purpose**: The purpose of this program is to develop a Graph-Based SIEM (System Information and Event Management) dashboard that visualizes network communication patterns by processing and analyzing logs from firewalls, host computers, and other security devices. This dashboard will help security analysts quickly identify and investigate potential threats by using a Cytoscape-style Node-Edge graph for intuitive data representation. The program is an angular plug in which can integrate in other SIEM visualization system to provide an intuitive and easy-to-navigate dashboard for security analysts to quickly interpret data with the function like search, filtering, and custom views to allow users to tailor the analysis based on their needs.
 
 The program key Features include: `Node-Edge Graph Visualization`, `Integration with Multiple Log Sources`,  `Automated Event Filtering and Prioritization` and `Data Correlation and Analysis`. It aims to bridge the gap between overwhelming volumes of security logs and actionable insights by providing a powerful, graph-based tool for visualizing, analyzing, and prioritizing network security events.
 
-```
+```python
 # Version:     v0.1.2
 # Created:     2022/10/31
 # Copyright:   Copyright (c) 2024 LiuYuancheng
@@ -36,7 +38,9 @@ The platform ingests alerts over a configurable period (currently set to 1 month
 
 ### Data Sources Detail
 
-The system processes logs from three primary sources: **Snort Intrusion Detection System (IDS) logs**, **Fortinet firewall network logs**, and **Windows OS network logs**. These logs can generate thousands of alerts daily, making manual analysis challenging and time-consuming. For instance, Snort IDS logs alone can produce between 4,000 to 16,000 alerts each day. To address this, the platform consolidates similar activities across these log types, simplifying the identification of critical patterns. It further sorts the data using a `Severity Score`, which indicates the potential maliciousness of events, helping analysts prioritize their investigations.
+The system processes logs from three primary sources: **Snort Intrusion Detection System (IDS) logs**, **Fortinet firewall network logs**, and **Windows OS network logs**. These logs can generate thousands of alerts daily, making manual analysis challenging and time-consuming. For instance, Snort IDS logs alone can produce between 4,000 to 16,000 alerts each day. To address this, the platform consolidates similar activities across these log types, simplifying the identification of critical patterns. It further sorts the data using a `Severity Score`, which indicates the potential maliciousness of events, helping analysts prioritize their investigations. This is one log message example:
+
+![](doc/img/rms_09.png)
 
 The datasets utilized in this project include:
 
@@ -76,17 +80,18 @@ Hence, if graphs generated in Snort and Fortinet have IP addresses in common, th
 
 ### System Design 
 
+The Graph-Based SIEM Log Analysis Plugin is designed to provide visual representations of pre-processed log data. Unlike data-based log visualization tools, this system converts raw logs into node-edge graph data before storing them on a file server. The pre-processed graphs highlight network communication patterns and potential security events for users to analyze and prioritize incidents. The system workflow is shown below:
+
+![](doc/img/rms_08.png)
+
+The frontend of the plugin fetches these graph files along with their associated metadata from the file server and displays them to users. Additionally, users can upload their own graph files for custom visualization. The system workflow is illustrated in the diagram below, showing how data is processed, converted, and presented through the plugin interface. The dashboard contents three main tabs:
+
+- **SIEM Log Graph Tab**: Displays case-specific subgraphs, allowing users to view and analyze subsets of the data based on selected cases. Each subgraph visually represents network communication patterns and potential security events.
+- **Node Detail Tab**: Provides detailed information about a selected node, including its attributes, connections, and relationships within the graph. This view helps users focus on specific nodes and investigate their interactions in greater depth.
+
+- **User Guide Tab**: Offers comprehensive instructions on how to navigate and use the platform, ensuring that users can make the most of the dashboard's features and functionalities.
 
 
-#### Dashboard User Interface Design 
-
-The Graph-Based SIEM Log Analysis Dashboard contents three main tabs:
-
-**SIEM Log Graph Tab**: Displays case-specific subgraphs, allowing users to view and analyze subsets of the data based on selected cases. Each subgraph visually represents network communication patterns and potential security events.
-
-**Node Detail Tab**: Provides detailed information about a selected node, including its attributes, connections, and relationships within the graph. This view helps users focus on specific nodes and investigate their interactions in greater depth.
-
-**User Guide Tab**: Offers comprehensive instructions on how to navigate and use the platform, ensuring that users can make the most of the dashboard's features and functionalities.
 
 #### SIEM Log Graph Tab Design
 

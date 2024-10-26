@@ -2,9 +2,11 @@
 
 ![](doc/img/title.png)
 
-**Program Design Purpose**: The purpose of this program is to develop a Graph-Based SIEM (System Information and Event Management) dashboard that visualizes network communication patterns by processing and analyzing logs from firewalls, host computers, and other security devices. This dashboard will help security analysts quickly identify and investigate potential threats by using a Cytoscape-style Node-Edge graph for intuitive data representation. The program is an angular plug in which can integrate in other SIEM visualization system to provide an intuitive and easy-to-navigate dashboard for security analysts to quickly interpret data with the function like search, filtering, and custom views to allow users to tailor the analysis based on their needs.
+**Program Design Purpose**: The purpose of this program is to develop a Graph-Based SIEM (System Information and Event Management) dashboard that visualizes network communication patterns by processing and analyzing logs from IDS, firewalls, host computers, and other security devices. This dashboard will help security analysts quickly identify and investigate potential threats by using a `Cytoscape-style` Node-Edge graph for intuitive data representation. The program is an angular plug in which can integrate in other SIEM visualization system to provide an intuitive and easy-to-navigate dashboard for security analysts to quickly interpret data with the function like search, filtering, and custom views to allow users to tailor the analysis based on their needs.
 
 The program key Features include: `Node-Edge Graph Visualization`, `Integration with Multiple Log Sources`,  `Automated Event Filtering and Prioritization` and `Data Correlation and Analysis`. It aims to bridge the gap between overwhelming volumes of security logs and actionable insights by providing a powerful, graph-based tool for visualizing, analyzing, and prioritizing network security events.
+
+**For the project demo, please refer to this video**: https://youtu.be/7dP8bQDaEHI
 
 ```python
 # Version:     v0.1.2
@@ -15,22 +17,39 @@ The program key Features include: `Node-Edge Graph Visualization`, `Integration 
 
 [TOC]
 
+- [Graph-Based SIEM Log Analysis Dashboard](#graph-based-siem-log-analysis-dashboard)
+    + [Introduction](#introduction)
+    + [Data Sources Detail](#data-sources-detail)
+    + [System Design](#system-design)
+      - [SIEM Log Graph Tab Design](#siem-log-graph-tab-design)
+      - [Node Detail Tab Design](#node-detail-tab-design)
+      - [User Guide Tab Design](#user-guide-tab-design)
+    + [SIEM Prioritization Use Case](#siem-prioritization-use-case)
+      - [Use Case 1](#use-case-1)
+      - [Use Case 2](#use-case-2)
+      - [Potential Use Cases](#potential-use-cases)
+    + [Program Setup and Execution](#program-setup-and-execution)
+      - [Program Execution](#program-execution)
+    + [Reference Link](#reference-link)
+
 ------
 
 ### Introduction
 
-The Graph-Based SIEM Log Analysis Angular plugin is a web-based SIEM (System Information and Event Management) platform dashboard that visualizes network communication patterns using a Cytoscape-style node-edge graph. The platform provides various function pages and panels to help security analysts quickly identify and analyze patterns within the large volumes of SIEM alerts. The dashboard main user interface view is shown below:
+The Graph-Based SIEM Log Analysis Angular Plugin is a web-based SIEM (System Information and Event Management) platform dashboard that visualizes network communication patterns using a `Cytoscape-style` node-edge graph. The platform provides various function pages and panels to help security analysts quickly identify and analyze patterns within the large volumes of SIEM alerts. The dashboard main user interface view is shown below:
 
 ![](doc/img/rms_03.gif)
+
+`Figure-01 Graph-Based SIEM Log Analysis Dashboard webpage view, version v0.1.2 (2024)`
 
 The four key features of the program:
 
 - **Node-Edge Graph Visualization**: Represent network nodes (e.g., servers, workstations, routers) as graph nodes, and connections or communication events between them as edges. we use dynamic, interactive graph visualization to allow analysts to zoom, filter, and focus on specific parts of the network and highlight suspicious nodes and connections to draw attention to potential security threats.
-- **Integration with Multiple Log Sources**: Aggregate and correlate logs from multiple sources, including Firewalls, Intrusion Detection Systems (IDS), Host Operating Systems.
+- **Integration with Multiple Log Sources**: Aggregate and correlate logs from multiple data sources, including Firewalls, Intrusion Detection Systems (IDS), Host Operating Systems.
 - **Automated Event Filtering and Prioritization**: Filtering to prioritize events based on predefined rules, Identify and highlight high-risk events that need immediate human intervention, helping analysts focus on the most critical alerts.
 - **Data Correlation and Analysis**: Correlate events from different log sources to detect patterns indicative of multi-stage attacks or complex threat scenarios. Enable deeper analysis by linking related events across the network, helping to understand the context of security incidents.
 
-The platform ingests alerts over a configurable period (currently set to 1 month) and generates visual representations of similar activities detected across different log types. Activities are considered similar based on factors such as event signatures, intensity, duration, and specific ports targeted or used. This approach enables faster, more efficient threat identification, allowing security analysts to make informed decisions based on clearer, data-driven insights.
+The platform ingests alerts over a configurable period (currently set to 1 month) and generates visual representations of similar activities detected across different log types. Activities are considered similar based on factors such as `event signatures`, `intensity`, `duration`, and `specific ports targeted or used`. This approach enables faster, more efficient threat identification, allowing security analysts to make informed decisions based on clearer, data-driven insights.
 
 
 
@@ -38,9 +57,11 @@ The platform ingests alerts over a configurable period (currently set to 1 month
 
 ### Data Sources Detail
 
-The system processes logs from three primary sources: **Snort Intrusion Detection System (IDS) logs**, **Fortinet firewall network logs**, and **Windows OS network logs**. These logs can generate thousands of alerts daily, making manual analysis challenging and time-consuming. For instance, Snort IDS logs alone can produce between 4,000 to 16,000 alerts each day. To address this, the platform consolidates similar activities across these log types, simplifying the identification of critical patterns. It further sorts the data using a `Severity Score`, which indicates the potential maliciousness of events, helping analysts prioritize their investigations. This is one log message example:
+The system processes logs from three primary sources: **Snort Intrusion Detection System (IDS) logs**, **Fortinet firewall network logs**, and **Windows OS network event logs**. These logs can generate thousands of alerts daily, making manual analysis challenging and time-consuming. For instance, Snort IDS logs alone can produce between 4,000 to 16,000 alerts each day. To address this, the platform consolidates similar activities across these log types, simplifying the identification of critical patterns. It further sorts the data using a `Severity Score`, which indicates the potential maliciousness of events, helping analysts prioritize their investigations. This is one log message example:
 
 ![](doc/img/rms_09.png)
+
+`Figure-02 security log data screen shot, version v0.1.2 (2024)`
 
 The datasets utilized in this project include:
 
@@ -70,9 +91,9 @@ Linked graphs are graphs generated by connecting events across log types - Snort
 
 Hence, if graphs generated in Snort and Fortinet have IP addresses in common, then linked graphs between Snort and Fortinet would be generated by connecting these individual graphs, re-calculating the graph severity and consequences. For example:
 
-- Linked Subgraphs `all_logs_sep_2019` contains those graphs which have nodes (IP addresses) found in alerts across all 3 log types - Snort, Fortinet and Windows. 
-- Linked Subgraphs `Snort_forti_sep_2019` contains those graphs which have nodes (IP addresses) found in alerts across all Snort and Fortinet. 
-- Linked Subgraphs `win_snort_sep_2019` contains those graphs which have nodes (IP addresses) found in alerts across all Snort and Windows.
+- Linked Subgraphs `all_logs_sep_2019` contains those graphs which have nodes (IP addresses) found in alerts across all 3 log types - `Snort`, `Fortinet` and `Windows`. 
+- Linked Subgraphs `Snort_forti_sep_2019` contains those graphs which have nodes (IP addresses) found in alerts across all `Snort` and `Fortinet`. 
+- Linked Subgraphs `win_snort_sep_2019` contains those graphs which have nodes (IP addresses) found in alerts across all `Snort` and `Windows`.
 
 
 
@@ -80,11 +101,13 @@ Hence, if graphs generated in Snort and Fortinet have IP addresses in common, th
 
 ### System Design 
 
-The Graph-Based SIEM Log Analysis Plugin is designed to provide visual representations of pre-processed log data. Unlike data-based log visualization tools, this system converts raw logs into node-edge graph data before storing them on a file server. The pre-processed graphs highlight network communication patterns and potential security events for users to analyze and prioritize incidents. The system workflow is shown below:
+The Graph-Based SIEM Log Analysis Plugin is designed to provide visual representations of pre-processed log data. Unlike data-based log visualization tools, this system converts raw logs into node-edge graph data before storing them on a file server. The pre-processed graphs highlight network communication patterns and potential security events for users to analyze and prioritize incidents. The system workflow about how data is processed, converted, and presented through the plugin interface is shown below :
 
 ![](doc/img/rms_08.png)
 
-The frontend of the plugin fetches these graph files along with their associated metadata from the file server and displays them to users. Additionally, users can upload their own graph files for custom visualization. The system workflow is illustrated in the diagram below, showing how data is processed, converted, and presented through the plugin interface. The dashboard contents three main tabs:
+`Figure-03 Program workflow diagram, version v0.1.2 (2024)`
+
+The frontend of the plugin fetches these graph files along with their associated metadata from the file server and displays them to users. Additionally, users can upload their own graph files for custom visualization. The dashboard contents three main tabs:
 
 - **SIEM Log Graph Tab**: Displays case-specific subgraphs, allowing users to view and analyze subsets of the data based on selected cases. Each subgraph visually represents network communication patterns and potential security events.
 - **Node Detail Tab**: Provides detailed information about a selected node, including its attributes, connections, and relationships within the graph. This view helps users focus on specific nodes and investigate their interactions in greater depth.
@@ -108,17 +131,24 @@ The SIEM Log Graph Tab UI is shown below:
 
 ![](doc/img/rms_05.png)
 
+`Figure-03 SIEM Log Graph Display Tab screen shot, version v0.1.2 (2024)`
+
 **Graph Display Area**
 
 - **Top Left Information Panel**: Provides key details for each graph:
-  - **Title**: Shows the dataset name and subgraph ID.
-  - **Severity Score**: Displays the severity score, indicating the threat level as calculated by the model.
-  - **Number of Events**: Total count of SIEM alerts consolidated to form the graph. For example, a graph labeled "G5" may consolidate 336 individual alerts, significantly reducing the manual effort required for analysis.
-  - **Number of Components**: Indicates the spread of the activity across collections of IP addresses, showing whether suspicious behavior is concentrated or widespread.
-  - **Max In-Degree Centrality**: Identifies the node (IP address or computer name) with the highest number of incoming edges, indicating targeted behavior.
-  - **Max Out-Degree Centrality**: Identifies the source(s) for most edges, showing if behavior originates from a single source or multiple.
-  - **Consequences**: Lists potential consequences inferred from the activity patterns, aiding in quick threat assessment.
+
+  | Item                          | Function                                                     |
+  | ----------------------------- | ------------------------------------------------------------ |
+  | **Title**                     | Shows the dataset name and subgraph ID.                      |
+  | **Severity Score**            | Displays the severity score, indicating the threat level as calculated by the model. |
+  | **Number of Events**          | Total count of SIEM alerts consolidated to form the graph. For example, a graph labeled "G5" may consolidate 336 individual alerts, significantly reducing the manual effort required for analysis. |
+  | **Number of Components**      | Indicates the spread of the activity across collections of IP addresses, showing whether suspicious behavior is concentrated or widespread. |
+  | **Max In-Degree Centrality**  | Identifies the node (IP address or computer name) with the highest number of incoming edges, indicating targeted behavior. |
+  | **Max Out-Degree Centrality** | Identifies the source(s) for most edges, showing if behavior originates from a single source or multiple. |
+  | **Consequences**              | Lists potential consequences inferred from the activity patterns, aiding in quick threat assessment. |
+
 - **Graph Visualization**: Center of the page, where the graph is displayed. Users can interact with the graph, and detailed information appears upon clicking nodes or edges.
+
 - **Node/Edge Details**: Clicking on a node or edge reveals specific information at the bottom left corner, including attributes and relationships.
 
 **Information View & Control Area (Right Side)**
@@ -135,6 +165,8 @@ The SIEM Log Graph Tab UI is shown below:
 The **Node Detail Tab** provides a focused view on a specific node and its connections. When users right-click a node in the SIEM-Graph tab and select "Show Detail," the page automatically switches to this tab, displaying a new graph centered on the selected node. The UI view is shown below:
 
 ![](doc/img/rms_06.png)
+
+`Figure-04 Node Detail Display Tab screen shot, version v0.1.2 (2024)`
 
 **Web Page Layout**
 
@@ -166,6 +198,8 @@ The **User Guide Tab** provides users with comprehensive instructions on how to 
 
 ![](doc/img/rms_07.png)
 
+`Figure-05 User Guide Display Tab screen shot, version v0.1.2 (2024)`
+
 **Web Page Layout**:
 
 - **General Introduction**: Overview of the platform's purpose and key functionalities, including background information on the research.
@@ -181,12 +215,17 @@ The **User Guide Tab** provides users with comprehensive instructions on how to 
 
 The platform employs two main use cases for prioritizing events within the System Information and Event Management (SIEM) environment:
 
-**Use Case 1: Independent Alert Generation by Network Devices and Endpoint Hosts**
+#### Use Case 1
+
+**Independent Alert Generation by Network Devices and Endpoint Hosts**
+
 Network devices and endpoint hosts independently generate large volumes of alerts, each containing critical information for threat analysis.
 
 - **Network Logs**: Each alert includes a timestamp, device name, source and destination IP addresses, and ports, along with a signature that identifies the reason for the alert. The signature provides multiple layers of information, such as the type of malicious activity (e.g., Trojan activity), related malware families (if available), MITRE ATT&CK mappings (if applicable), and a brief description of the potential threat (e.g., "SLR Alert – Possible RuRat checking XML elements").
 
-**Use Case 2: Aggregated Event Collection and Prioritization Across Multiple Devices**
+#### Use Case 2
+
+**Aggregated Event Collection and Prioritization Across Multiple Devices**
 The system integrates alerts from multiple sources and generates a consolidated graph that highlights "collections of events" across different log types. By analyzing these event clusters, the platform assigns a severity score to each graph, allowing security analysts to prioritize their focus on critical threats.
 
 - **Host Logs**: Key information includes the computer name (host identifier), user ID, group ID, IP, port, event type (e.g., account login failures where the username is correct but the password is wrong), and object type (e.g., "Logon type 3 – Network").
@@ -196,7 +235,7 @@ To illustrate, the platform can begin by using both network and host logs as dat
 
 #### Potential Use Cases
 
-There are also some potential use cases which the system can be applied for:
+There are also some other potential use cases which the system can be applied for:
 
 - **Detecting Lateral Movement**: Track and visualize how an attacker moves across the network after compromising a system.
 - **Identifying DDoS Attacks**: Visualize and correlate traffic spikes and unusual communication patterns to identify potential Distributed Denial of Service (DDoS) attacks.

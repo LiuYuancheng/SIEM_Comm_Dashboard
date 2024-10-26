@@ -1,6 +1,6 @@
 # Graph-Based SIEM Log Analysis Dashboard Usage Manual
 
-This manual will provide users with comprehensive instructions on how to navigate and use the platform. 
+This manual will provide users with comprehensive instructions on how to navigate and use the dashboard plugin. 
 
 ```python
 # Version:     v0.1.2
@@ -13,11 +13,18 @@ This manual will provide users with comprehensive instructions on how to navigat
 
 [TOC]
 
+- [Graph-Based SIEM Log Analysis Dashboard Usage Manual](#graph-based-siem-log-analysis-dashboard-usage-manual)
+    + [View the list of graphs generated for a particular time period and log source](#view-the-list-of-graphs-generated-for-a-particular-time-period-and-log-source)
+    + [View a particular graph in the dataset](#view-a-particular-graph-in-the-dataset)
+    + [View graph details](#view-graph-details)
+    + [Configure graph visualization](#configure-graph-visualization)
+    + [View all graphs associated with a node (IP address / Computer Name)](#view-all-graphs-associated-with-a-node--ip-address---computer-name-)
+
 ------
 
 ### View the list of graphs generated for a particular time period and log source
 
-Currently the demo shows graphs generated for September 2019 and June 2020. Our log sources are SIEM alerts for Snort, Fortinet and Windows. There are several data set in our data base: 
+Currently the project provides the demo graphs generated for September 2019 and June 2020. Our log sources are SIEM alerts for Snort, Fortinet and Windows. There are several data set in the folder: 
 
 | Idx  | Log Type           | Log Dataset Data base ID                                     |
 | ---- | ------------------ | ------------------------------------------------------------ |
@@ -26,9 +33,13 @@ Currently the demo shows graphs generated for September 2019 and June 2020. Our 
 | 2    | Fortinet Subgraphs | `subgraphs_fortinet_sep_2019`, `subgraphs_fortinet_june_2020` |
 | 3    | Linked Subgraphs   | linked_subgraphs_all_logs_sep_2019, linked_subgraphs_snort_forti_sep_2019, linked_subgraphs_win_snort_sep_2019, linked_subgraphs_snort_forti_june_2020, linked_subgraphs_win_forti_june_2020 |
 
-You can view the list of graphs for a particular log source and month by the dropdown menu (as shown below): For example, to view list of graphs generated for Snort alerts, for September 2019, select Snort Subgraphs: sep_2019. As shown in the example below:
+You can view the list of graphs for a particular log source and month by the dropdown menu (as shown below):
 
 ![](doc/img/ums_01.png)
+
+`Figure-06 graph data file selection drop down menu screen shot, version v0.1.2 (2024)`
+
+For example, to view list of graphs generated for Snort alerts, for September 2019, select Snort Subgraphs: sep_2019.
 
 
 
@@ -40,11 +51,15 @@ Once the user selects a log source and time period from the dropdown as shown in
 
 ![](doc/img/ums_02.png)
 
+`Figure-07 Graph selection table screen shot, version v0.1.2 (2024)`
+
 The list provides a graph ID (eg. G5), Severity score of the graph (eg. 7.42) and list of possible consequences identified based on the types of signatures seen in the graph (eg. Execute Unauthorized commands, Read Data etc). 
 
 The left panel of the UI shows the graph and related information:
 
 ![](doc/img/ums_03.png)
+
+`Figure-08 Nodes Communication Graph screen shot, version v0.1.2 (2024)`
 
 The top left portion of the left panel gives high level information for each graph:
 
@@ -67,9 +82,13 @@ Details on the graph edges can be viewed in the right side panel under Graph Edg
 
 ![](doc/img/ums_04.png)
 
+`Figure-09 All edge detailed informaion table screen shot, version v0.1.2 (2024)`
+
 Selecting a particular edge from the Graph Edges section highlights the edge in the graph visualization as well. Each edge has the following information: 
 
 ![](doc/img/ums_05.png)
+
+`Figure-10 One edge detailed informaion screen shot, version v0.1.2 (2024)`
 
 - **Signature** : Which signatures have been seen in the alerts consolidated in the edge. 
 - **NumOfEvents** : How many alerts from the SIEM logs have been consolidated to form the edge. 
@@ -89,6 +108,8 @@ Graph visualization can be configured through the Graph Config tab in right side
 
 ![](doc/img/ums_06.png)
 
+`Figure-11 Graph visulization config screen shot, version v0.1.2 (2024)`
+
 User can choose to see `Signature` / `Log Type` / `Port Values` etc as the edge labels by selecting from the dropdown against Edges Label in the **Graph Display Config**.
 
 Similarly, the edge colors can represent the log types which have resulted in the creation of the edge. This functionality is useful when viewing linked graphs. 
@@ -105,6 +126,8 @@ Certain nodes are seen across multiple graphs. To view all graphs in Fortinet as
 
 ![](doc/img/ums_07.png)
 
+`Figure-12 Step to view a signle node direct connection, version v0.1.2 (2024)`
+
 This leads to the Node Detail Information page. 
 
 This page lists all graphs in Fortinet where this IP is seen in the right side panel. 
@@ -112,6 +135,8 @@ This page lists all graphs in Fortinet where this IP is seen in the right side p
 It also shows all edges and IP address associated with 172.16.0.116 in the graph area, and provides details of the edges in the bottom panel:
 
 ![](doc/img/ums_08.png)
+
+`Figure-13 Selected node direct connection graph, version v0.1.2 (2024)`
 
 
 
